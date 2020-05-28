@@ -64,7 +64,7 @@ theme = "LoveIt"
   # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 1
-    endLevel = 6
+    endLevel = 2
 
 [params]
   about = "hello and nice to meet you <br> my name is cole - known someplaces as ruborcalor <br> feel free to explore; thanks for stopping by :) "
