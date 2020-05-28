@@ -240,7 +240,7 @@ theme = "LoveIt"
     #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  whether to show the full text content in RSS
     rssFullText = false
     #  Table of the contents config
@@ -369,6 +369,7 @@ theme = "LoveIt"
 [Permalinks]
   # posts = ":year/:month/:filename"
   posts = ":filename"
+  about = ":filename"
 
 # Options to make output .md files
 [mediaTypes]
