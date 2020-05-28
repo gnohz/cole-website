@@ -2,6 +2,8 @@
 title: "Putting Things Back Where They Belong"
 date: 2020-05-13T01:50:57-04:00
 draft: false
+tags: ["Prisoner's Dilemma", "Cooperation"]
+categories: ["Backyard Philosophy"]
 ---
 
 # The Idea
