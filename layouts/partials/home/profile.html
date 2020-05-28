@@ -1,0 +1,97 @@
+{{- $profile := .Site.Params.home.profile -}}
+<div class="home-profile" style="display: flex; width:90%; margin: auto;">
+    <div class="home-card" style="width: 50%;">
+        <h3 style="font-weight: 600">Adventure</h3>
+        hello and nice to meet you
+        <br>
+        my name is cole - known someplaces as ruborcalor
+        <br>
+        feel free to explore; thanks for stopping by :)
+    </div>
+    <div class="home-card" style="flex-grow: 1;">
+        <h3 style="font-weight: 600">Links</h3>
+        <ul>
+            <li>
+                Follow Me
+                <ul style="list-style: none;">
+                    <li>
+                        <a href="{{ .Site.Params.github }}" target="_blank"><span class="badge badge-pill badge-primary">Github</span></a>
+                        <a href="{{ .Site.Params.youtube }}" target="_blank"><span class="badge badge-pill badge-danger">YouTube</span></a>
+                        <!-- <a href="{{ .Site.Params.linkedin }}" target="_blank"><span class="badge badge-pill badge-primary">Linkedin</span></a> -->
+                        <a href="mailto:{{ .Site.Params.email }}"><span class="badge badge-pill badge-success">Email</span></a>
+                        <a href="{{ "index.xml" | absURL }}"><span class="badge badge-pill badge-warning">RSS Feed</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Content
+                <ul style="list-style: none;">
+                    <li>
+                        <a href="/projects"><span class="badge badge-pill badge-danger">Projects</span></a>
+                        <a href="/post"><span class="badge badge-pill badge-success">Blog</span></a>
+                        <a href="/course-notes/"><span class="badge badge-pill badge-primary">Course Notes</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                About
+                <ul style="list-style: none;">
+                    <a href="/personal/resume"><span class="badge badge-pill badge-warning">Resume</span></a>
+                    <a href="/about"><span class="badge badge-pill badge-primary">About</span></a>
+                    <a href="/coursework-overview"><span class="badge badge-pill badge-success">Coursework</span></a>
+                    <!-- <a href="/quotes"><span class="badge badge-pill badge-warning">Quotes</span></a> -->
+                    <!--<a href="/now"><span class="badge badge-pill badge-warning">Now</span></a>-->
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    {{- with $profile.title -}}
+    <h1 class="home-title">
+        {{- . | safeHTML -}}
+    </h1>
+    {{- end -}}
+
+    {{- with $profile.subtitle -}}
+    <h2 class="home-subtitle">
+        {{- if $profile.typeit -}}
+        {{- $id := dict "Content" . "Scratch" $.Scratch | partial "function/id.html" -}}
+        <div id="{{ $id }}" class="typeit"></div>
+        {{- dict $id (slice $id) | dict "typeitMap" | merge ($.Scratch.Get "this") | $.Scratch.Set "this" -}}
+        {{- else -}}
+        {{- . -}}
+        {{- end -}}
+    </h2>
+    {{- end -}}
+
+    {{- if $profile.social -}}
+    <div class="links">
+        {{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
+        {{- $socialArr := slice -}}
+        {{- range $key, $value := .Site.Params.social -}}
+        {{- $social := $key | lower | index $socialMap | default dict -}}
+        {{- if $value -}}
+        {{- if reflect.IsMap $value -}}
+        {{- $social = $value | merge $social -}}
+        {{- else if ne $value true -}}
+        {{- $social = dict "id" $value | merge $social -}}
+        {{- end -}}
+        {{- if $social.icon.simpleicons -}}
+        {{- $prefix := ($.Scratch.Get "cdn" | default dict).simpleIconsPrefix -}}
+        {{- $social = dict "prefix" $prefix | dict "icon" | merge $social -}}
+        {{- end -}}
+        {{- $socialArr = $socialArr | append $social -}}
+        {{- end -}}
+        {{- end -}}
+        {{- range sort $socialArr "weight" -}}
+        {{- partial "plugin/social.html" . -}}
+        {{- end -}}
+    </div>
+    {{- end -}}
+
+    {{- with $profile.disclaimer -}}
+    <h3 class="home-disclaimer">
+        {{- . | safeHTML -}}
+    </h3>
+    {{- end -}}
+</div>
