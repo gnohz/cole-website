@@ -379,7 +379,7 @@ theme = "LoveIt"
 [Permalinks]
   # posts = ":year/:month/:filename"
   posts = ":filename"
-  about = ":filename"
+  _about = ":filename"
 
 # Options to make output .md files
 [mediaTypes]
