@@ -37,6 +37,17 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
     border-radius: 5px;
 }
 
+@media screen and (max-width: 800px) {
+    .home-profile {
+        display: block !important;
+    }
+    .home-card {
+        margin: auto;
+        width: 80% !important;
+        margin-bottom: 30px !important;
+    }
+}
+
 .badge-pill {
     font-size: 0.75rem;
     background-color: #ddd;
