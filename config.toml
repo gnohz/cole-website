@@ -289,7 +289,7 @@ theme = "LoveIt"
         # 
         enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "coles-blog"
 
     #  Third-party library config
     [params.page.library]
@@ -325,7 +325,7 @@ theme = "LoveIt"
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "UA-149290199-2"
   
   #  Analytics config
   [params.analytics]
