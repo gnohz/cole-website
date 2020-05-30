@@ -1,5 +1,5 @@
 ---
-title: "Hugo Section Without A List Page"
+title: "Hugo Content Management: Implementing Sections Without List Pages"
 date: 2020-05-28T14:29:46-04:00
 draft: false
 tags: ["Hugo"]
@@ -11,8 +11,8 @@ categories: ["Technical"]
 
 I was facing a problem when organizing my content. I had four files: about.md, coursework-overview.md, resume.md, and quotes.md. They were all related to "about" things, so I put them all in a "content/about/" folder. There were two things I didn't like about this setup:
 
-1. I didn't like a url that went "about/about"
-2. I didn't want to have a list page for these "about" related pages.
+1. A url that went "about/about"
+2. A list page for these "about" related pages.
 
 I explored the idea of leaving them in the base content/ directory, but I didn't like the clutter and this made it less streamlined to apply common layouts to these page. I began looking for another solution.
 
@@ -20,19 +20,19 @@ I explored the idea of leaving them in the base content/ directory, but I didn't
 
 Hugo has two main options: [leaf bundles and branch bundles](https://gohugo.io/content-management/page-bundles/). Leaf bundles are for bundling a single page together with its resources (i.e. images, pdfs). Branch bundles are for building content around a list page.
 
-The problem is that I was looking for a third option. I wanted to group content together, but didn't want to use a list page. This is similar to leaving content in the content/ directory, except it allows me to define a single layout to apply to these pages.
+The problem is that I was looking for a third option. I wanted to group content together, but didn't want to use a list page. This is similar to leaving the markdown files in the content/ directory, except it allows me to define a single layout to apply to these pages and keeps the content folder organized.
 
 # Potential Solutions
 
 Unfortunately I didn't find a natural solution, but I identified three slightly hacky versions.
 
-## 1. Deviate from intended use of list.html aoiewjf 
+## 1. Deviate from intended use of list.html
 
-Insert my about page into the list layout template, even if this is not the intended purpose of the list template. This would give a short "about" url for the about page and do away with the traditional list page.
+Rather than using list.html to list content in the about folder, I could paste my about page into the list layout template, even if this is not the intended purpose. This would give a short "about" url for the about page and do away with the traditional list page. Other content in the about folder would them have the url "about/foo".
 
 ## 2. Make use of headless mode
 
-Set permalink of "about" to ":filename" in order to map about/about/ to about/ (this also removes "/about" from other content in the about/ directory). Use "headless: true" in the frontmatter of _index.html in order to prevent list page from being rendered in place of about single page.
+Set permalink of "about" to ":filename" in order to map about/about/ to about/ (this also removes "/about" from other content in the about/ directory i.e. about/foo -> foo). Use "headless: true" in the frontmatter of _index.html in order to prevent list page from being rendered in place of the "about" single page.
 
 One caveat is that by setting headless to true for "about/_index.html", hugo will not render any page at the link "/about". In order to get around this I moved the directory from "about" to "_about". This isn't a problem for the url's because permalink is set to ":filename" which means the section is never in the url anyways.
 

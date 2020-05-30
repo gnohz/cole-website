@@ -3,7 +3,17 @@ baseURL = "https://colekillian.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Adventure"
+title = "Cole Killian Adventure"
+
+# Cole's Sight
+# Cole's Site
+# Cole's Adventure
+# Cole's Share
+# Cole's Plot
+# Cole's Space
+# Cole's Land
+# Cole's Hindsight
+# Cole Killian
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
