@@ -1,10 +1,12 @@
 ---
 title: "Putting Things Back Where They Belong"
 date: 2020-05-13T01:50:57-04:00
-draft: false
+draft: true
 tags: ["Prisoner's Dilemma", "Cooperation"]
 categories: ["Backyard Philosophy"]
 ---
+
+Equating whether or not to put something back to whether or not to support robo cashiers.
 
 # The Idea
 
@@ -17,22 +19,61 @@ This lead us to two types of people:
 
 I will list the just pros of each because they are pretty much inverse to one another (the cons of one are the pros of the other)
 
-At first glance this categorization seemed rather pointless, but then I realized its potential correlation with the types of actions a person would make in the [prisoner's dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp), a paradox in decision analysis in which two individuals acting in their own self-interests do not produce the optimal outcome. In the case of putting things back, you always gain in the moment by putting something down at your own convenience, but the optimal outcome is reached by putting it back in its proper position. We can let "cooperate" mean putting something back where it belongs, and "betray" mean put it back at your own convenience.
+At first glance this categorization seemed rather pointless, but then I realized its potential correlation with the types of actions a person would make in the [prisoner's dilemma](https://www.investopedia.com/terms/p/prisoners-dilemma.asp), a paradox in decision analysis in which two individuals acting in their own self-interests do not produce the optimal outcome. In the case of putting things back, you always gain in the moment by putting something down at your own convenience, but the optimal outcome may be reached by putting an item back in its proper position. We can let "cooperate" refer to putting something back where it belongs, and "betray" refer to putting something down at your own convenience.
 
 ## Cooperating
 
-- Saves employees time
-- Sense of satisfaction
+### Saves employees time
+
+The main and most obvious benefit of cooperating. Many don't realize that it can require up to an hour of employee time per day just to put mishelved items back in their proper places.
+
+### Sense of satisfaction
+
+As a human it feels good to think you are doing the right thing, but it requires the right mindset for this to work. A minor point.
 
 ## Betraying
 
-- Adds significantly more work for employees
-- Potentially allows the store to gain insight into costumer habits
+### Potentially allows the store to gain insight into costumer habits
 
-# Contrasting with library
+There are potentially two main categories of data to collect:
+
+1. Popularity data: The idea that you can track how popular an item is based on how often it is unshelved.
+
+    This argument doesn't really make sense because the data collection would be more robust and streamlined if the store requested that customers return unshelved items to the cashier rather than betraying.
+    
+    Additionally, this line of reasoning makes sense at libraries where a large portion of unshelved material is never checked out (i.e. read in the store), but it doesn't carry over to stores like Home Depot where a conservative estimate would suggest that over 90% of popularity data can be collected by tracking the items people actually buy.
+  
+2. Relational data. 
+
+    The idea being that if an item is consistently misplaced to the same location, there may be something to be learned in how to improve the store's layout. Intuitively I would expect there to be a lot of misleading data with relatively few patterns to be found. Perhaps I would be pleasantly surprised, but it would be hard to settle this point without putting an experiment together.
+
+### Saves you some time in the moment
+
+It is definitely true that you will save potentially up to a minute of time by betraying. The question to explore next is whether or not this minute of saved time is worth the opportunity cost.
+
+## Comparing Customer Time to Employee Time
+
+So who's time is more valuable, yours on the employee's? It's important to take into account that it will take you and the employee different amounts of time.
+
+Let's consider a race to put an item back between a customer and an employee. The customer knows exactly where he picked up the item from, and won't have much trouble retracing his footsteps to put it back even without having a good understanding of the overall layout of the store. An employee will have to think about 
+
+Why is this good. It effects the way other people act. Enables a business model where employees are no longer needed for restocking shelves, which frees people to do other things. It's kinda like enabling more robo cashiers, at which point the question becomes do you support robo cashiers, yes or no? Automata reduction. Slippery slope falacy could lead to communism. And capitalism being where you value your time above other's, and take advantage of the system when it makes sense to you.
+
+So capitalists should betray, and communists should cooperate.
+
+But then does that mean supporting robo cashiers is supporting communism?
+
+It's a bit of a slippery slope fallacy.
+
+The goal is to act in a way that enables other people to act in a certain way.
+  
+### Identifying Problem is Often Harder than Solving itself
+
+When employees are tasked with reshelving misplaced items, they first have to begin with actually finding which items are unshelved. This is a huge timesink. A cliche example is Einstein being quoted as saying that if he had one hour to save the world, he would spend fifty-five minutes defining the problem and only five minutes finding the solution. [1]
+
+### Would this mean employees would lose their jobs?
 
 # Which are you?
-
 I began exploring the reasons by which a person might make one decision or the other, starting my own motivations.
 
 I tend to cooperate. While I may lose out in the moment, I justify it in the following ways: 
@@ -59,3 +100,6 @@ One possibility is a person's belief in the ability of strangers to have a posit
 Another import consideration is discipline. Whether or not you act the same in a "hot" state as you would in a "cold" state.
 
 Thanks for tuning in. Let me know if you can think of more contributing factors below!
+
+
+[1] http://factmyth.com/factoids/identifying-a-problem-is-often-harder-than-solving-it/
