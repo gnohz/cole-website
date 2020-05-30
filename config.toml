@@ -388,7 +388,6 @@ theme = "LoveIt"
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
   _about = ":filename"
 
 # Options to make output .md files
