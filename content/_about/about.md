@@ -9,7 +9,7 @@ draft: false
 
 Hello there!
 <br>
-Currently a U1 Honors Statistics and Computer Science student at McGill.
+Currently a U2 Honors Statistics and Computer Science student at McGill.
 <br>
 Excited about the future. 
 <br>
