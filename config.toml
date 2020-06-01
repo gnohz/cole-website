@@ -221,16 +221,11 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
-    Medium = ""
-    Gitlab = ""
-    Youtubechannel = ""
-    Email = "xxxx@xxxx.com"
+    gitHub = "https://github.com/ruborcalor"
+    linkedin = "https://www.linkedin.com/in/colekillian/"
+    medium = "https://medium.com/@colekillian"
+    youtube = "https://www.youtube.com/channel/UCWi54DbZK9pqKKD1kgcYJww"
+    email = "cole@colekillian.com"
     RSS = true # 
 
   #  Page config

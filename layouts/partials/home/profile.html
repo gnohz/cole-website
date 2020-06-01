@@ -12,23 +12,12 @@
         <h3 style="font-weight: 600">Links</h3>
         <ul>
             <li>
-                Follow Me
-                <ul style="list-style: none;">
-                    <li>
-                        <a href="{{ .Site.Params.github }}" target="_blank"><span class="badge badge-pill badge-primary">Github</span></a>
-                        <a href="{{ .Site.Params.youtube }}" target="_blank"><span class="badge badge-pill badge-danger">YouTube</span></a>
-                        <!-- <a href="{{ .Site.Params.linkedin }}" target="_blank"><span class="badge badge-pill badge-primary">Linkedin</span></a> -->
-                        <a href="mailto:{{ .Site.Params.email }}"><span class="badge badge-pill badge-success">Email</span></a>
-                        <a href="{{ "index.xml" | absURL }}"><span class="badge badge-pill badge-warning">RSS Feed</span></a>
-                    </li>
-                </ul>
-            </li>
-            <li>
                 Content
                 <ul style="list-style: none;">
                     <li>
-                        <a href="/projects"><span class="badge badge-pill badge-danger">Projects</span></a>
+                        <!-- <a href="/projects"><span class="badge badge-pill badge-danger">Projects</span></a> -->
                         <a href="/posts"><span class="badge badge-pill badge-success">Posts</span></a>
+                        <a href="{{ .Site.Params.Social.github }}" target="_blank"><span class="badge badge-pill badge-danger">Github</span></a>
                         <a href="/course-notes/"><span class="badge badge-pill badge-primary">Course Notes</span></a>
                     </li>
                 </ul>
@@ -41,6 +30,17 @@
                     <a href="/coursework-overview/"><span class="badge badge-pill badge-success">Coursework</span></a>
                     <!-- <a href="/quotes"><span class="badge badge-pill badge-warning">Quotes</span></a> -->
                     <!--<a href="/now"><span class="badge badge-pill badge-warning">Now</span></a>-->
+                </ul>
+            </li>
+            <li>
+                Stay in Touch
+                <ul style="list-style: none;">
+                    <li>
+                        <a href="{{ .Site.Params.Social.youtube }}" target="_blank"><span class="badge badge-pill badge-danger">YouTube</span></a>
+                        <!-- <a href="{{ .Site.Params.linkedin }}" target="_blank"><span class="badge badge-pill badge-primary">Linkedin</span></a> -->
+                        <a href="mailto:{{ .Site.Params.Social.email }}"><span class="badge badge-pill badge-success">Email</span></a>
+                        <a href="{{ "index.xml" | absURL }}"><span class="badge badge-pill badge-warning">RSS Feed</span></a>
+                    </li>
                 </ul>
             </li>
         </ul>
