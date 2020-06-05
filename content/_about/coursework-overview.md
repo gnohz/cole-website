@@ -6,5 +6,4 @@ draft: false
 
 [Here](/course-notes) you can find my notes (taken during class) for many of the courses
 
-<iframe src="/pdf/coursework.pdf" width="100%" height="1000px">This browser does not support pdfs.</iframe>
-
+{{< pdf-full-page src="/pdf/coursework.pdf" >}}
