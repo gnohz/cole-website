@@ -4,12 +4,12 @@
 {{- $large := .src_l | default .src -}}
 {{- $alt := .alt | default (relURL .src) -}}
 {{- if .linked -}}
-    <a class="lightgallery" href="{{ $large | relURL }}" title="{{ .title | default $alt }}" data-thumbnail="{{ $small | relURL }}"{{ with .caption }} data-sub-html="<h2>{{ . }}</h2>{{ with $.alt }}<p>{{ . }}</p>{{ end }}"{{ end }}{{ with .rel }} rel="{{ . }}"{{ end }}>
+    <a class="lightgallery" href="{{ $large }}" title="{{ .title | default $alt }}" data-thumbnail="{{ $small }}"{{ with .caption }} data-sub-html="<h2>{{ . }}</h2>{{ with $.alt }}<p>{{ . }}</p>{{ end }}"{{ end }}{{ with .rel }} rel="{{ . }}"{{ end }}>
         <img
             class="lazyload{{ with .class }} {{ . }}{{ end }}"
             src="{{ $loading.RelPermalink }}"
-            data-src="{{ .src | relURL }}"
-            data-srcset="{{ $small | relURL }}, {{ .src | relURL }} 1.5x, {{ $large | relURL }} 2x"
+            data-src="{{ .src }}"
+            data-srcset="{{ $small }}, {{ .src }} 1.5x, {{ $large }} 2x"
             data-sizes="auto"
             alt="{{ $alt }}"{{ with .height }} height="{{ . }}"{{ end }}{{ with .width }} width="{{ . }}"{{ end }} />
     </a>
@@ -20,8 +20,8 @@
     <img
         class="lazyload{{ with .class }} {{ . }}{{ end }}"
         src="{{ $loading.RelPermalink }}"
-        data-src="{{ .src | relURL }}"
-        data-srcset="{{ $small | relURL }}, {{ .src | relURL }} 1.5x, {{ $large | relURL }} 2x"
+        data-src="{{ .src }}"
+        data-srcset="{{ $small }}, {{ .src }} 1.5x, {{ $large }} 2x"
         data-sizes="auto"
         alt="{{ $alt }}"
         title="{{ .title | default $alt }}"{{ with .height }} height="{{ . }}"{{ end }}{{ with .width }} width="{{ . }}"{{ end }} />
