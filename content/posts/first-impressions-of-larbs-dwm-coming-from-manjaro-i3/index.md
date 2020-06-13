@@ -2,7 +2,7 @@
 title: "First Impressions of Larbs dwm Coming From Manjaro i3"
 date: 2020-06-11T20:36:14-04:00
 draft: false
-tags: ["Linux", "dwm", "i3"]
+tags: ["linux", "dwm", "i3"]
 categories: ["Technical"]
 ---
 

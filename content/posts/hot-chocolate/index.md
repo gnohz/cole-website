@@ -2,7 +2,7 @@
 title: "Parable of the Hot Chocolate"
 date: 2020-05-03
 draft: false
-tags: ["Parable", "Control Variables"]
+tags: ["parable", "control variables"]
 categories: ["Backyard Philosophy"]
 ---
 

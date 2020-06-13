@@ -2,7 +2,7 @@
 title: "TI-Basic Calculator Programming: Minesweeper and More"
 date: 2020-04-15T14:16:42-04:00
 draft: false
-tags: ["Minesweeper", "TI-Basic"]
+tags: ["minesweeper", "ti-basic"]
 category: ["Project"]
 ---
 

@@ -2,6 +2,8 @@
 title: "Migrating Hugo Themes"
 date: 2020-05-28T16:03:30-04:00
 draft: true
+tags: ["hugo"]
+categories: ["Technical"]
 ---
 
 # 

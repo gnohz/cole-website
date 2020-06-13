@@ -2,7 +2,7 @@
 title: "Querying for Most Recent Firestore Documents with React-Redux-Firebase"
 date: 2020-06-10T14:09:18-04:00
 draft: false
-tags: ["Firebase", "React", "Redux"]
+tags: ["firebase", "react", "redux"]
 categories: ["Technical"]
 ---
 

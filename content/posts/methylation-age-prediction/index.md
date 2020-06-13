@@ -2,7 +2,7 @@
 title: "Building an AI to Predict Human Age From Just a Blood Sample"
 date: 2020-03-04T16:43:16-05:00
 draft: false
-tags: ["Methylation", "AI", "Machine Learning"]
+tags: ["methylation", "ai", "machine learning"]
 categories: ["Project"]
 ---
 

@@ -2,6 +2,8 @@
 title: "Making the Most of Email"
 date: 2020-05-05T22:26:06-04:00
 draft: false
+tags: ["email"]
+categories: ["Productivity"]
 ---
 
 ## The Problem

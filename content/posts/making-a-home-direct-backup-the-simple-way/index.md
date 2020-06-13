@@ -2,7 +2,7 @@
 title: "Making a Home Direct Backup the Simple Way"
 date: 2020-06-08T00:32:39-04:00
 draft: false
-tags: ["Linux"]
+tags: ["linux"]
 categories: ["Technical"]
 ---
 

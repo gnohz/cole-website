@@ -2,7 +2,7 @@
 title: "To Take Notes or Not to Take Notes, That is the Question"
 date: 2020-05-08T01:49:58-04:00
 draft: false
-tags: ["Note Taking"]
+tags: ["note taking"]
 categories: ["Productivity"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Hugo Content Management: Implementing Sections Without List Pages"
 date: 2020-05-28T14:29:46-04:00
 draft: false
-tags: ["Hugo"]
+tags: ["hugo"]
 categories: ["Technical"]
 ---
 

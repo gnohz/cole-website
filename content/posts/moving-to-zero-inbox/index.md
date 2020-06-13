@@ -2,7 +2,7 @@
 title: "Ultimate Guide to Implementing Zero Inbox via Gmail Imap"
 date: 2020-05-10T01:07:28-04:00
 draft: false
-tags: ["Email", "Gmail", "Imap", "Zero Inbox", "Productivity"]
+tags: ["email", "imap", "zero inbox"]
 categories: ["Productivity"]
 ---
 
