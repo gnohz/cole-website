@@ -8,7 +8,7 @@ categories: ["Technical"]
 
 # Favicon Time
 
-I'm working on a side project and it came the time to find a favicon (at least a temporary one so I could stop looking at the create-react-app favicon).
+I'm working on a [side project](https://artif.ai) and it came the time to find a favicon (at least a temporary one so I could stop looking at the create-react-app favicon).
 
 The process wasn't particularly complex, but it would have helped me out to have the following presented so I figured I'd share it here.
 
