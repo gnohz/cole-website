@@ -44,10 +44,10 @@ Changing back to firefox. I have nothing against brave. I just really like tree 
 
 Polybar is something I very much would have liked to get up and running in place of the dwm status bar. I was quite dissapointed when I learned that, without a serious time investment, polybar wouldn't be a possibility.
 
-I spent my fair share of timing ricing my i3 configuration, but I'm at the point where I moving in a more pragmatic direction and want things to just werk a little more.
+I spent my fair share of timing ricing my i3 configuration, but I'm at the point where I'm moving in a more pragmatic direction and want things to just werk a little more.
 
 Luckily this is more of an aesthetic preference than a functional one, so it isn't that big of a blow. I'll be leaving the dwm status bar for now. Luke's default widgets are pretty nice (that being said I already had most of them in my polybar config).
 
 # Conclusion
 
-I'll be sticking with dwm and larbs for at least the next two weeks to build up a solid feel for it. Already one day in I doubt that I'll be going back to i3.
+I'll be sticking with dwm and larbs for at least the next two weeks to build up a solid feel for it. Already one day in I doubt that I'll be going back to i3. Update from 24 hour later Cole: Not so sure about this anymore; multimonitor support is not as great as I was expecting.
