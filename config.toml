@@ -226,7 +226,7 @@ theme = "LoveIt"
     medium = "https://medium.com/@colekillian"
     youtube = "https://www.youtube.com/channel/UCWi54DbZK9pqKKD1kgcYJww"
     email = "cole@colekillian.com"
-    RSS = true # 
+    RSS = true #
 
   #  Page config
   [params.page]
@@ -291,7 +291,7 @@ theme = "LoveIt"
       enable = true
       # Disqus comment config
       [params.page.comment.disqus]
-        # 
+        #
         enable = true
         # Disqus shortname to use Disqus in posts
         shortname = "coles-blog"
@@ -330,14 +330,14 @@ theme = "LoveIt"
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "UA-149290199-2"
-  
+    google = ""
+
   #  Analytics config
   [params.analytics]
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-149290199-2"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
@@ -398,7 +398,7 @@ theme = "LoveIt"
 
 # Options to make hugo output files
 [outputs]
-  # 
+  #
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
