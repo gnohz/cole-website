@@ -1,6 +1,6 @@
 ---
 title: "Best Password Manager Setup For Linux"
-date: 2020-07-08T21:43:17-04:00
+date: 2020-07-08
 draft: false
 tags: ["i3", "wm", "password manager", "ricing"]
 categories: ["Technical"]
@@ -20,17 +20,15 @@ The three main functionalities you need from a password manager are:
 
 1. Authenticating
 
-{{< image src="enter_password.gif" title="Authenticating" caption="Authenticating" >}}
-
-{{< figure src="enter_password.gif" >}}
+{{< image src="enter_password.gif" >}}
 
 2. Querying existing password entries
 
-{{< image src="query_entry.gif" title="Querying Entries" >}}
+{{< image src="query_entry.gif" >}}
 
 3. Adding a new password entry
 
-{{< image src="new_entry.gif" title="Adding a New Entry" >}}
+{{< image src="new_entry.gif" >}}
 
 # Conclusion
 

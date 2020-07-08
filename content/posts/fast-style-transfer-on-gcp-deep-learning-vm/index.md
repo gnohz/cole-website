@@ -106,7 +106,7 @@ done
 # https://unix.stackexchange.com/questions/45913/is-there-a-way-to-redirect-nohup-output-to-a-log-file-other-than-nohup-out
 {{</ highlight >}}
 
-The `nohup` is in order to ensure that the process keeps running when you terminate the ssh session. Execute the file `./start-trainers.sh`
+The `nohup` is in order to ensure that the process keeps running when you terminate the ssh session. Execute the file `./start-trainers.sh`.
 
 # Using Your Trained Model.
 
