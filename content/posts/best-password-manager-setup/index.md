@@ -6,9 +6,9 @@ tags: ["i3", "wm", "password manager", "ricing"]
 categories: ["Technical"]
 ---
 
-# Keepass
+# Keepassxc
 
-[Keepass](https://keepass.info/) is an awesome open source password manager. That being said,while the security is top notch, I haven't fallen in love with the user interface. I don't want to have to click my mouse around multiple times just to enter a password.
+[Keepassxc](https://keepassxc.org/) is an awesome open source password manager. That being said, while the security is top notch, I haven't fallen in love with the user interface. I don't want to have to click my mouse around multiple times just to enter a password.
 
 # Keepmenu
 
