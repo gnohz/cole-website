@@ -48,7 +48,7 @@ import "./styles.css"
 import IndexView from "./views/IndexView";
 {{</ highlight >}}
 
-and replace `<App /> with <IndexView />`
+and replace `<App />` with `<IndexView />`
 
 Great! Now by running `npm start` you'll see your webflow sight running locally on your computer! However, if you navigate around you'll notice that some of the animations are amiss. Follow the next section to get your site to full power!
 
@@ -65,7 +65,7 @@ Make sure to add webflow.js and your css files to index.html
 
 In implementing this and the next modification I had a lot of help from [this](https://github.com/DAB0mB/Appfairy/issues/7) github issue. I recommend that you read through it.
 
-In order for webflow.js to function properly on your react site, you need to add the necessary meta data to index.html. Thanks to [rolandocpontes](https://github.com/ronaldocpontes) for the above code which makes this process easy.
+In order for webflow.js to function properly on your react site, you need to add the necessary meta data to index.html. Thanks to [rolandocpontes](https://github.com/ronaldocpontes) for the below code which makes this process easy.
 
 Get the meta data by running the following commands on the console from a deployed webflow site:
 
