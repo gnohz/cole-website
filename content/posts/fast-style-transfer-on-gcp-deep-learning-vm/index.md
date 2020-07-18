@@ -1,5 +1,5 @@
 ---
-title: "Fast Style Transfer on GCP Deep Learning Vm"
+title: "Fast Style Transfer on GCP Deep Learning VM Guide"
 date: 2020-07-03T12:57:19-04:00
 draft: true
 ---
@@ -9,7 +9,6 @@ draft: true
 Read the README https://github.com/hwalsuklee/tensorflow-fast-style-transfer
 
 # Setup
-
 
 ## Start a tensorflow vm from google cloud.
 
@@ -87,26 +86,34 @@ In order to train your own styles you need to copy them over to the instance. I 
 In order to streamline the process for training multiple models at once, you can use the following bash script which starts a training process for each of the images in a folder.
 
 {{< highlight bash >}}
-FILES="./myStyles/*"
+#!/usr/bin/env bash
+
+FILES="./popularPresetImages/*"
 
 for file in $FILES; do
-
-  filename=$(basename -- "$fullfile")
-  extension="${filename##*.}"
-  filename="${filename%.*}"
-  echo "Creating model directory"
-  mkdir -p model_${filename}
-  echo "Starting trainer process"
-  nohup python tensorflow-fast-style-transfer/run_train.py --style colorbeet.jpg --output models --trainDB train2014 --vgg_model vgg19 --test tensorflow-fast-style-transfer/content/chicago.jpg --batch_size 8 > nohup_${filename}.out &
-
+        filename=$(basename -- "$file")
+        echo $filename
+        extension="${filename##*.}"
+        echo $extension
+        filename="${filename%.*}"
+        echo $filename
+        echo "Creating model directory for ${file} $filename"
+        mkdir -p model_${filename}
+        echo "Starting Training Process for ${file}"
+        echo "nohup python tensorflow-fast-style-transfer/run_train.py --style $file --output ${filename}_models --trainDB train2014 --vgg_model vgg19 --test tensorflow-fast-st
+yle-transfer/content/chicago.jpg --batch_size 16 &> nohup_${filename}.out &"
+        nohup python tensorflow-fast-style-transfer/run_train.py --style $file --output ${filename}_models --trainDB train2014 --vgg_model vgg19 --test tensorflow-fast-style-tr
+ansfer/content/chicago.jpg --batch_size 16 &> nohup_${filename}.out &
+        sleep 2
 done
 
-# https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
 # https://www.cyberciti.biz/faq/bash-loop-over-file/
-# https://unix.stackexchange.com/questions/45913/is-there-a-way-to-redirect-nohup-output-to-a-log-file-other-than-nohup-out
+# https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
 {{</ highlight >}}
 
-The `nohup` is in order to ensure that the process keeps running when you terminate the ssh session. Execute the file `./start-trainers.sh`.
+The `nohup` is in order to ensure that the process keeps running when you terminate the ssh session. Execute the script `bash start-trainers.sh`.
+
+# Now the models are training. This may take several days.
 
 # Using Your Trained Model.
 
