@@ -6,10 +6,22 @@ tags: ["spacemacs", "emacs", "org", "org-agenda"]
 categories: ["Productivity"]
 ---
 
+# Demo
 
-I recently got setup with org-super-agenda. It's a great tool that makes custom agenda views way easier to manage.
+I recently got setup with [org-super-agenda](https://github.com/alphapapa/org-super-agenda). It's a great tool that makes custom agenda views way easier to manage.
+
+ I use a "Next View" for quickly finding a task to work on. This is what it looks like:
+
+{{< image src="org-super-next.png" caption="Super Next View" >}}
+
+I use a "Todo View" for finding tasks to mark as `NEXT`. This is what it looks like:
+
+{{< image src="org-super-todo.png" caption="Super Todo View" >}}
+
+# Setup
 
 Setting up with Spacemacs was quick. Add `org-super-agenda` to `dotspacemacs-additional-packages`
+
 
 {{< highlight elisp >}}
 dotspacemacs-additional-packages '(
@@ -67,12 +79,7 @@ Next add your custom agenda commands to `dotspacemacs/user-config`:
 (org-super-agenda-mode)
 {{</ highlight >}}
 
-I use the "Next View" for quickly finding a task to work on. This is what it looks like:
-
-{{< image src="org-super-next.png" caption="Super Next View" >}}
+Now you're good to go!
 
 
 
-I use the "Todo View" for finding tasks to mark as `NEXT`. This is what it looks like:
-
-{{< image src="org-super-todo.png" caption="Super Todo View" >}}
