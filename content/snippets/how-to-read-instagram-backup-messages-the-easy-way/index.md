@@ -1,5 +1,5 @@
 ---
-title: "How to Read Instagram Backup Messages the Easy Way"
+title: "How to Read Instagram Backup Messages the Easy Way - jq"
 date: 2020-08-16T15:43:09-04:00
 draft: false
 tags: ["jq"]
@@ -83,3 +83,4 @@ This outputs the conversation as a csv with columns for timestamp, user, and tex
 "\"2020-07-12T14:30:19.783799+00:00\",\"person3\",\"Our very own group chat!\""
 ```
 
+Hope this helps you to rediscover your Instagram dms!
