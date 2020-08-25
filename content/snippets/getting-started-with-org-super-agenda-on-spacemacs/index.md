@@ -2,7 +2,7 @@
 title: "Getting Started With Org Super Agenda on Spacemacs"
 date: 2020-08-13T08:19:48-04:00
 draft: false
-tags: ["spacemacs", "emacs", "org", "org-agenda"]
+tags: ["spacemacs", "emacs", "org-mode", "org-agenda"]
 categories: ["Productivity"]
 ---
 
