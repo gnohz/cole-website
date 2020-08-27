@@ -1,7 +1,6 @@
 +++
 title = "First Thoughts On Org Roam"
 date = 2020-08-24T22:49:00-04:00
-lastmod = 2020-08-24T22:49:06-04:00
 tags = ["org-mode", "roam-research"]
 draft = false
 weight = 2002

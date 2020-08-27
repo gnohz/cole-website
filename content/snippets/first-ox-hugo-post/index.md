@@ -1,7 +1,6 @@
 +++
 title = "First ox-hugo post"
 date = 2020-08-24T21:51:00-04:00
-lastmod = 2020-08-24T22:00:18-04:00
 tags = ["org-mode", "hugo"]
 draft = false
 weight = 2001
