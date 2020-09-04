@@ -185,7 +185,110 @@ That's it!
 I lied, there's actually a third step in the process of moving to Migadu: enjoy!
 
 I'm most looking forward to avoiding the headache of setting up domain specific email accouts for side projects. Exciting times lay ahead.
+** TODO Connecting Org Mode to Google Calendar
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: connecting-org-mode-to-google-calendar
+:EXPORT_FILE_NAME: index
+:END:
 
+I was getting ready for university to start, and was organizing my schedule. Last year I had taken care of this with Google Calendar, but that was a version of me before I had discovered org mode.
+
+Initially my instinct was to go for Google Calendar again, and find a way to sync it with my org agenda. This could be helpful in other ways as well. When emails add events to google calenar, it would automatically sync it to my org agenda.
+
+When researching for potential ways of integrating, I came across old [[https://github.com/myuhe/org-gcal.el][org-gcalc]], new I discovered [[https://github.com/kidd/org-gcal.el/][org-gcalc]].
+
+It was not too difficult to setup.
+
+I was able to add my course schedules to google calendar and sync it to my org agenda.
+
+It was at that point that I began wondering why I couldn't just directly add events to my org agenda. What's the point of using google calendar?
+
+Potential points for google calendar integration:
+- Better mobile support (although I need to look more into org mode mobile solutions)
+
+Potential points against google calendar integration:
+- Maybe I should be scheduling tasks myself instead of letting gmail take care of it. It would take marginally more effort, but potentially would help me remember the event better.
+- Using google calendar would only mean less effort if I stopped using some org features like tagging.
+
+
+Current position:
+- Look into mobile support and see how hard it is to schedule tasks from mobile
+
+If it is easy:
+- I'm going to use native org mode for scheduling my own tasks
+
+If it is hard:
+- I'll use google calendar for scheduling tasks on the go, and might as well use it for everything? Maybe not.
+
+Try to remove biases when making these decisions.
+** TODO Setting Up Org Mode On Mobile
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: setting-up-org-mode-on-mobile
+:EXPORT_FILE_NAME: index
+:END:
+** DONE Comparing Organice and Orzly                :org_mode:@Productivity:
+CLOSED: [2020-09-04 Fri 11:58]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: comparing-organice-and-orzly
+:EXPORT_FILE_NAME: index
+:CATEGORY: Productivity
+:END:
+
+I was looking for a way to connect to org mode from my phone. My main goals were to:
+- Write todos when away from the computer
+- Read todos when away from the computer
+- Timetracking when away from the computer
+
+In my search I came across the following possible solutions:
+- [[https://github.com/DanielDe/org-web][org-web]] :: org-mode on the web, built with React, optimized for mobile, synced with Dropbox and Google Drive.
+- [[https://github.com/200ok-ch/organice][Organice]] :: A community driven fork of org-web with the commitment of a Swiss company behind it.
+- [[https://github.com/orgzly/orgzly-android][Orgzly]] :: org-mode on android, a native mobile app.
+- [[https://beorgapp.com/][Beorg]] :: org-mode on ios, a native mobile app.
+- [[https://news.ycombinator.com/item?id=13829075][Termux]] :: Run emacs from termux on android. Not built with mobile in mind.
+- [[https://github.com/bnankiewicz/organic][Organic]] :: org-mode on android, a native mobile app; unmaintained.
+
+For me it was easy to narrow down my choice to Organice and Orgzly (I am on Android). At that point it became difficult to decide so I gave both a try. These are my initial impressions:
+
+*** Organice
+**** Pros
+ - Capture templates
+ - Easy time tracking.
+ - Great user experience feel
+ - Agenda view
+ - Search functionality
+ - Support for checkboxes
+**** Cons
+- Offline support not as good
+- No reminders
+**** Screenshot
+[[file:./organice-mobile-view.png]]
+
+*** Orgzly
+**** Pros
+- A native android app.
+- Reminders for scheduled tasks.
+- Agenda view
+- Offline Support
+- Search functionality
+**** Cons
+- Not easy to do time tracking from mobile.
+- No capture templates.
+- User experience not as intuitive.
+**** Screenshot
+[[file:./orgzly-mobile-view.png]]
+
+*** Conclusion
+
+In deciding, its important to keep in mind the goals for using org mode from mobile.
+- Write todos when away from the computer
+- Read todos when away from the computer
+- Timetracking when away from the computer
+
+In keeping with these goals, I prefer Organice because of the capture templates and time clocking. A nicer user experience is an added bonus. Yes, Orgzly has the advantage of better offline support, but I rarely see myself without access to mobile data. Orgzly has the advantage of reminders for upcoming tasks, but I don't rely on these types of reminders from my mobile device.
+
+Keep in mind these are my initial impressions. My plan is to go with Organice for a few weeks and report back with anything else I notice.
+
+Feel free to leave a comment below!
 
 * Projects
 :PROPERTIES:
