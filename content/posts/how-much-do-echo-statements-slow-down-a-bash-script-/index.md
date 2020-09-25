@@ -2,8 +2,8 @@
 title: "How Much Do Echo Statements Slow Down a Bash Script?"
 date: 2020-07-27T14:45:02-04:00
 draft: false
-tags: ["Bash", "Optimization", "Benchmark"]
-categories: ["Technical"]
+tags: ["bash", "optimization", "benchmark"]
+categories: ["Software Dev"]
 ---
 
 # Goal

@@ -2,8 +2,8 @@
 title: "Making Simple Favicons for Websites"
 date: 2020-06-13T01:01:00-04:00
 draft: false
-tags: ["web dev", "imagemagick"]
-categories: ["Technical"]
+tags: ["web-dev", "imagemagick"]
+categories: ["Software-Dev"]
 ---
 
 # Favicon Time

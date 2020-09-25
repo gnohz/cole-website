@@ -2,8 +2,8 @@
 title: "Best Password Manager Setup For Linux"
 date: 2020-07-08
 draft: false
-tags: ["i3", "wm", "password manager", "ricing"]
-categories: ["Technical"]
+tags: ["i3", "wm", "password manager", "ricing", "computer workflow"]
+categories: ["Productivity"]
 ---
 
 # Keepassxc

@@ -4,7 +4,6 @@ date = 2020-09-04T11:58:00-04:00
 tags = ["org-mode"]
 categories = ["Productivity"]
 draft = false
-weight = 2006
 +++
 
 I was looking for a way to connect to org mode from my phone. My main goals were to:

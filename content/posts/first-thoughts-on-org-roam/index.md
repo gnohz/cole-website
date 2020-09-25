@@ -2,8 +2,8 @@
 title = "First Thoughts On Org Roam"
 date = 2020-08-24T22:49:00-04:00
 tags = ["org-mode", "roam-research"]
+categories = ["Productivity"]
 draft = false
-weight = 2002
 +++
 
 # Background {#background}
@@ -14,7 +14,7 @@ I find myself taking a lot of notes, and was looking for a place to store them.
 
 Org-roam seemed like the best of both worlds. I get the benefits of roam research, for free, all from spacemacs! It's in its early stages, but like roam research it is growing very quickly.
 
-This is where my roam graph stands as of today (displayed by `org-roam-server`):
+This is where my roam graph stands as of today (displayed by `org-roam=server`):
 ![](org-roam-graph-08-24.png)
 
 

@@ -2,8 +2,8 @@
 title = "First ox-hugo post"
 date = 2020-08-24T21:51:00-04:00
 tags = ["org-mode", "hugo"]
+categories = ["Productivity"]
 draft = false
-weight = 2001
 +++
 
 # This is Awesome! {#this-is-awesome}

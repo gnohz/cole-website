@@ -2,8 +2,8 @@
 title: "Converting Webflow Site to React With Appfairy - Ultimate Guide"
 date: 2020-07-14T20:38:44-04:00
 draft: false
-tags: ["react", "webflow", "appfairy"]
-categories: ["Technical"]
+tags: ["react", "webflow", "appfairy", "web-dev"]
+categories: ["Software-Dev"]
 ---
 
 # The Idea

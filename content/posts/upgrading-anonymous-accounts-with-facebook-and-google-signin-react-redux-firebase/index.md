@@ -2,8 +2,8 @@
 title: "Upgrading Anonymous Accounts With Facebook and Google Signin - React Redux Firebase"
 date: 2020-06-23T23:45:20-04:00
 draft: false
-tags: ["firebase", "authentication"]
-categories: ["Technical"]
+tags: ["firebase", "authentication", "web-dev", "react"]
+categories: ["Software-Dev"]
 ---
 
 # The Goal

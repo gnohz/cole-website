@@ -7,25 +7,218 @@
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
-:EXPORT_HUGO_WEIGHT: auto
 :END:
-
-** Technical                                                    :@technical:
-
-
-* Snippets
+** TODO Connecting Org Mode to Google Calendar
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: snippets
-:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_BUNDLE: connecting-org-mode-to-google-calendar
+:EXPORT_FILE_NAME: index
+:END:
+I was getting ready for university to start, and was organizing my schedule. Last year I had taken care of this with Google Calendar, but that was a version of me before I had discovered org mode.
+
+Initially my instinct was to go for Google Calendar again, and find a way to sync it with my org agenda. This could be helpful in other ways as well. When emails add events to google calendar, it would automatically sync it to my org agenda.
+
+When researching for potential ways of integrating, I came across old [[https://github.com/myuhe/org-gcal.el][org-gcalc]], new I discovered [[https://github.com/kidd/org-gcal.el/][org-gcalc]].
+
+It was not too difficult to setup.
+
+I was able to add my course schedules to google calendar and sync it to my org agenda.
+
+It was at that point that I began wondering why I couldn't just directly add events to my org agenda. What's the point of using google calendar?
+
+Potential points for google calendar integration:
+- Better mobile support (although I need to look more into org mode mobile solutions)
+
+Potential points against google calendar integration:
+- Maybe I should be scheduling tasks myself instead of letting gmail take care of it. It would take marginally more effort, but potentially would help me remember the event better.
+- Using google calendar would only mean less effort if I stopped using some org features like tagging.
+
+
+Current position:
+- Look into mobile support and see how hard it is to schedule tasks from mobile
+
+If it is easy:
+- I'm going to use native org mode for scheduling my own tasks
+
+If it is hard:
+- I'll use google calendar for scheduling tasks on the go, and might as well use it for everything? Maybe not.
+
+Try to remove biases when making these decisions.
+** TODO Org Mode vs Google Calendar :@Productivity:org_mode:google_calendar:
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: org-mode-vs-google-calendar
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-09-25 Fri 10:15]--[2020-09-25 Fri 12:56] =>  2:41
 :END:
 
-** DONE First ox-hugo post                                   :org_mode:hugo:
+I've been having an internal debate over org mode and google calendar. Normally I manage the scheduling of my courses using Google Calendar, but would it be better to use org mode instead?
+
+*** Google Calendar Pros
+- Great mobile support
+- Reply "Yes" or "No" to event invitations
+- Great display
+- Reminders
+- Share calendars with other people
+- Color coding
+
+*** Org Mode Pros
+- Time tracking
+- Note taking
+- Vim bindings
+- Less context switching
+- The benefits of org
+
+*** Deciding Questions
+Don't need a perfect system. Looking for something good. If it ain't broke don't fix it.
+- What am I missing by using org mode?
+  I feel like I am missing shared calendars and a great weekly view.
+- Are shared calendars valuable?
+  My understanding is that they practically become a necessity once entering the work force. Personally, however, I currently have no use for them.
+- Is a great weekly view valuable?
+  It makes it easy to see conflicting events, and how they are spaced out throughout your day.
+
+*** COMMENT LifeStyle
+In answering these questions I think it's important to consider you own lifestyle.
+
+Different modes:
+- Student
+  - Many deadlines
+  - No shared calendar
+- Worker
+  - Fewer deadlines
+  - Shared calendar
+
+Personally I am a student so I will keep the student's needs in mind when making my decision. The main difference I see is that I don't have to worry about shared calendars as much.
+
+*** Options
+**** Separated
+Use org mode for todos/deadlines and google calendar for scheduled events.
+
+This allows you to get all the benefits of google calendar for scheduled events, and all the benefits of org mode for todos/deadlines. A potential downside is that this approach requires more context switching. You'll have to consult the org agenda and the google calendar at the same time in order to make sure that you aren't missing anything.
+
+Time tracking becomes difficult, because if you want to time track an event from the calendar, you'll have to duplicate it into org. This might not be so bad though. My main events would be:
+- lectures
+- meetings
+
+And it's not important to get fine grained time tracking to the specific meeting itself. A general task of =meetings= for a set of categories that I could clock to would suffice.
+
+**** Synced
+There's actually two options here. A combination of pushing events from org mode to google calendar, and pulling them from google calendar to org mode.
+
+In either case you get to take advantage of the google calendar view without giving up org mode, but there are some limitations to the integration.
+- repeating org events
+- coloring
+
+You also have to deal with the potential headache of keeping everything synced up.
+
+**** Isolated
+Use org mode for everything and don't use google calendar
+
+There are solutions like =emacs-calfw= that try to implement a better calendar view for org mode. The experience is not as nice as google calendar though.
+
+It can be problematic to completely give up google calendar. Shared calendars come to mind. It is hard to escape google calendar.
+
+It's important to remember the main points of google calendars view:
+- easily find event conflicts
+- visualize the weekly schedule
+
+Both of these points can be accomplished from the org agenda, but not as well.
+
+*** Next Steps
+
+Sometimes it's more effective to experiment then to theorize. After reflecting on the options I've decided I won't pursue the syncing strategy; dealing with syncing would produce a headache that outweights the potential benefits.
+
+This leaves me deciding between isolated and separated. The main difference being that separated gives better weekly view, and isolated means "inline" notes for events.  At first I had an irrational fear of the separated approach, but now I am warming up to it. Even so, I'm gonna give the isolated appraoach a go for a couple weeks and see if I feel like I am missing anything.
+
+Stay tuned by subscribing to the [[https://colekillian.com/index.xml][rss feed]] and feel free to leave a comment below!
+
+Links:
+- [[https://irreal.org/blog/?p=5839][Irreal Post on Syncing GCal with Org Agenda]]
+- [[https://github.com/kiwanami/emacs-calfw/][Emacs Calendar]]
+** TODO Trying Out Emacs Calendar                   :@Productivity:org_mode:
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: trying-out-emacs-calendar
+:EXPORT_FILE_NAME: index
+:END:
+
+I was investigating emacs calendar options anc ame across [[https://github.com/kiwanami/emacs-calfw/][emacs-calfw]]. It's a nice package for viewing calendar items from howm, ical, cal, or org in a google calendar like format.
+
+I was mainly interested in org calendar. To get up and running clone the emacs-calfw repo and add it to your load path. then require then relevant files:
+#+begin_src elisp
+  (add-to-list 'load-path "/home/gautierk/.emacs-conf/emacs-calfw")
+  (require 'calfw)
+  (require 'calfw-org)
+#+end_src
+Now to display the calendar his =SPC SPC= and run =cfw:open-org-calendar=. You should see something like the following if you're on spacemacs:
+
+#+html: {{< image src="./emacs-calfw-view.png" >}}
+
+Press =W= to display the weekly view.
+
+#+html: {{< image src="./emacs-calfw-weekly-view.png" >}}
+
+It's awesome that this package exists, but too bad that it doesn't display rectangles positioned and sized based on the time and duration of the event in the same way google calendar does.
+
+** DONE Hacking Into My Computer After Getting Locked Out     :@Story:linux:
+CLOSED: [2020-09-25 Fri 10:11]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: hacking-into-my-computer-after-getting-locked-out
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-09-25 Fri 09:25]--[2020-09-25 Fri 10:15] =>  0:50
+:END:
+*** Just a Normal Day
+
+I updated all the packages on my system with =pacman -Syyu=. Didn't think much of it at the time.
+
+Later in the day my computer froze when using bash to execute a python script I was developing (whoops).
+
+After waiting a minute to see if my computer would recover, I initiated force shutdown.
+
+I started up my computer as normal, but this time I couldn't login! It was disheartening to be shown =Password Incorrect= over and over. Caps lock is off, check. Try a couple keyboards, check.
+
+*** Hacker Mode
+
+At first I was scared that the script I ran had somehow changed my password. Off to the newbie corner I go :). Uh oh, I hadn't read the patch notes. Turns out updates to =PAM= and =PAMBASE= might prevent login. Other people were having the same problem, all I had to do was login with rescue mode!
+
+I follow the instructions to boot rescue mode. i.e. pressing =e= on the grub screen to edit the boot parameters and adding the kernel option =systemd.unit=rescue.target=. I find myself in a terminal prompted for my root password; what's my root password again? This can't be good. How can I possibly login without my root password?!
+
+Back to the newbie forums. Luckily I find someone with a similar problem. He was having trouble logging into rescue mode because he had never set the root password in the first place. Turns out the solution is to reset your root password without knowing your root password. I couldn't believe how easy the process was.
+
+Instead of appending =systemd.unit=rescue.target= to the kernel params, I appended =init=/bin/bash=. This tells the computer to run =/bin/bash= as init rather than the system init and puts you into a root shell without being prompted for a password. Your root file system is mounted as read-only now, so the first step is to mount it as read/write: =mount -n -o remount,rw /=. Then use =passwd= to create a new password for the root user, =reboot -f=, and you are good to go!
+
+> If you want to "fix" this, lock GRUB and your BIOS with a password and put your hard disk first in boot order. If someone else has physical access and can put the (non-encrypted) hard disk into another computer, you have lost anyway
+
+After that I was able to successfully boot into rescue mode and fix the problems with PAM. I did the following:
+
+#+begin_src bash
+cd /etc/pam.d/
+mv system-login system-login.backup
+mv system-login.pacnew system-login
+#+end_src
+
+One final reboot to the computer, and here I am!
+
+*** Final Thoughts
+
+I was late for my 10 oclock shutdown because of this, but thank god I'm back. This could have been quite a disaster; I'll be backing up my pc tomorrow.
+
+This is the first time I've ever had a "breaking change" with manjaro, but it was my fault and could have been prevented by reading the update notes. Live and learn.
+
+Mentioned links:
+- [[https://unix.stackexchange.com/questions/34462/why-does-linux-allow-init-bin-bash][Why does linux allow init bin bash]]
+- [[https://forum.manjaro.org/t/cant-login-after-update/16231][Can't login after update]]
+- [[https://forum.manjaro.org/t/stable-update-2020-08-28-kernels-systemd-pam-pambase-kde-git-deepin-pamac-nvidia-450-66-libreoffice-7-0/16146/2][Update notes]]
+- [[https://forum.manjaro.org/t/cannot-boot-to-rescue-mode-solved/25636][Cannot boot to rescue mode solved]]
+
+** DONE First ox-hugo post                     :org_mode:hugo:@Productivity:
 CLOSED: [2020-08-24 Mon 21:51]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: first-ox-hugo-post
 :EXPORT_FILE_NAME: index
 :END:
-
 *** This is Awesome!
 
 I just installed [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]], an org extension that makes it easy to export org files as hugo posts.
@@ -51,13 +244,12 @@ Personally I like using hugo leaf bundles for all my hugo posts because it helps
 
 
 *** Have fun!
-** DONE First Thoughts On Org Roam                  :org_mode:roam_research:
+** DONE First Thoughts On Org Roam                  :org_mode:roam_research:@Productivity:
 CLOSED: [2020-08-24 Mon 22:49]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: first-thoughts-on-org-roam
 :EXPORT_FILE_NAME: index
 :END:
-
 *** Background
 
 I find myself taking a lot of notes, and was looking for a place to store them.
@@ -137,18 +329,17 @@ If you want to enable [[https://github.com/org-roam/org-roam-server][org-roam-se
 I'm probably still in the honey moon phase, so i'll have to revisit these thoughts later, but right now i'm having a blast. It's great that taking notes is as easy as =SPC a f f=, and it's very rewarding to see the org roam graph growing over time. 
 
 I will say that at this point I rarely look at a note i've taken in the past, but even so writing something down helps me think things out, and potentially improves my retention on a topic. Hopefully over time I'll capitalize more on the ability to look at historical notes.
-** DONE Moving From GSuite to Migadu     :email_hosting:email:gsuite:migadu:
+** DONE Moving From GSuite to Migadu     :email_hosting:email:gsuite:migadu:@Productivity:
 CLOSED: [2020-08-27 Thu 00:22]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: moving-from-gsuite-to-migadu
 :EXPORT_FILE_NAME: index
 :END:
-
 Like many things, moving to Migadu from another email hosting provider is a two step process:
 
 1. Deciding that Migadu is the right option for you
 2. Making the switch
-
+   
 *** Why Migadu
 
 Just recently, Migadu went through a [[https://www.migadu.com/blog/redesign/][redesign]]. Here are some helpful links for learning about their services:
@@ -181,51 +372,46 @@ Personally, I let Luke Smith's [[https://github.com/LukeSmithxyz/mutt-wizard][mu
 That's it!
 
 *** Enjoy the benefits of Migadu
-
 I lied, there's actually a third step in the process of moving to Migadu: enjoy!
 
 I'm most looking forward to avoiding the headache of setting up domain specific email accouts for side projects. Exciting times lay ahead.
-** TODO Connecting Org Mode to Google Calendar
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: connecting-org-mode-to-google-calendar
-:EXPORT_FILE_NAME: index
-:END:
-
-I was getting ready for university to start, and was organizing my schedule. Last year I had taken care of this with Google Calendar, but that was a version of me before I had discovered org mode.
-
-Initially my instinct was to go for Google Calendar again, and find a way to sync it with my org agenda. This could be helpful in other ways as well. When emails add events to google calenar, it would automatically sync it to my org agenda.
-
-When researching for potential ways of integrating, I came across old [[https://github.com/myuhe/org-gcal.el][org-gcalc]], new I discovered [[https://github.com/kidd/org-gcal.el/][org-gcalc]].
-
-It was not too difficult to setup.
-
-I was able to add my course schedules to google calendar and sync it to my org agenda.
-
-It was at that point that I began wondering why I couldn't just directly add events to my org agenda. What's the point of using google calendar?
-
-Potential points for google calendar integration:
-- Better mobile support (although I need to look more into org mode mobile solutions)
-
-Potential points against google calendar integration:
-- Maybe I should be scheduling tasks myself instead of letting gmail take care of it. It would take marginally more effort, but potentially would help me remember the event better.
-- Using google calendar would only mean less effort if I stopped using some org features like tagging.
-
-
-Current position:
-- Look into mobile support and see how hard it is to schedule tasks from mobile
-
-If it is easy:
-- I'm going to use native org mode for scheduling my own tasks
-
-If it is hard:
-- I'll use google calendar for scheduling tasks on the go, and might as well use it for everything? Maybe not.
-
-Try to remove biases when making these decisions.
-** TODO Setting Up Org Mode On Mobile
+** DONE Syncing Org Files to Dropbox - Access Them From Anywhere :org_mode:@Productivity:
+CLOSED: [2020-09-18 Fri 09:00]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: setting-up-org-mode-on-mobile
 :EXPORT_FILE_NAME: index
 :END:
+:LOGBOOK:
+CLOCK: [2020-09-04 Fri 12:17]--[2020-09-04 Fri 13:15] =>  0:58
+:END:
+By Adding org files to the cloud, you can access them from anywhere (yes, even when you're not at your computer!). This is very useful, especially for accessing org files from a mobile device.
+
+*** Setting Up Dropbox
+
+
+Create a [[https://www.dropbox.com/h][dropbox]] account and install it on your computer. The Dropbox free tier gives 2GB of storage. On arch you can install with =yay -S dropbox=.
+
+By default, dropbox will create a folder at =~/Dropbox=. Now we need to connect the agenda files to this folder. We can do this with a symlink!
+
+You can have symlinks that link to items both in and outside of your Dropbox account; however, these two types of symlinks sync differently. See [[https://help.dropbox.com/installs-integrations/sync-uploads/symlinks][Dropbox symlink help]].
+
+- If you create a symlink that links to an item in your Dropbox account, we’ll sync the the symlink file at its location and the item that it links to at its location respectively
+- If you create a symlink that links to an item outside of your Dropbox account, when you sign in to dropbox.com you’ll only see the symlink file but not the content it links to
+
+
+This means that we actually have to move the agenda files into the =~/Dropbox= folder, and then create a symlink back to their original location. For me this was easy because because I have a folder designated to storing my agenda files.
+
+#+begin_src bash
+mv ~/.org/agenda/ ~/Dropbox
+ln -s ~/Dropbox/agenda ~/.org/agenda
+#+end_src
+
+There you go, now your org files are synced to your dropbox and can be accessed from anywhere with an internet connection.
+
+*** What Next?
+
+Now that your files are synced to Dropbox, it's super easy to get started with a mobile org program like =Organice= or =Orgzly=. For =Organice= you navigate to [[https://organice.200ok.ch/][https://organice.200ok.ch/]] in a web browser, sign in, and you're done. You can learn more about the differences between =Organice= and =Orgzly= [[https://colekillian.com/snippets/comparing-organice-and-orzly/][here]].
+
 ** DONE Comparing Organice and Orzly                :org_mode:@Productivity:
 CLOSED: [2020-09-04 Fri 11:58]
 :PROPERTIES:
@@ -233,7 +419,6 @@ CLOSED: [2020-09-04 Fri 11:58]
 :EXPORT_FILE_NAME: index
 :CATEGORY: Productivity
 :END:
-
 I was looking for a way to connect to org mode from my phone. My main goals were to:
 - Write todos when away from the computer
 - Read todos when away from the computer
@@ -289,6 +474,36 @@ In keeping with these goals, I prefer Organice because of the capture templates 
 Keep in mind these are my initial impressions. My plan is to go with Organice for a few weeks and report back with anything else I notice.
 
 Feel free to leave a comment below!
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: _about
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+** TODO Site Map
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: site_map
+:EXPORT_FILE_NAME: index
+:END:
+
+Categories for the site:
+- Software_Dev :: Things related To software development.
+- Productivity :: Productivity. Computer tweaks. 
+- Thoughts :: For thoughts, quick and short.
+- Stories :: For stories. Backpacking. Breaking into computer. Similar to thoughts, but story based.
+
+Web Dev is chill. But what if I do something Computer workflow related that helps with web dev? Then put it in both categories. That's fine. Same with productivity.
+
+So "To Take Notes or Not to Take Notes, That is the Question" would go in "Thoughts" and "Productivity".
+
+Need to improve categories.
+
+Web Dev is easy. Everything that aids goes there.
+
+Productivity should follow the same route. Everything that aids productivity goes there.
+
+What about Web Dev Productivity? Web Dev takes preference.
+
+How to distinguish between long and short posts? Don't worry about it. There will be a separate projects section.
 
 * Projects
 :PROPERTIES:

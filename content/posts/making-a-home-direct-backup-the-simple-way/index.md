@@ -2,8 +2,8 @@
 title: "Making a Home Direct Backup the Simple Way"
 date: 2020-06-08T00:32:39-04:00
 draft: false
-tags: ["linux"]
-categories: ["Technical"]
+tags: ["linux", "computer-workflow"]
+categories: ["Productivity"]
 ---
 
 After all the configuring you may do to your linux machine, it would be sad to see it all go down the drain in some unforseen event. This is where making a backup of your home folder can come in handy. It's not quite an ISO that you can boot off of, but if you are trying to reference certain config files in the future you'll know where to look.

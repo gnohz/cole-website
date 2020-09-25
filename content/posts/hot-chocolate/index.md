@@ -3,7 +3,7 @@ title: "Parable of the Hot Chocolate"
 date: 2020-05-03
 draft: false
 tags: ["parable", "control variables"]
-categories: ["Backyard Philosophy"]
+categories: ["Thoughts"]
 ---
 
 There was a boy who wanted to find the perfect strategy for heating hot chocolate. His weapon of choice was the microwave, but he had to find how long to radiate it for.

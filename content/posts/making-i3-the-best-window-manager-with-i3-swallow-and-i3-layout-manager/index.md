@@ -2,8 +2,8 @@
 title: "Making i3 the Best Window Manager with i3-swallow and i3-layout-manager"
 date: 2020-06-22T21:56:08-04:00
 draft: false
-tags: ["linux", "i3", "wm"]
-categories: ["Technical"]
+tags: ["linux", "i3", "wm", "ricing", "computer-configuration"]
+categories: ["Productivity"]
 ---
 
 # Intro

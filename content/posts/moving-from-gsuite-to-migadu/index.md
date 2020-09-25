@@ -2,8 +2,8 @@
 title = "Moving From GSuite to Migadu"
 date = 2020-08-27T00:22:00-04:00
 tags = ["email-hosting", "email", "gsuite", "migadu"]
+categories = ["Productivity"]
 draft = false
-weight = 2003
 +++
 
 Like many things, moving to Migadu from another email hosting provider is a two step process:
