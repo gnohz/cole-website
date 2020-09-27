@@ -108,7 +108,7 @@ Time tracking becomes difficult, because if you want to time track an event from
 And it's not important to get fine grained time tracking to the specific meeting itself. A general task of =meetings= for a set of categories that I could clock to would suffice.
 
 **** Synced
-There's actually two options here. A combination of pushing events from org mode to google calendar, and pulling them from google calendar to org mode.
+By using [[https://github.com/myuhe/org-gcal.el][org-gcal]], you can push events from org mode to google calendar, and pull them from google calendar to org mode.
 
 In either case you get to take advantage of the google calendar view without giving up org mode, but there are some limitations to the integration.
 - repeating org events

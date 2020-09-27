@@ -62,7 +62,7 @@ And it's not important to get fine grained time tracking to the specific meeting
 
 ## Synced {#synced}
 
-There's actually two options here. A combination of pushing events from org mode to google calendar, and pulling them from google calendar to org mode.
+By using [org-gcal](https://github.com/myuhe/org-gcal.el), you can push events from org mode to google calendar, and pull them from google calendar to org mode.
 
 In either case you get to take advantage of the google calendar view without giving up org mode, but there are some limitations to the integration.
 
