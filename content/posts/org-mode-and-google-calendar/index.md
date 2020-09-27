@@ -76,7 +76,7 @@ You also have to deal with the potential headache of keeping everything synced u
 
 Use org mode for everything and don't use google calendar
 
-There are solutions like `emacs-calfw` that try to implement a better calendar view for org mode. The experience is not as nice as google calendar though.
+There are solutions like [emacs-calfw](https://github.com/kiwanami/emacs-calfw/) that try to implement a better calendar view for org mode. The experience is not as nice as google calendar though.
 
 It can be problematic to completely give up google calendar. Shared calendars come to mind. It is hard to escape google calendar.
 
@@ -95,8 +95,3 @@ Sometimes it's more effective to experiment then to theorize. After reflecting o
 This leaves me deciding between isolated and separated. The main difference being that separated gives better weekly view, and isolated means "inline" notes for events.  At first I had an irrational fear of the separated approach, but now I am warming up to it. Even so, I'm gonna give the isolated appraoach a go for a couple weeks and see if I feel like I am missing anything.
 
 Stay tuned by subscribing to the [rss feed](https://colekillian.com/index.xml) and feel free to leave a comment below!
-
-Links:
-
--   [Irreal Post on Syncing GCal with Org Agenda](https://irreal.org/blog/?p=5839)
--   [Emacs Calendar](https://github.com/kiwanami/emacs-calfw/)
