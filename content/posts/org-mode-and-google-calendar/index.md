@@ -1,8 +1,9 @@
 +++
-title = "Org Mode vs Google Calendar"
+title = "Org Mode and Google Calendar"
+date = 2020-09-27T17:46:00-04:00
 tags = ["org-mode", "google-calendar"]
 categories = ["Productivity"]
-draft = true
+draft = false
 +++
 
 I've been having an internal debate over org mode and google calendar. Normally I manage the scheduling of my courses using Google Calendar, but would it be better to use org mode instead?
@@ -32,10 +33,13 @@ I've been having an internal debate over org mode and google calendar. Normally 
 Don't need a perfect system. Looking for something good. If it ain't broke don't fix it.
 
 -   What am I missing by using org mode?
+
     I feel like I am missing shared calendars and a great weekly view.
 -   Are shared calendars valuable?
+
     My understanding is that they practically become a necessity once entering the work force. Personally, however, I currently have no use for them.
 -   Is a great weekly view valuable?
+
     It makes it easy to see conflicting events, and how they are spaced out throughout your day.
 
 

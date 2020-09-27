@@ -43,9 +43,10 @@ If it is hard:
 - I'll use google calendar for scheduling tasks on the go, and might as well use it for everything? Maybe not.
 
 Try to remove biases when making these decisions.
-** TODO Org Mode vs Google Calendar :@Productivity:org_mode:google_calendar:
+** DONE Org Mode and Google Calendar :@Productivity:org_mode:google_calendar:
+CLOSED: [2020-09-27 Sun 17:46]
 :PROPERTIES:
-:EXPORT_HUGO_BUNDLE: org-mode-vs-google-calendar
+:EXPORT_HUGO_BUNDLE: org-mode-and-google-calendar
 :EXPORT_FILE_NAME: index
 :END:
 :LOGBOOK:
@@ -72,10 +73,13 @@ I've been having an internal debate over org mode and google calendar. Normally 
 *** Deciding Questions
 Don't need a perfect system. Looking for something good. If it ain't broke don't fix it.
 - What am I missing by using org mode?
+
   I feel like I am missing shared calendars and a great weekly view.
 - Are shared calendars valuable?
+
   My understanding is that they practically become a necessity once entering the work force. Personally, however, I currently have no use for them.
 - Is a great weekly view valuable?
+
   It makes it easy to see conflicting events, and how they are spaced out throughout your day.
 
 *** COMMENT LifeStyle
