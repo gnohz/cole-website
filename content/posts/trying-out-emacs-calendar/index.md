@@ -1,8 +1,9 @@
 +++
 title = "Trying Out Emacs Calendar"
+date = 2020-09-30T10:35:00-04:00
 tags = ["org-mode"]
 categories = ["Productivity"]
-draft = true
+draft = false
 +++
 
 I was investigating emacs calendar options anc ame across [emacs-calfw](https://github.com/kiwanami/emacs-calfw/). It's a nice package for viewing calendar items from howm, ical, cal, or org in a google calendar like format.

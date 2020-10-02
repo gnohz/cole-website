@@ -1,8 +1,9 @@
 +++
 title = "Serving a React App on a Subroute With Express"
+date = 2020-10-01T10:15:00-04:00
 tags = ["React", "Express"]
 categories = ["Software-Dev"]
-draft = true
+draft = false
 +++
 
 There will come a time when you are looking to serve a create react app on a subroute via express. Look no further!

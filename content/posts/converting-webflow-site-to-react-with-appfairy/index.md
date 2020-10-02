@@ -150,14 +150,18 @@ Unfortunately, "On Enter" page transitions don't transfer over very easily to Re
 
 The easiest way to get around this is to change from using an "On Page Load" trigger to a "Button Click" trigger. Assign the button click trigger to a button which you then set `display: none`, and `id=animation-button`.
 
-Now from inside the useEffect (or componentDidMount for a React component) function of the view controller you can add in the following in order to trigger the animation the right way everytime!
+Now from inside the componentDidMount function of the view you can add in the following in order to trigger the button animation as early as `webflow.js` loads.
 
 {{< highlight javascript >}}
-useEffect(() => {
-  document.getElementById("animation-button").click();
-  setTimeout(() => {
-    document.getElementById("animation-button").click();
-  }, 1000);
+componentDidMount() {
+  loadjs(
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f2dda51c2612e23d6a6b31f",
+    function () {
+      loadjs("js/webflow.js", function () {
+        document.getElementById("animation-button").click();
+      });
+    }
+  );
 }
 {{</ highlight >}}
 
