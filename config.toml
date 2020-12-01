@@ -47,6 +47,16 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 4
+  [[menu.main]]
+    identifier = "book-notes"
+    pre = ""
+    post = ""
+    name = "Book Notes"
+    url = "/book-notes/"
+    title = ""
+    weight = 5
+
+
 
 # Markup related config in Hugo
 [markup]
