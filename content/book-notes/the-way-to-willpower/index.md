@@ -1,5 +1,5 @@
 +++
-title = "The Way To Willpower"
+title = "The Way To Willpower By Henry Hazlitt"
 date = 2020-09-30T10:35:00-04:00
 draft = true
 Score = 8

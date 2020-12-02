@@ -805,7 +805,7 @@ Feel free to leave a comment below!
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: book-notes
 :END:
-** TODO The Way To Willpower
+** TODO The Way To Willpower By Henry Hazlitt
 CLOSED: [2020-09-30 Wed 10:35]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: the-way-to-willpower
