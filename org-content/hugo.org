@@ -937,6 +937,15 @@ CLOCK: [2020-11-06 Fri 15:43]--[2020-11-06 Fri 16:22] =>  0:39
 :END:
 #+end_src
 
+*** Time Spent Reviewing/Writing
+
+*Total time: 3:19*
+#+begin_src 
+:LOGBOOK:
+CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
+CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
+:END:
+#+end_src
 
 * About
 :PROPERTIES:
@@ -1045,6 +1054,10 @@ These are skills I have developed in the past.
 - Magic Card Tricks
 - Bike Wheelie
   
+** TODO Habits / Rules
+- No Phone In Bed or Bathroom
+- Cold Showers
+- Workout At Least Every Other Day
 ** DONE About
 CLOSED: [2020-12-02 Wed 09:47]
 :PROPERTIES:

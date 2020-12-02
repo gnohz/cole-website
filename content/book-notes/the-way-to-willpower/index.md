@@ -192,3 +192,15 @@ CLOCK: [2020-11-07 Sat 08:03]--[2020-11-07 Sat 08:22] =>  0:19
 CLOCK: [2020-11-06 Fri 15:43]--[2020-11-06 Fri 16:22] =>  0:39
 :END:
 ```
+
+
+# Time Spent Reviewing/Writing {#time-spent-reviewing-writing}
+
+**Total time: 3:19**
+
+```nil
+:LOGBOOK:
+CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
+CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
+:END:
+```
