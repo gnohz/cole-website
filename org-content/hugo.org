@@ -968,7 +968,7 @@ Productivity should follow the same route. Everything that aids productivity goe
 What about Web Dev Productivity? Web Dev takes preference.
 
 How to distinguish between long and short posts? Don't worry about it. There will be a separate projects section.
-** Computer
+** Elaborate on Computer Configuration
 I use Manjaro i3.
 
 Emacs for development and organization.
@@ -982,39 +982,107 @@ Emacs for development and organization.
 Keepmenu
 Firefox
 St
-** Skills In Progress
 
-Having a skill i'm excited to develop keeps me happy and energized.
+** DONE What I'm Doing Now
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: now
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :narrow true
+:END:
 
-*** Current
+(This is a [[https://nownownow.com/about][now]] page. If you have your own site, [[https://nownownow.com/about][consider making one too!]])
+
+
+*** Artifai
+
+I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [[https://firebasestorage.googleapis.com/v0/b/artifai.appspot.com/o/architecture%2FArtifaication%20Pipeline.png?alt=media&token=1634450b-3187-432f-b910-2332856cfe37][https://artif.ai]].
+
+*** McGill
+
+I'm a U2 honors math and computer science at McGill. My list of coursework is [[https://colekillian.com/coursework-overview/][here]].
+
+*** Skills In Progress
+(inspired by [[https://jamesbvaughan.com/skills-in-progress/][james vaughan]])
+
+One thing that helps me stay happier and more energized is to always be working on developing a skill. As Willy Wonka says, we have "so much time and so little to do".
+
+**** Current
+These are skills that I'm currently working on.
 
 - Fullstack Development
 - Competitive Programming
 - Acoustic Guitar and Singing
 - Writing
-- 1 minute handstand
+- 1 Minute Handstand
+- Leadership
+- Storytelling
 
-*** Backlog
+**** Backlog
+These are skills that I'm excited to work on, but that I'm not making time for just yet.
 
 - Electric Guitar
-- Solve a rubik's cube blindfolded
-- Start YouTube channel
+- Solve a Rubik's Cube Blindfolded
+- YouTube channel
 - Straddle Planche
 - Reinforcement Learning
+- Marathon
+  
+**** Back-Backlog
+These are skills that I hope to get to eventually, but it could be a while.
 
-*** Way Backlog
+- Paint
+- Piano
+- Biology
 
-- 
-** Inspiration
+**** Past
+These are skills I have developed in the past.
 
-This blog takes inspiration from the following sites:
-- https://vasilishynkarenka.com/
-- https://www.nateliason.com
-- https://jamesbvaughan.com/
-- https://aliabdaal.com/
-- http://paulgraham.com/
-- https://lepisma.xyz/
-- https://mtlynch.io/
+- Standing Backflip
+- Basketball Finger Spin
+- 150 Soccer Juggles
+- Unicycle
+- Magic Card Tricks
+- Bike Wheelie
+  
+** DONE About
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: about
+:EXPORT_FILE_NAME: index
+:END:
+
+<img src='/images/cole.jpg' title="Cole Killian" style="float: right; border-radius: 50%" width="200px"/>
+
+Hello there! My name is Cole. Currently a U2 Math
+<br>
+and Computer Science student at McGill.
+
+Excited about the future. I try to spend my free time hiking, <br>
+playing guitar, building side projects, reading, writing, <br> and seeing friends. Here's what I'm working on [[/now][now]].
+
+I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know what brings <br> you here or if you want grab coffee.
+
+*** Tech
+- My daily driver is a ThinkPad T450.
+- I run [[https://manjaro.org/][Manjaro]] [[https://i3wm.org/][i3]] ([[https://github.com/Ruborcalor/voidrice][dotfiles]]).
+- I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
+- I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
+- [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
+
+*** People
+I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
+- [[http://paulgraham.com/][Paul Graham]]
+- [[https://www.nateliason.com][Nat Eliason]]
+- [[https://jamesbvaughan.com/][James Vaughan]]
+- [[https://aliabdaal.com/][Ali Abdaal]]
+- [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
+- [[https://mtlynch.io/][Michael Lynch]]
+- [[https://web.evanchen.cc/][Evan Chen]]
+
+
+
+
 
 * Projects
 :PROPERTIES:

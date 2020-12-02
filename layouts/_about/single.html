@@ -3,8 +3,13 @@
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
 
-    <article class="single" style="width:80%; margin: auto;">
-        {{- /* Title */ -}}
+      {{- if eq $params.narrow true -}}
+      <article class="page single">
+      {{- else -}}
+      <article class="single" style="width:80%; margin: auto;">
+      {{- end -}}
+
+      {{- /* Title */ -}}
         <h1 class="single-title">{{ .Title }}</h1>
 
         {{- /* Subtitle */ -}}
@@ -27,5 +32,6 @@
         </div>
 
 
-    </article>
+      </article>
+
 {{- end -}}
