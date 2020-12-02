@@ -117,3 +117,22 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
 /* li .has-active { */
 /*     line-height:0.7rem; */
 /* } */
+
+#book-desktop {
+  display: block;
+}
+
+#book-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+
+  #book-desktop {
+    display: none;
+  }
+
+  #book-mobile {
+    display: block;
+  }
+}

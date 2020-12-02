@@ -83,7 +83,8 @@
         {{- end -}}
 
         {{- /* Review */ -}}
-        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <div id="book-desktop" style="margin-top: 20px;">
+        <div style="display: flex; justify-content: center;">
           <div style="min-width: 260px; max-width: 260px; margin-right: 2.5rem;">
             <a href="{{ .RelPermalink }}" >
             <img src="{{ .RelPermalink }}/book_cover.png" style="display: inline-block; width: 100%" href>
@@ -91,6 +92,30 @@
           </div>
 
           <div style="height: 100%">
+            <!-- <div>
+                 {{- default "January 2, 2006" | .Date.Format -}}
+                 </div>
+            -->
+            <div style="">
+              My rating: {{ .Params.Score }}/10
+            </div>
+
+            <div style="margin-top: 20px">
+              {{ .Params.Thoughts }}
+            </div>
+
+          </div>
+        </div>
+            </div>
+
+        <div id="book-mobile" style="margin-top: 20px;">
+          <div style="width: 100%;">
+            <a href="{{ .RelPermalink }}" >
+              <img src="{{ .RelPermalink }}/book_cover.png" style="display: inline-block; width: 100%" href>
+            </a>
+          </div>
+
+          <div>
             <!-- <div>
                  {{- default "January 2, 2006" | .Date.Format -}}
                  </div>

@@ -13,7 +13,7 @@
         {{- /* Paginate */ -}}
         {{- if .Pages -}}
                 {{- range .Pages -}}
-                    <div style="margin-top: 80px">
+                    <div id="book-desktop" style="margin-top: 80px;">
                       <!-- <article class="archive-item"> -->
                             <a href="{{ .RelPermalink }}" style="font-size: 1.8rem; display: block">
                                 {{- .Title -}}
@@ -44,7 +44,38 @@
                                 </a>
                               </div>
                             </div>
-                    </div>
+                      </div>
+                    <div id="book-mobile" style="margin-top: 80px;">
+                      <!-- <article class="archive-item"> -->
+                            <a href="{{ .RelPermalink }}" style="font-size: 1.8rem; display: block">
+                                {{- .Title -}}
+                            </a>
+                            <div style="width: 100%; margin-top: 40px;">
+                              <a href="{{ .RelPermalink }}" >
+                                <img src="{{ .RelPermalink }}/book_cover.png" style="display: inline-block; width: 100%" href>
+                              </a>
+                            </div>
+
+                            <!-- </article> -->
+                              <div style="height: 100%">
+                                <div>
+                                  Posted&nbsp;{{- default "January 2, 2006" | .Date.Format -}}
+                                </div>
+
+                                <div style="margin-top: 20px">
+                                  My rating: {{ .Params.Score }}/10
+                                </div>
+
+                                <div style="margin-top: 20px">
+                                  {{ .Params.Thoughts }}
+                                </div>
+
+                                <a href="{{ .RelPermalink }}" style="background-color: #008CBA; border: none; color: white; padding: 15px 32px; text-align: center; font-size: 16px; margin-top: 20px; display: block; width: 110px;">
+                                  Full Review
+                                </a>
+                              </div>
+                      </div>
+
                 {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}

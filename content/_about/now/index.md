@@ -11,7 +11,7 @@ narrow = true
 
 # Artifai {#artifai}
 
-I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [https://artif.ai](https://firebasestorage.googleapis.com/v0/b/artifai.appspot.com/o/architecture%2FArtifaication%20Pipeline.png?alt=media&token=1634450b-3187-432f-b910-2332856cfe37).
+I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [https://artif.ai](https://artif.ai).
 
 
 # McGill {#mcgill}
