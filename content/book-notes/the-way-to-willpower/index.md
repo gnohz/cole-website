@@ -1,7 +1,7 @@
 +++
 title = "The Way To Willpower By Henry Hazlitt"
-date = 2020-09-30T10:35:00-04:00
-draft = true
+date = 2020-12-01T19:04:00-05:00
+draft = false
 Score = 8
 Thoughts = "The Way to WillPower was published in 1922, but still packs a ton of super valuable information relating to \"will-power\". I found many of its ideas useful in my everyday life. It's a relatively quick read, I definitely recommend!"
 +++
