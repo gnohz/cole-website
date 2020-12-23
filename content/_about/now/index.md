@@ -37,6 +37,7 @@ These are skills that I'm currently working on.
 -   1 Minute Handstand
 -   Leadership
 -   Storytelling
+-   Middle Splits
 
 
 ## Backlog {#backlog}
@@ -58,6 +59,7 @@ These are skills that I hope to get to eventually, but it could be a while.
 -   Paint
 -   Piano
 -   Biology
+-   30 Day Fast
 
 
 ## Past {#past}
