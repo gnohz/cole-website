@@ -800,11 +800,6 @@ In keeping with these goals, I prefer Organice because of the capture templates 
 Keep in mind these are my initial impressions. My plan is to go with Organice for a few weeks and report back with anything else I notice.
 
 Feel free to leave a comment below!
-
-* Book Notes
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: book-notes
-:END:
 ** DONE The Way To Willpower By Henry Hazlitt
 CLOSED: [2020-12-01 Tue 19:04]
 :PROPERTIES:
@@ -946,6 +941,114 @@ CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
 CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
 :END:
 #+end_src
+** TODO Org Pomodoro and Polybar   :org_mode:pomodoro:polybar:@Productivity:
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: org-pomodoro-and-polybar
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-23 Wed 10:33]
+:END:
+
+*** The Pomodoro Technique
+
+The pomodoro technique is a time management system where you do focused work for a set period of time (usually 25 minutes), take a quick break (usually 5 minutes), and then start again. It's great for boosting productivity because you can hold yourself accountable to finishing a pomodoro once you start it.
+
+It was about time to get pomodoro working with org-mode. Luckily there's an awesome package, [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]], that let's you do just that.
+
+*** How The Package Works
+
+There's only one command exposed by the org-pomodoro package: =org-pomodoro=. If you don't have an active pomodoro, calling =org-pomodoro= will start a timer (25 minutes by default) and clock in to the currently focused task. Once the timer runs out, a noise will be played and you will be clocked out of your task. 5 minutes later, another noise will be played to let you know that the break is over. It's then up to you to start another pomodor by calling =org-pomodoro= again.
+
+If you call =org-pomodoro= when you already have a pomodoro going, you will be prompted with whether or not you want to stop your running timer.
+
+On spacemacs the keybindings for =org-pomodoro= are =SPC m C p= or =, C p=.
+
+*** Screenshots
+
+#+html: {{< image src="./org-pomodoro.png" caption="When pomodoro timer is running" >}}
+
+#+html: {{< image src="./org-pomodoro-cancel.png" caption="After cancelling a pomodoro timer" >}}
+
+*** Customization
+
+**** Notifications
+
+The alert noise is nice, but doesn't always catch my attention, especially if I have my computer muted.
+
+Luckily it's easy to customize org-pomodoro to use libnotify so that you get visual notifications alongside the auditory ones: 
+
+#+begin_src elisp
+  (use-package org-pomodoro
+    :ensure t
+    :commands (org-pomodoro)
+    :config
+    (setq
+     alert-user-configuration (quote ((((:category . "org-pomodoro")) libnotify nil)))
+     ))
+#+end_src
+
+**** Pomodoro Length
+
+A common alternative to the 25 - 5 pomodoro settings is 50 - 10. I find that 50 - 10 works better for me. Again it's a quick change:
+
+#+begin_src elisp
+  (use-package org-pomodoro
+    :ensure t
+    :commands (org-pomodoro)
+    :config
+    (setq
+     org-pomodoro-length 50
+     org-pomodoro-short-break-length 10
+     ))
+#+end_src
+
+**** Connecting to Polybar
+
+At this point we have a working org-pomodoro, but we can see the remaining time on the timer when we are using emacs. Believe it or not sometimes I am working outside of emacs, but I still want access to the time left. We can use emacsclient to make this happen:
+
+#+begin_src elisp
+
+  (defun ruborcalor/org-pomodoro-time ()
+    "Return the remaining pomodoro time"
+    (if (org-pomodoro-active-p)
+        (cl-case org-pomodoro-state
+          (:pomodoro
+             (format "Pomo: %d minutes - %s" (/ (org-pomodoro-remaining-seconds) 60) org-clock-heading))
+          (:short-break
+           (format "Short break time: %d minutes" (/ (org-pomodoro-remaining-seconds) 60)))
+          (:long-break
+           (format "Long break time: %d minutes" (/ (org-pomodoro-remaining-seconds) 60)))
+          (:overtime
+           (format "Overtime! %d minutes" (/ (org-pomodoro-remaining-seconds) 60))))
+      "No active pomo"))
+
+#+end_src
+
+Now we can run =emacsclient -e '(ruborcalor/org-pomodoro-time)'= from the terminal and get the remaining time on the org-pomodoro timer. 
+
+To connect it to polybar, create the following shell script:
+
+#+begin_src sh
+#!/bin/sh
+
+underline_color="%{u#99c2ff}%{+u}"
+pomo_message=$(emacsclient -e '(ruborcalor/org-pomodoro-time)' | cut -d '"' -f 2)
+echo ${underline_color}${pomo_message}
+#+end_src
+
+and then add it to your polybar config (remember to include =pomodoro= in your polbar modules):
+
+#+begin_src 
+[module/pomodoro]
+type = custom/script
+exec = ~/.local/bin/scripts/pomodoro-bar.sh
+interval = 5
+#+end_src
+
+*** Conclusion
+
+I hope this helps you get up and running with org-pomodoro. Let me know if you come across any further customization improvements!
 
 * About
 :PROPERTIES:
@@ -1099,7 +1202,6 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 
 
 
-
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: projects
@@ -1112,6 +1214,175 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 ** McGill OneCard Scraper
 ** Aspine
 
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
+
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: _about
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+** TODO Site Map
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: site_map
+:EXPORT_FILE_NAME: index
+:END:
+
+Categories for the site:
+- Software_Dev :: Things related To software development.
+- Productivity :: Productivity. Computer tweaks. 
+- Thoughts :: For thoughts, quick and short.
+- Stories :: For stories. Backpacking. Breaking into computer. Similar to thoughts, but story based.
+
+Web Dev is chill. But what if I do something Computer workflow related that helps with web dev? Then put it in both categories. That's fine. Same with productivity.
+
+So "To Take Notes or Not to Take Notes, That is the Question" would go in "Thoughts" and "Productivity".
+
+Need to improve categories.
+
+Web Dev is easy. Everything that aids goes there.
+
+Productivity should follow the same route. Everything that aids productivity goes there.
+
+What about Web Dev Productivity? Web Dev takes preference.
+
+How to distinguish between long and short posts? Don't worry about it. There will be a separate projects section.
+** Elaborate on Computer Configuration
+I use Manjaro i3.
+
+Emacs for development and organization.
+- org-super-agenda
+- org-roam
+- org-noter
+- org-reveal
+- evil-org
+- org-gcal
+
+Keepmenu
+Firefox
+St
+
+** DONE What I'm Doing Now
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: now
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :narrow true
+:END:
+
+(This is a [[https://nownownow.com/about][now]] page. If you have your own site, [[https://nownownow.com/about][consider making one too!]])
+
+
+*** Artifai
+
+I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [[https://artif.ai][https://artif.ai]].
+
+*** McGill
+
+I'm a U2 honors math and computer science at McGill. My list of coursework is [[https://colekillian.com/coursework-overview/][here]].
+
+*** Skills In Progress
+(inspired by [[https://jamesbvaughan.com/skills-in-progress/][james vaughan]])
+
+One thing that helps me stay happier and more energized is to always be working on developing a skill. As Willy Wonka says, we have "so much time and so little to do".
+
+**** Current
+These are skills that I'm currently working on.
+
+- Fullstack Development
+- Competitive Programming
+- Acoustic Guitar and Singing
+- Writing
+- 1 Minute Handstand
+- Leadership
+- Storytelling
+- Middle Splits
+
+**** Backlog
+These are skills that I'm excited to work on, but that I'm not making time for just yet.
+
+- Electric Guitar
+- Solve a Rubik's Cube Blindfolded
+- YouTube channel
+- Straddle Planche
+- Reinforcement Learning
+- Marathon
+  
+**** Back-Backlog
+These are skills that I hope to get to eventually, but it could be a while.
+
+- Paint
+- Piano
+- Biology
+- 30 Day Fast
+
+**** Past
+These are skills I have developed in the past.
+
+- Standing Backflip
+- Basketball Finger Spin
+- 150 Soccer Juggles
+- Unicycle
+- Magic Card Tricks
+- Bike Wheelie
+  
+** TODO Habits / Rules
+- No Phone In Bed or Bathroom
+- Cold Showers
+- Workout At Least Every Other Day
+- Daily Recall
+** DONE About
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: about
+:EXPORT_FILE_NAME: index
+:END:
+
+<img src='/images/cole.jpg' title="Cole Killian" style="float: right; border-radius: 50%" width="200px"/>
+
+Hello there! My name is Cole. Currently a U2 Math
+<br>
+and Computer Science student at McGill.
+
+Excited about the future. I try to spend my free time hiking, <br>
+playing guitar, building side projects, reading, writing, <br> and seeing friends. Here's what I'm working on [[/now][now]].
+
+I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know what brings <br> you here or if you want grab coffee.
+
+*** Tech
+- My daily driver is a ThinkPad T450.
+- I run [[https://manjaro.org/][Manjaro]] [[https://i3wm.org/][i3]] ([[https://github.com/Ruborcalor/voidrice][dotfiles]]).
+- I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
+- I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
+- [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
+
+*** People
+I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
+- [[http://paulgraham.com/][Paul Graham]]
+- [[https://www.nateliason.com][Nat Eliason]]
+- [[https://jamesbvaughan.com/][James Vaughan]]
+- [[https://aliabdaal.com/][Ali Abdaal]]
+- [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
+- [[https://mtlynch.io/][Michael Lynch]]
+- [[https://web.evanchen.cc/][Evan Chen]]
+
+
+
+
+* Projects
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: projects
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+
+** Artifai
+** Age Prediction Via Methylation Data
+** Libravos
+** McGill OneCard Scraper
+** Aspine
 
 * Footnotes
 * COMMENT Local Variables                          :ARCHIVE:
