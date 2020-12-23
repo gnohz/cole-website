@@ -941,13 +941,14 @@ CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
 CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
 :END:
 #+end_src
-** TODO Org Pomodoro and Polybar   :org_mode:pomodoro:polybar:@Productivity:
+** DONE Org Pomodoro and Polybar   :org_mode:pomodoro:polybar:@Productivity:
+CLOSED: [2020-12-23 Wed 11:19]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: org-pomodoro-and-polybar
 :EXPORT_FILE_NAME: index
 :END:
 :LOGBOOK:
-CLOCK: [2020-12-23 Wed 10:33]
+CLOCK: [2020-12-23 Wed 10:33]--[2020-12-23 Wed 11:19] =>  0:46
 :END:
 
 *** The Pomodoro Technique

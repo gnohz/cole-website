@@ -1,8 +1,9 @@
 +++
 title = "Org Pomodoro and Polybar"
+date = 2020-12-23T11:19:00-05:00
 tags = ["org-mode", "pomodoro", "polybar"]
 categories = ["Productivity"]
-draft = true
+draft = false
 +++
 
 # The Pomodoro Technique {#the-pomodoro-technique}
