@@ -948,6 +948,7 @@ CLOSED: [2020-12-23 Wed 11:19]
 :EXPORT_FILE_NAME: index
 :END:
 :LOGBOOK:
+CLOCK: [2020-12-23 Wed 11:19]--[2020-12-23 Wed 11:29] =>  0:10
 CLOCK: [2020-12-23 Wed 10:33]--[2020-12-23 Wed 11:19] =>  0:46
 :END:
 
@@ -1050,6 +1051,187 @@ interval = 5
 *** Conclusion
 
 I hope this helps you get up and running with org-pomodoro. Let me know if you come across any further customization improvements!
+** TODO 2020 Review
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: 2020-review
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-23 Wed 19:11]--[2020-12-23 Wed 19:18] =>  0:07
+CLOCK: [2020-12-23 Wed 18:25]--[2020-12-23 Wed 19:11] =>  0:46
+CLOCK: [2020-12-23 Wed 18:19]--[2020-12-23 Wed 18:25] =>  0:06
+:END:
+
+First time writing an end of year review post.
+
+*** What Happened This Year (A lot!)?
+
+**** Learning
+- Developed fullstack skills
+- Developed algorithms and data structures skills
+- Did well in school ([[https://colekillian.com/coursework-overview][coursework]])
+
+**** Projects
+- Took Artifai from idea to first customer
+- Joined McGill NeuroTech (We got first place!)
+- Put Libravos on Hold
+
+**** Activities
+- Internship at Harvard High Performance Computing
+- Accepted to the Dobson Cup
+- McGill Effective Altruism Fellowship
+- Presented at McGill Science and Synergy
+  
+**** Physical
+- Hiked 100 miles on a 1 week backpacking trip
+- Learned to do 150 soccer juggles
+- Learned how to kite surf
+- Went Vegan and improved cooking skills
+
+**** Productivity
+- Switched from Vim to Spacemacs and discovered org-mode
+- Started using Anki
+  
+*** The bare-minimum questions:
+
+**** When have you felt proud of yourself in 2020? What were you doing?
+- Backpacking trip
+- 4th place competitive programming
+- First customer Artifai
+**** If you had to teach one thing you learnt this year (that would improve one’s quality of life) what would that be?
+- Cold showers?
+**** What kept you up at night with excitement this year? Was it worth it? Would you want to do more of it?
+Dang trying to remember back is hard.
+*** Give-me-more questions:
+    
+**** How did you have fun differently in 2020?
+- Backpacking Trip
+- Kitesurfing
+**** How did you suffer differently in 2020?
+Pretty much all of my suffering was self inflicted:
+- Cold showers
+- Working out
+- Middle splits
+**** What people/kind of people did you spend less time with in 2020?
+Covid made it harder to see people. Less time with Math kids.
+**** What people/kind of people did you spend more time with in 2020?
+Spent a lot of time with roomates. Spent a lot of time with Simon.
+**** What did you feel guilty for in 2020?
+Relationship with Megan. Not contacting family / friends enough.
+**** What 3 people are you the most grateful to in 2020 and why? How can you thank them? How can you find more people like this in your life?
+- Simon :: Main man.
+- Prateek :: Great dude to build Artifai with.
+- David :: Learn from a different perspective.
+**** What have you learnt about the way that you deal with uncertainty in 2020?
+Try to eliminate the uncertainty / work harder.
+**** What new habits did you create in 2020? Which ones would you want to keep?
+- Vegan
+- Cold Showers
+- At Home Workouts
+- Flossing
+- 
+**** Did you feel you spent enough time with your family/significant other in 2020? How would you change this in 2021?
+I didn't spend very much time, but I felt like I spent enough time. 
+**** What things did you stop caring about in 2020?
+
+**** What new thing did you spend a lot of money on in 2020?
+Artifai advertising.
+**** What new thing did you spend a lot of time on in 2020?
+Artifai
+**** What do you feel you’ve gotten a lot better at in 2020?
+Fullstack Development.
+**** What did you rediscover pleasure in in 2020?
+
+**** When you felt at peace this year, what were you doing?
+- Running
+- Biking
+- Walking
+- Guitar
+**** Which of last years goals did you not achieve? Why did you not achieve them? Will you carry them on to 2021 and if not why?
+I didn't make goals last year.
+**** How much closer are you to your “by this age” milestones (if you have any)? Do you find yourself caring less or more about these?
+Don't have any "by this age" milestones.
+**** At the end of next year, if you are drastically exceeding your expectations, what would you be doing?
+Making money from an online business.
+** DONE Libravos Post Mortem                    :startup:libravos:@Thoughts:
+CLOSED: [2020-12-23 Wed 22:49]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: libravos-post-mortem
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-23 Wed 21:50]--[2020-12-23 Wed 22:49] =>  0:59
+CLOCK: [2020-12-23 Wed 19:18]--[2020-12-23 Wed 20:06] =>  0:48
+:END:
+
+*** What is a Post Mortem?
+
+A postmortem is an exercise to learn from a recent experience that did not go according to plan.
+
+*** What Was Libravos?
+
+Libra-vos stands for "Balance"-"You" in Latin. I cofounded it with a great friend [[https://prateek.humane.com][Teek]] during our first semester at McGill.
+
+[[file:./libravos_logo.png]]
+
+We had many pivots all focused around the idea of revolutionizing insurance by cutting out the middle man. This is similar to what [[https://www.lemonade.com/][Lemonade]] is doing for home insurance in the United States. Some of the pivot descriptions included:
+- Phone insurance on your terms. Simple. Fast. Libravos
+- Libravos is a non-profit, community-oriented, home insurance company for developing countries. By operating fully autonomously, users can pool their money without paying for the additional operating costs of the company.
+
+We worked on Libravos throughout our first semester at McGill, and decided to "put it on hold" when we didn't pass one of the rounds of the Dobson Cup.
+
+*** Accomplishments
+
+Here are some things we are proud of doing while working on Libravos.
+
+**** Business Things
+- Were accepted to the [[https://www.mcgill.ca/dobson/entrepreneurship-programs/mcgill-dobson-cup][Dobson Cup]], a "flagship startup competition brings emerging McGill entrepreneurs together to compete for over $200,000 in prize money".
+- Participated in the [[https://www.mcgill.ca/dobson/entrepreneurship-programs/mcgill-lean-startup-program][Lean Startup Program]] where we met with other startups each week, practiced our pitches, developed our business models, and built our product.
+- Met to discuss Libravos with an employee at Rogers.
+- Presented our idea to one of the sponsers (Intact) at a hackathon.
+- Used google survey's to guage interest.
+- Participated in the [[https://www.boltbootcamps.com/][Bolt Pitching Contest]].
+- Met with the [[http://www.compassclinic.org/][Compass Startup Legal Clinic]] to get legal info.
+- Went to a [[https://www.facebook.com/FintechCadence/][FinTech Cadence]] networking event.
+- Interviewed potential customers on the sidewalk about Libravos.
+
+**** Product Things
+
+Most of our time was focused on developing the business model and pitching, so we didn't get too far with the actual product.
+
+- Built a [[https://devpost.com/software/libravos-mobile-app-with-chat-bot][mobile app chatbot]] that answers insurance questions using React-Native, AWS, and RASA.
+- Built a landing page https://libravos.com.
+- Setup a [[https://github.com/Libravos/receipt-parser][receipt parser]].
+
+*** Lessons
+
+**** Pursue a Project That You Can Bootstrap Yourself
+
+A continual problem we ran were the large costs attached to entering the insurance market. In Canada, you need a minimum of 5 million dollars of capital to become a registered insurance broker...
+
+How do you get around these types of problems when building a product? New insurance companies do form every year, but as college students without any real credibility, it was very difficult. 
+
+Our options were to:
+1. Build the product, put it into production without being a registered insurance broker, and generate some revenue. Then pitch.
+   - We definitely considered this option, but it would have been illegal...
+2. Build the product without putting it into production. Then pitch.
+   - Then we would at least have the product to show investors, but it's hard to convince investors to invest in something with no revenue built by college students.
+3. Don't build the product. Then pitch.
+   - You would have to have a seriously strong pitch to pull this off. With this path you are getting the investor to invest in the idea and the founders, but there's not much reason for an investor to put faith in the founders because they haven't built anything.
+
+We kept trying to push off this problem, but it always came back :)
+
+**** Solve Your Own Problem
+
+We weren't trying to solve our own problem. This was problematic because if we weren't going to use it, who would?
+
+This lead to some insecurity about the idea and a lack of understanding of the potential customers. Solving your own problem seems like the most common piece of startup advice, but we weren't really able to internalize it until we saw it for ourselves.
+
+*** Conclusion
+
+Overall, working on Libravos was an awesome experience. We learned a ton about pitching, business plans, the lean startup method, and customer validation. I'm looking forward to more adventures in the future!
+
+
 
 * About
 :PROPERTIES:
@@ -1189,7 +1371,7 @@ I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know wha
 - I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
 - I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
 - [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
-
+  
 *** People
 I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
 - [[http://paulgraham.com/][Paul Graham]]
@@ -1200,9 +1382,109 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 - [[https://mtlynch.io/][Michael Lynch]]
 - [[https://web.evanchen.cc/][Evan Chen]]
 
+** Colophon
+:LOGBOOK:
+CLOCK: [2020-12-23 Wed 17:39]--[2020-12-23 Wed 18:19] =>  0:40
+CLOCK: [2020-12-23 Wed 17:05]--[2020-12-23 Wed 17:08] =>  0:03
+CLOCK: [2020-12-23 Wed 16:23]--[2020-12-23 Wed 17:05] =>  0:42
+CLOCK: [2020-12-23 Wed 13:17]--[2020-12-23 Wed 13:41] =>  0:24
+:END:
+
+Here I describe my blogging workflow / setup.
+
+- I use hugo for building the website. I use the "Love It" theme with some modifications.
+- When I think of a post idea, I capture it with org-capture.
+- I write my posts in org-mode and export them using ox-hugo
+- When taking notes in general I'll save them to org-roam. Then i'll copy snippets over to the post I am writing.
 
 
+Ideal workflow:
+- get an idea for a blog post. org-capture to blog/posts
+- mark some posts as "next", assign deadlines.
 
+Types of posts:
+- Stuff where I have everything and just need to publish
+  these skip org roam and go straight to the website
+- Stuff where I need to do the writing.
+  these can start in org-roam.
+
+Post categories:
+- productivity
+- stories
+- software development
+- thoughts / backyard-philosophy
+
+These would all be nice to have in org-roam. The only problem is clocking into tasks? Yes you can clock into org-roam. So now I'm leaning towards doing everything in org-roam. This reduces duplication, adds all posts to org-roam. Supports backlinks. Oh yeah how do I add TODO to the agenda? I can have a specific view for parsing TODO from org-roam directory. Which will all be blog posts. How do I capture a blog idea? I make an org-roam file with a TODO.
+
+When converting org-roam to polished, I can leave unpolished stuff in a comment.
+
+Things to setup:
+- parsing from org-roam directory
+
+Posts are a polished subset of org-roam.
+
+Let's think about the ideal.
+
+Criteria:
+- don't duplicate
+- add posts to org-roam
+- support backlinks
+- quickly capture blog ideas
+- time track how long is spent on a post
+
+Revised criteria:
+- 
+
+What would backlinks in hugo mean? It would mean:
+- a list of the posts that link to the post
+
+Is this useful to me? not really. I don't link from one article to another very often. If I want this functionality I could get it later. But then I would need linking indication. You could either manually parse, or make a list of links in one place.
+
+Backlinks could be overwhelming.
+
+Questions for myself:
+- Do I want to mix org-roam with posts?
+  org-roam is more for personal notes. posts are more polished and sometimes come from org-roam, but this means duplication.
+- Why do I want posts in org-roam?
+  Because it's cool to have more posts in org-roam.
+
+Decision. Keep posts and org-roam separate. org-roam is a wiki, posts are what I post.
+
+Examples to think about:
+- firebase parallel
+  Something that's helpful to put in wiki, but I also want to post about.
+- org pomodoro
+  Something that's helpful to put in the wiki, but I also want to post about.  
+
+But what about duplicating in the wiki for something that is a post and the research behind it?
+
+Is there anything that won't be helpful in the wiki? No. So then you want everything in the wiki?
+
+Everything in org-roam:
+Pros:
+- everything in it's own post isolation. Not much benefit here
+- Can use org-roam back links
+- Everything is in org-roam
+Cons:
+- harder to visualize the site map
+- can't use hierarchy features
+
+What is the point of org-roam? To keep a wiki for myself and others to reference. wiki's are research, posts are "polished" posts.
+
+Can you clock into org-roam posts? Yeah but then you would have to parse all of org-roam when getting agenda. I don't want to do that.
+
+Okay so conclusion is:
+- stay the same way
+ 
+Doesn't look like it will be possible to build org-agenda from org-roam. So TODO can't go in org-roam. This definitely affects plan.
+
+So then I would have an org file for tracking the time spent on a post, but actually write the posts in org-roam. But then what is the advantage of this over writing the posts in the org agenda file? No real benefit. Except that I can have the "peace of mind" of keeping everything together in org-roam. But I could just copy things over if I want to.
+
+Okay so then we are back at square one. Keep them separate. Use org-roam for research. Write posts in ox-hugo. Some potential duplication. And posts won't be a part of the of the org-roam graph. This is unfortunate. Is there a way to get the best of both worlds? Really the only thing I care about is the graph at the end.
+
+Is there anything broken with the way I have it right now? No. So I'm going to leave it the way it is. Migration to another system later on probably wouldn't take too long.
+
+In conclusion, would it be nice to have all the posts in org-roam? Yes. Is it worth it right now? Maybe. But it would take a bit of time to setup. I have other things to do. I can come back to it another time.
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: projects
@@ -1216,11 +1498,6 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 ** Aspine
 
 * Footnotes
-* COMMENT Local Variables                          :ARCHIVE:
-# Local Variables:
-# eval: (org-hugo-auto-export-mode)
-# End:
-
 * About
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: _about
@@ -1369,7 +1646,6 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 - [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
 - [[https://mtlynch.io/][Michael Lynch]]
 - [[https://web.evanchen.cc/][Evan Chen]]
-
 
 
 
