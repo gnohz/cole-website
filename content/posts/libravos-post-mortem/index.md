@@ -6,11 +6,6 @@ categories = ["Thoughts"]
 draft = false
 +++
 
-# What is a Post Mortem? {#what-is-a-post-mortem}
-
-A postmortem is an exercise to learn from a recent experience that did not go according to plan.
-
-
 # What Was Libravos? {#what-was-libravos}
 
 Libra-vos stands for "Balance"-"You" in Latin. I cofounded it with a great friend [Teek](https://prateek.humane.com) during our first semester at McGill.

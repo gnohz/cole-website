@@ -1164,10 +1164,6 @@ CLOCK: [2020-12-23 Wed 21:50]--[2020-12-23 Wed 22:49] =>  0:59
 CLOCK: [2020-12-23 Wed 19:18]--[2020-12-23 Wed 20:06] =>  0:48
 :END:
 
-*** What is a Post Mortem?
-
-A postmortem is an exercise to learn from a recent experience that did not go according to plan.
-
 *** What Was Libravos?
 
 Libra-vos stands for "Balance"-"You" in Latin. I cofounded it with a great friend [[https://prateek.humane.com][Teek]] during our first semester at McGill.
