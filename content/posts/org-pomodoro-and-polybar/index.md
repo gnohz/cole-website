@@ -15,7 +15,7 @@ It was about time to get pomodoro working with org-mode. Luckily there's an awes
 
 # How The Package Works {#how-the-package-works}
 
-There's only one command exposed by the org-pomodoro package: `org-pomodoro`. If you don't have an active pomodoro, calling `org-pomodoro` will start a timer (25 minutes by default) and clock in to the currently focused task. Once the timer runs out, a noise will be played and you will be clocked out of your task. 5 minutes later, another noise will be played to let you know that the break is over. It's then up to you to start another pomodor by calling `org-pomodoro` again.
+There's only one command exposed by the org-pomodoro package: `org-pomodoro`. If you don't have an active pomodoro, calling `org-pomodoro` will start a timer (25 minutes by default) and clock in to the currently focused task. Once the timer runs out, a noise will be played and you will be clocked out of your task. 5 minutes later, another noise will be played to let you know that the break is over. It's then up to you to start another pomodoro by calling `org-pomodoro` again.
 
 If you call `org-pomodoro` when you already have a pomodoro going, you will be prompted with whether or not you want to stop your running timer.
 
@@ -98,7 +98,7 @@ pomo_message=$(emacsclient -e '(ruborcalor/org-pomodoro-time)' | cut -d '"' -f 2
 echo ${underline_color}${pomo_message}
 ```
 
-and then add it to your polybar config (remember to include `pomodoro` in your polbar modules):
+and then add it to your polybar config (remember to include `pomodoro` in your polybar modules):
 
 ```nil
 [module/pomodoro]

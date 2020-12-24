@@ -8,7 +8,7 @@ draft = false
 
 # What Was Libravos? {#what-was-libravos}
 
-Libra-vos stands for "Balance"-"You" in Latin. I cofounded it with a great friend [Teek](https://prateek.humane.com) during our first semester at McGill.
+Libra-vos stands for "Balance"-"You" in Latin. I cofounded it with a great friend [Teek](http://prateek.humane.com) during our first semester at McGill.
 
 {{< figure src="libravos_logo.png" >}}
 
@@ -73,6 +73,8 @@ We kept trying to push off this problem, but it always came back :)
 We weren't trying to solve our own problem. This was problematic because if we weren't going to use it, who would?
 
 This lead to some insecurity about the idea and a lack of understanding of the potential customers. Solving your own problem seems like the most common piece of startup advice, but we weren't really able to internalize it until we saw it for ourselves.
+
+I think the main reason we (and probably other people) fell into this trap is that they we were building Libravos for the sake of making a startup rather than from our excitement to solve our own problem.
 
 
 # Conclusion {#conclusion}
