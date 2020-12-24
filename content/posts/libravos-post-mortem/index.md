@@ -74,7 +74,7 @@ We weren't trying to solve our own problem. This was problematic because if we w
 
 This lead to some insecurity about the idea and a lack of understanding of the potential customers. Solving your own problem seems like the most common piece of startup advice, but we weren't really able to internalize it until we saw it for ourselves.
 
-I think the main reason we (and probably other people) fell into this trap is that they we were building Libravos for the sake of making a startup rather than from our excitement to solve our own problem.
+I think the main reason we (and probably other people) fell into this trap is that we were building Libravos for the sake of making a startup rather than from our excitement to solve our own problem.
 
 
 # Conclusion {#conclusion}
