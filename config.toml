@@ -185,7 +185,7 @@ theme = "LoveIt"
   #  Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    paginate = 50
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages

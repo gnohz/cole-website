@@ -100,17 +100,17 @@ My goal is to do 20 minutes of intense exercise everyday. If I want to do more o
 
 ## Becoming a Decent Sales Guy {#becoming-a-decent-sales-guy}
 
-The best way to become good at something, is to practice. I will be practicing by trying to take Artifai to sustainability, the point where the revenue offsets the infrastructure costs (which are pretty high for Artifai, unfortunately). I know that with the right set of marketing actions, it is possible.
+The best way to become good at something, is to do it. I will be doing it by trying to take Artifai to sustainability, the point where the revenue offsets the infrastructure costs (which are pretty high for Artifai, unfortunately). I know that with the right set of marketing actions, it is possible.
 
 
 ## Becoming A Better Leader {#becoming-a-better-leader}
 
-Similarly to marketing, this comes with practice. I really want to be a good leader, but am not one. Like other things, this requires a time investment. This resolution will require getting further from my comfort zone than the others. It involves communicating with other people.
+Similarly to marketing, this comes with practice. I really want to be a good leader, but am not an especially good one. Like other things, this requires a time investment. This resolution will require getting further from my comfort zone than the others. It involves communicating with other people.
 
 
 ## Becoming A Better Story Teller {#becoming-a-better-story-teller}
 
-Being a good story teller improves many aspects of life, so I'd like to become one. My plan is to read Storyworthy, and to practice.
+Being a good story teller improves many aspects of life, so I'd like to become one. My plan is to read Storyworthy, and to practice. My plan is to record myself telling a story once a week on Mondays.
 
 
 # The Four Burners Theory {#the-four-burners-theory}
