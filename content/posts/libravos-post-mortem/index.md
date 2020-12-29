@@ -2,7 +2,7 @@
 title = "Libravos Post Mortem"
 date = 2020-12-23T22:49:00-05:00
 tags = ["startup", "libravos"]
-categories = ["Thoughts"]
+categories = ["Retrospectives"]
 draft = false
 +++
 
@@ -17,7 +17,7 @@ We had many pivots all focused around the idea of revolutionizing insurance by c
 -   Phone insurance on your terms. Simple. Fast. Libravos
 -   Libravos is a non-profit, community-oriented, home insurance company for developing countries. By operating fully autonomously, users can pool their money without paying for the additional operating costs of the company.
 
-We worked on Libravos throughout our first semester at McGill, and decided to "put it on hold" when we didn't pass one of the rounds of the Dobson Cup.
+We worked on Libravos throughout our first semester at McGill, and decided to "put it on hold" when we didn't pass one of the rounds of the Dobson Cup. It lived from September 2019 to January 2020.
 
 
 # Accomplishments {#accomplishments}

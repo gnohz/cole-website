@@ -3,7 +3,6 @@
 #+HUGO_BASE_DIR: ../
 #+hugo_level_offset: 0
 
-
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -486,7 +485,7 @@ Sometimes it's more effective to experiment then to theorize. After reflecting o
 This leaves me deciding between isolated and separated. The main difference being that separated gives better weekly view, and isolated means "inline" notes for events.  At first I had an irrational fear of the separated approach, but now I am warming up to it. Even so, I'm gonna give the isolated appraoach a go for a couple weeks and see if I feel like I am missing anything.
 
 Stay tuned by subscribing to the [[https://colekillian.com/index.xml][rss feed]] and feel free to leave a comment below!
-** DONE Hacking Into My Computer After Getting Locked Out     :@Story:linux:
+** DONE Hacking Into My Computer After Getting Locked Out   :@Stories:linux:
 CLOSED: [2020-09-25 Fri 10:11]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: hacking-into-my-computer-after-getting-locked-out
@@ -1051,49 +1050,238 @@ interval = 5
 *** Conclusion
 
 I hope this helps you get up and running with org-pomodoro. Let me know if you come across any further customization improvements!
-** TODO 2020 Review
+** DONE 2020 Year In Review. Thinking Towards 2021         :@Retrospectives:
+CLOSED: [2020-12-29 Tue 00:41]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: 2020-review
 :EXPORT_FILE_NAME: index
 :END:
 :LOGBOOK:
+CLOCK: [2020-12-28 Mon 23:15]--[2020-12-28 Mon 23:41] =>  0:26
+CLOCK: [2020-12-28 Mon 11:32]--[2020-12-28 Mon 12:30] =>  0:58
+CLOCK: [2020-12-28 Mon 09:00]--[2020-12-28 Mon 10:01] =>  1:01
+CLOCK: [2020-12-27 Sun 22:12]--[2020-12-27 Sun 22:21] =>  0:09
+CLOCK: [2020-12-27 Sun 19:46]--[2020-12-27 Sun 20:22] =>  0:36
+CLOCK: [2020-12-27 Sun 19:14]--[2020-12-27 Sun 19:17] =>  0:03
+CLOCK: [2020-12-27 Sun 18:32]--[2020-12-27 Sun 19:13] =>  0:41
 CLOCK: [2020-12-23 Wed 19:11]--[2020-12-23 Wed 19:18] =>  0:07
 CLOCK: [2020-12-23 Wed 18:25]--[2020-12-23 Wed 19:11] =>  0:46
 CLOCK: [2020-12-23 Wed 18:19]--[2020-12-23 Wed 18:25] =>  0:06
 :END:
 
-First time writing an end of year review post.
+This is the first time I write an end of year review post. I used [[https://www.preetamnath.com/blog/2020-year-in-review][Prateem's]] as a model when writing it. The point of this post is to reflect on what happened this year, think about what could have gone better, and ensure that the important aspects of life are given the right priority, time, and effort. I'm publishing it in part in the hopes that a reader will find the information valuable, and in part for accountability. The new year doesn't make this a better time to reflect than any other, but I figured I would take the opportunity during winter break.
 
-*** What Happened This Year (A lot!)?
+*** What Made 2020 Great
 
-**** Learning
-- Developed fullstack skills
-- Developed algorithms and data structures skills
-- Did well in school ([[https://colekillian.com/coursework-overview][coursework]])
+A lot happened this year!
 
 **** Projects
-- Took Artifai from idea to first customer
-- Joined McGill NeuroTech (We got first place!)
-- Put Libravos on Hold
+- Took [[../a-technical-overview-of-artifai][Artifai]] from idea to first customer
+- Put [[../libravos-post-mortem][Libravos]] on Hold
 
 **** Activities
-- Internship at Harvard High Performance Computing
-- Accepted to the Dobson Cup
-- McGill Effective Altruism Fellowship
+- [[../summer-2020-internship-at-harvard-high-performance-computing/][Internship]] at Harvard High Performance Computing
+- Joined McGill NeuroTech
+- Participated in the McGill Dobson Cup
+- Completed the McGill Effective Altruism Fellowship
 - Presented at McGill Science and Synergy
-  
+- Attended a couple Hackathons
+
 **** Physical
 - Hiked 100 miles on a 1 week backpacking trip
-- Learned to do 150 soccer juggles
-- Learned how to kite surf
+- Learned to do 150 soccer juggles in a row
+- Got better at kite surfing
 - Went Vegan and improved cooking skills
 
 **** Productivity
 - Switched from Vim to Spacemacs and discovered org-mode
 - Started using Anki
-  
-*** The bare-minimum questions:
 
+**** Learning
+- Developed fullstack skills
+- Developed algorithms and data structures skills
+- Went to school ([[https://colekillian.com/coursework-overview][coursework]])
+  
+*** What Could Have Been Better In 2020 
+
+The main mistakes that contributed to the things that could have been better are:
+- lack of discipline
+- taking on too many other responsibilities that I shouldn't have prioritized as highly
+
+**** Writing Consistency
+
+Sometimes I would go months without blogging. I told myself that it was because I didn't have time, but in reality it's because I wasn't making it a priority above other things like school work.
+
+**** Reading Consistency
+
+I read lots and lots of blog posts and documentation, but few books. I've found it really important to always have a book that you are reading, so that during downtime you can default to reading that book rather than hackernews or facebook. I have a list of books I'm excited to read, but I didn't make it happen.
+
+**** Exercising Consistency
+
+I didn't make as much progress on becoming a gym shark athlete as I might have liked :). With covid I started doing at home workouts, but I wasn't able to stick to a strict routine for long periods of time. I was almost there.
+
+**** Progress with Marketing
+
+I like to think that reason Artifai is still in the red is not because of the quality of the website, but because of my lack or marketing skills. The reason for my lack of skills is the same for any other lack of skill; I didn't deciate enough smart time to it.
+
+*** What I Look Forward To In 2021
+
+My plan for accomplishing the below is to practice more discipline, and to take a lighter courseload at school.
+
+**** COMMENT Meta
+Below are a set of goals shaped as processes. I look forward to the journey taken for each of these goals in 2021.
+
+When you think of a whole year ahead, think in terms of:
+- defining your high-level goals (where you are headed)
+- defining the purpose of the goal (which serves as motivation when things aren’t great)
+- setting directional checkpoints (which tell you that you’re headed in the right direction)
+
+Set plans in terms of quarters.
+
+Focus on the inputs rather than the outputs. The idea is if you pick the right inputs to focus on, the outputs will take care of themselves.
+
+Following the rules laid out in "The Way To Willpower", I need to carefuly assess the costs associated with each resolution. In the case of each of the below, it is a time commitment, that I won't be able to commit to other things like social events or relationships or school. I value these resolutions above social events or relationships or... I was going to write school but find it difficult. I like to think that if I sacrifice social events and relationships, I will be able to perform well in school and fulfill the below resolutions.
+
+**** Growing This Website
+
+I'd like 2021 to be the year where consistently write 4 posts per month. Writing is something I get excited about. This isn't the first time I've told myself I would write one post per week, but this will be the time that I live up to the resolution. Once I develop consistency in my writing, I'd like to look to YouTube.
+
+**** Learning From Books
+
+There is so much to learn from books. But I can't learn from books if I don't read them. My goal is to read one book per month, so by the end of the year I will have read 12 books. Ideally this will mean 12 book notes as well.
+
+**** Continuing the Quest to Becoming a Gymshark Athlete
+
+My goal is to do 20 minutes of intense exercise everyday. If I want to do more on a given day, that is fine too. How hard can it be? It's great because it helps keep me in shape, and also primes me for the rest of a day.
+
+**** Becoming a Decent Sales Guy
+
+The best way to become good at something, is to practice. I will be practicing by trying to take Artifai to sustainability, the point where the revenue offsets the infrastructure costs (which are pretty high for Artifai, unfortunately). I know that with the right set of marketing actions, it is possible.
+
+**** Becoming A Better Leader
+
+Similarly to marketing, this comes with practice. I really want to be a good leader, but am not one. Like other things, this requires a time investment. This resolution will require getting further from my comfort zone than the others. It involves communicating with other people.
+
+**** Becoming A Better Story Teller
+
+Being a good story teller improves many aspects of life, so I'd like to become one. My plan is to read Storyworthy, and to practice.
+
+**** COMMENT Am I Listing Too Many Things?
+
+Time calculation. Frame everything in terms of time per week.
+
+*** The Four Burners Theory
+
+It can be helpful to reflect on where you fall in the [[https://jamesclear.com/four-burners-theory][four burners theory]]. I'm planning on making health and work priorities for the coming year. It makes me a bit uneasy that I don't know whether or not this will be a regret in the future, but I don't think it will.
+
+*** COMMENT Goals For 2021
+- publish one blog post a week
+- read one book a month
+- exercise 20 minutes everyday
+- improve marketing and take artifai to sustainability
+- improve leadership skills
+- improve story telling skills
+- become comfortable with being perceived as an "asshole"
+- improve competitive programming skills (less of a priority). Main reason I see this as appealing is because I think it's something I could get very good at. And it's enjoyable to be very good at something. Also it would help with interviews. But I won't be doing interviews for another 9 months.
+
+*** COMMENT 5 Lessons
+
+I'm not sure I like this format, because I compress what could be 5 posts into one.
+
+**** Make Sleep A Priority
+
+One big difference for me between 2020 and 2019, is I slept a lot more this past year.
+
+Last year 
+This past semester.
+
+**** Just Do It
+
+Say yes and make it happen.
+
+**** Go On Walks After Meals
+**** Start The Day With Exercise
+**** Don't Rush Into Development. Make A Design, and Don't Do Premature Optimization.
+**** Give The Benefit Of The Doubt
+**** Get A Nice Chair
+
+*** COMMENT What Made 2020 Great
+
+**** Working on Artifai
+
+I worked on [[https://artif.ai][Artifai]] on and off through out the year with some friends at McGill. We took it from idea to first customer! Users have now created 4000+ artifaications using the site. Unfortunately, we have a long way to go to get out of the red, with just 2 unknown customers.
+
+Along the way I had to learn React, Material-UI, and GCP.
+
+Overall it's been a blast and helped ground the year. Always something to be working on.
+
+I practiced leadership skills.
+
+**** McGill NeuroTech
+
+Joined an awesome group of mcgill students working on building an EMGBoard. A "keyboard" that comes in the form of wristbands that let you type in the air. [[https://www.youtube.com/watch?v=6IJuLtj3400][This]] is the final video we submitted to the NeuroTechX competition (We got first place!). Met a ton of awesome people.
+
+**** Internship at Harvard High Performance Computing
+
+Over the summer I interned a Harvard HPC. I got to work on an awesome project scaling up the academic cluster for the incoming wave of virtual students. I got to learn a lot more about what goes into performance testing software. You can find my final presentation [[https://ruborcalor.github.io/Academic-Cluster-Presentation/][here]].
+
+**** Writing on colekillian.com for 6,600 readers
+
+I'm trying to get into writing consistently. The numbers for this year weren't especially inspiring (12,399 page views), but I'm looking forward to writing more consistently in 2021. It's a very enjoyable process.
+
+**** Participating in the McGill Lean Startup Program and Dobson Cup
+
+I took Libravos through the McGill Lean Startup Program dn Dobson Cup.
+
+It's fun to see the business side of things. The McGill Lean Startup Program is a 5 week program where you meet with other early stage startups and mentors to develop you business and practicing pitching. Met a bunch of awesome people and had a great time. Public speaking is something that makes me more anxious than almost anything out, but I'd like to work on improving my relationship with it. I enjoy it a lot when I do a good job.
+
+The Dobson Cup is a startup competition. We made it in, but didn't get past the first round. It was at this point that we put Libravos on Hold. But still a lot of fun to practice pitching.
+
+**** McGill Effective Altruism Fellowship
+
+Took place this past Fall. We would meet once a week after doing some prereadings and discuss topics related to effective altruism. Overall it was a nice sense of community during the fall, and helped me to learn more about effective altruism.
+
+**** Presented at McGill Science and Synergy
+
+After working on Epigenosys, I presented my work at McGill Science and Synergy. This was my first time getting the chance to share something I had been working on. Overall a really cool experience.
+
+**** Physical Things
+
+The backpacking trip was wicked. It's incredible what a new experience you can expose yourself to over the course of a week.
+
+Over the summer my main way of getting of the house was to practice soccer juggling. I would practice for about 30 minutes a day and went from a PR of around 25 to 150.
+
+Over the summer I went kiteboarding 3 or 4 times in MA. For the first time I am able to go upwind. Got to the point where I starting working on jumps which are a lot of fun.
+
+At the start of this fall semester I went Vegan. I speak more on it here.
+
+**** Productivity Things
+
+Discovering org-mode changed my life for good, whether for better or worse. Many of my posts this past year were related to it. Now I'm at the point where I time track what I am working for 24/7. I can't see myself using any other todo tool. Anki was great well. I'm definitely not using it to it's fullest potential, but it was good to start using it and see its power.
+
+**** Learning Things
+
+In working on Artifai and NeuroTech I improved my fullstack skills. This fall I got into competitive programming a bit. On Kattis I now have 170 points. I'd like to make more time for competitive programming, but it was great to get introduced to it.
+
+Then of course, there was school. I took 13 courses this past year and learned a lot.
+
+*** COMMENT Where Do I Want To Be In 5 Years
+
+This is a difficult question. It kinda related to the meaning of life, but it's not quite as difficult as that.
+
+There are few different places I could see myself in 5 years:
+- Working as a software developer
+- In grad school for MD or PhD in CS
+- Building my own startup
+
+Things I would like to have accomplished in 5 years:
+- become a decently sized blogger
+- become a decently sized youtuber
+- have made profitable side projects
+- become a good story teller
+- learned a planche
+
+*** COMMENT The bare-minimum questions:
 **** When have you felt proud of yourself in 2020? What were you doing?
 - Backpacking trip
 - 4th place competitive programming
@@ -1102,8 +1290,7 @@ First time writing an end of year review post.
 - Cold showers?
 **** What kept you up at night with excitement this year? Was it worth it? Would you want to do more of it?
 Dang trying to remember back is hard.
-*** Give-me-more questions:
-    
+*** COMMENT Give-me-more questions:
 **** How did you have fun differently in 2020?
 - Backpacking Trip
 - Kitesurfing
@@ -1153,7 +1340,7 @@ I didn't make goals last year.
 Don't have any "by this age" milestones.
 **** At the end of next year, if you are drastically exceeding your expectations, what would you be doing?
 Making money from an online business.
-** DONE Libravos Post Mortem                    :startup:libravos:@Thoughts:
+** DONE Libravos Post Mortem              :startup:libravos:@Retrospectives:
 CLOSED: [2020-12-23 Wed 22:49]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: libravos-post-mortem
@@ -1174,7 +1361,7 @@ We had many pivots all focused around the idea of revolutionizing insurance by c
 - Phone insurance on your terms. Simple. Fast. Libravos
 - Libravos is a non-profit, community-oriented, home insurance company for developing countries. By operating fully autonomously, users can pool their money without paying for the additional operating costs of the company.
 
-We worked on Libravos throughout our first semester at McGill, and decided to "put it on hold" when we didn't pass one of the rounds of the Dobson Cup.
+We worked on Libravos throughout our first semester at McGill, and decided to "put it on hold" when we didn't pass one of the rounds of the Dobson Cup. It lived from September 2019 to January 2020.
 
 *** Accomplishments
 
@@ -1228,9 +1415,442 @@ I think the main reason we (and probably other people) fell into this trap is th
 *** Conclusion
 
 Overall, working on Libravos was an awesome experience. We learned a ton about pitching, business plans, the lean startup method, and customer validation. I'm looking forward to more adventures in the future!
+** DONE Summer 2020 Internship at Harvard High Performance Computing :internship:locust:@Retrospectives:
+CLOSED: [2020-12-05]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: summer-2020-internship-at-harvard-high-performance-computing
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-26 Sat 13:28]--[2020-12-26 Sat 13:37] =>  0:09
+CLOCK: [2020-12-25 Fri 00:30]--[2020-12-25 Fri 00:40] =>  0:10
+CLOCK: [2020-12-24 Thu 09:42]--[2020-12-24 Thu 10:38] =>  0:56
+:END:
 
+*** High Level Overview
+I intered at Harvard HPC for 12 weeks (High Performance Computing) the summer of 2020.
 
+Due to Covid, the internship was virtual. I was working from my families home in Cambridge, MA.
 
+My work focused on improvements to the Harvard academic cluster. I was lucky to work alongside lots of awesome and brilliant colleagues. :)
+*** What Did I Learn
+
+**** Skills
+- I learned a lot about performance testing software. Previously i've relied on services like Firebase Hosting which remove some responsibility for performance testing and coding scalability.
+- I got very familiar with linux monitoring tools.
+- I learned "locust", a python performance testing framework.
+
+**** Lessons
+- Make sure to design tests based on what information you are trying to learn from them.
+- It's not always worth it to analyze the results of performance tests that assume a higher load than you would ever expect in practice.
+- Watch out for threading problems in third party packages.
+
+*** What Did I Get Done
+
+The technical details of my work is pretty well summarized by [[https://ruborcalor.github.io/Academic-Cluster-Presentation/][this presentation]] I gave at the end of the internship (I didn't record it unfortunately).
+
+Here is an overview of the things I was most proud of accomplishing:
+- After using performance testing to identify bottlenecks in the user account creation pipeline backend, I was able to modify it and improve processing speed by 15 times (Python, Bash).
+- I coded [[https://gist.github.com/Ruborcalor/86300f7f1a17f75c34b10b778c83962d][web server performance tests]] which exposed unexpectedly high load averages on web server hosts, and found a way to reduce that load by 70% (Locust).
+- I built a [[https://github.com/Ruborcalor/hpc-status-app][dashboard]] that enables non technical users to understand the complex Harvard super computer status (React, Passenger).
+- Shared my load testing script and findings with the OSC OnDemand community: [[https://discourse.osc.edu/t/load-testing-ood/986/6][post]].
+
+*** COMMENT Memorable Events
+
+**** Code Test Python Fail
+Python dictionary syntax tripped me up.
+
+**** Giving Tech Talk
+
+**** Posting on Discourse
+
+**** =event_mpm= threading issues
+
+*** Thanks
+This experience would not have been possible without the many awesome colleagues I got to work alongside.
+- Special thanks Francesco for being such a great mentor this past summer and instilling me with a sense of confidence and responsibility. I wouldn't have grown and learned as much as I did without your constant feedback.
+- Special thanks Raminder for having me back to intern this past summer and believing in me.
+
+*** COMMENT Comments
+
+Nobody is interested in this level of detail. I will link the final presentation for the people interested in the details. What is the point?
+- To identify lessons
+- To give a high level overview of what I was up to over the summer
+
+Who wants to read this? I don't. It's more a personal reflection. This thought was prompted by the idea of putting this under the "stories" category. I shouldn't do this, because I'm not framing it as a story. I'll have to make another category for reflections/retrospectives.
+** DONE Summer 2019 Internship at Harvard High Performance Computing :internship:@Retrospectives:
+CLOSED: [2020-12-01]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: summer-2019-internship-at-harvard-high-performance-computing
+:EXPORT_FILE_NAME: index
+:END:
+
+*** High Level Overview
+
+I intered at Harvard HPC for 12 weeks (High Performance Computing) the summer of 2019.
+
+I lived with my family and would bike to and from work (about 15 minutes) each day.
+
+My work focused around improving support for tracking client storage allocations. I was lucky to work alongside lots of awesome and brilliant colleagues. :)
+
+*** What Did I Learn
+
+**** Skills
+- I learned Django, MySQL, and Docker
+- Learned about the all of the communication involved with designing the structure of a new database.
+
+**** Lessons
+- Don't iterate through designs by coding them; instead use a tool like Figma and then code it once you settle on a design.
+
+*** What Did I Get Done
+
+Here is an overview of the things I was most proud of accomplishing:
+- Coded a dashboard that enables Harvard FASRC clients to view, request, or terminate their storage allocations.
+- Built a storage request form that helps streamline the process by which clients acquire more storage.
+- Designed a MySQL database for tracking storage allocations and storage transactions.
+
+*** COMMENT Memorable Events
+
+Hard to remember back over a year ago unfortunately.
+
+**** Giving Final Presentation
+**** Friday Happy Hour
+**** Getting My Name on the Door :)
+**** Meeting with Aaron the django pro and discussing i3 vs dwm.
+**** Watching volleyball and doing pushups during lunch.
+**** So many friendly faces
+**** Departing lunch at felipes
+
+*** Thanks
+
+This experience would not have been possible without the many awesome colleagues I got to work alongside. Special thanks to Raminder for being such a great mentor this past summer. This was my first software engineering internship; I wouldn't have grown and learned as much as I did without your constant feedback.
+** TODO One Week Backpacking Trip                     :backpacking:@Stories:
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: one-week-backpacking-trip
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-26 Sat 18:55]--[2020-12-26 Sat 19:14] =>  0:19
+CLOCK: [2020-12-26 Sat 17:43]--[2020-12-26 Sat 18:06] =>  0:23
+CLOCK: [2020-12-26 Sat 16:41]--[2020-12-26 Sat 17:43] =>  1:02
+:END:
+
+*** Overview
+
+This past summer I went on my first backpacking trip with two friends from highschool: Soren and Thomas. Soren and Thomas had backpacked before, but it was my first time. We hiked just about 100 miles over the course of 7 days!
+
+*** Preparation
+
+- I found my backpacking backpack on the side of the road left out for the trash. At first we weren't sure if it was going to cut it, but it worked out fine in the end (although it was heavy, creeked a lot, put a sharp pressure on hips, and fabric coming apart onto anything you put into the bag).
+- Thomas and I were vegetarian for the trip. We packed food which consisted primarily of freeze dried food, cliff bars, granola bars, and a jar of peanut butter.
+
+*** Day 1
+
+- Woke up at 7. Soren, Thomas, and I had done a practice camping on the roof of my house.
+- We drove over to Soren's house where we had eggs for breakfast.
+- Laurentiu is driving. Quite the character. I remember there was one close incident, but can't remember exactly what it was.
+- Stop at a gas station on the way where I get this notebook. I'm so glad I did.
+- Arrive at the trail head. We start off, ready to go.
+- The parents hike along behind us for about 30 minutes, but they can't keep up. We are on our own!
+- I wear a single shirt and pants for the 7 days.
+- We reach the summit of the first ascent. It's the top of a ski lift. Beautiful. Change from pants to shorts.
+- We see a trail resorer. We chat with him for a bit. He has a machette that he cuts down trail obstructions with. He notices our high morals and says that our morals are high because we haven't gotten wet yet.
+- We go down from the ski lift. We see a pack of 6 girls. I didn't realize this was the first day. They were going to the opposite direction. One of them was wearing a McGill shirt so I said "wow I got to McGill too".
+- After we pass them I start saying "We should've asked...", but then stop myself because I realize that I was trying to spread the "blame" when really it was entirely up to me to ask them a question. I wanted to ask them the details of their hike and how it was going.
+- We summit a second mountain and stop for our first snack. Feels really good. We are eating at the top.
+- We find our first stream and filter some water. While filtering water soren got out his ukelele and we started making up some songs together. Good times.
+- We find another bigger stream and take our first swim break. First swim on the first day! We were having a good time. Soren and Thomas had already dunked their heads, so it was my turn. I went for the big plunge, and when I resurface my glasses were missing! This was a relatively deep river, and the water was mostly clear, but not clear enough for us to find the glasses easily. And the river was flowing pretty strongly so we were afraid they could get pushed downstream! Soren guarded the downstream exit, while Thomas and I searched for the glasses. We found them! That would have been quite brutal if I had lost my glasses on the first day.
+- We continue to the campsite. Set up the tent. The first freeze dried meals!
+- An old man tells us to stay at this campsie instead of continuing forwards.
+- We eat our meals by the river.
+- Once it gets dark, we skinny dip in the river. It was very shallow so it was more of a pushup and spin move haha. First swim on the first day!
+- We put our food in a nearby bear box.
+- We sleep. Takes me a while to fall asleep, but pretty good.
+
+*** Day 2
+
+- Wake up and east some musli. It's a food very similar to overnight oats.
+- We pack up the tent. I am trying to squeeze it against the trunk of a tree to speed up the flow of water. A branch punctures the water filter! It's the second morning lol.
+- We continue forward, eventually reaching a lake.
+- Thomas goes swimming nakes. Some rangers pass by and we chat with them while thomas is hiding the lower half of his body in the water. It's difficult though because the lake is super shallow haha. Thomas didn't realize when he was first getting in. What a small world; turns out Thomas and Soren competed against the rangers in the MA sailing team league.
+- We climb a mountain. Thomas calls with crystal. I get a selfie video on top of the mountain using a mini tripod I brought. Glad I brought it.
+- We continue forward. We are ascending a mountain and keep thinking we are about to summit, but we never do.
+- We finally get to the top and find a bunch of stacked rocks. There wasn't much of a view here. We rest for a bit and eat some snacks.
+- We start descending. Soren thinks he saw the shelter so we all get our hopes up, but turns out it was just a really big rock.
+- We are getting quite thirst and are out of water. Soren thinks he sees a river, but it's a mirage. Just some more rocks haha.
+- We find a shelter with gross mosquito water, but it's kind of running. We filter some of it, make a wood fire and cook our meals. We lay down the tent and a tarp.
+- We decide that there is still enough daylight that we want to continue forwards to make up for the below expected miles we hiked on the first day.
+- We are all kind of delerious from the lack of water and are laughing somewhat hysterically at the smallest things. Thomas thinks we are jokin about resuming hiking, but we pack up and go.
+- We find a marking on the ground that says "Pinta People". We discuss for a while what it could possible mean.
+- We find a humongous river like the potomac and fill the big water filter with water but keep going instead of filtering because it is starting to get dark. This is the popped water filter, but we covered the hole with duct tape which works well enough. We want to find the next shelter before the sun sets. We alternate carrying the full water filter.
+- We get lost for a bit trying to find the trail. After going the wrong way for some time, we find our way.
+- We find a highway. Soren said that the shelter should be 1.5 miles past the highway so we are almost there!
+- We keep hiking at a good pace for 2 hours but never find the shelter. We keep thinking that we must be almost there, and keeping mistaking objects for the shelter, but it never comes. We are unsure if we already past is or what the deal is.
+- It is not getting very dark. Pitch black in fact. Thomas takes the lead with a headlight, and I am in back with a very bright bike light.
+- We are all thirstier than ever before. We finally stop and consume the water we have been carrying in the water filter. We wanted to wait till camb, but it looks like that isn't going to happen.
+- We drink some water and decide to stop for the night, thinking we passed the shelter (we hiked what must have been 5 miles).
+- We find a side trail named "lake loop" and follow it in search of water. The next day we realize that the a lake used to be there, but that it is all dried up.
+- The loop is longer than we thought. We aren't finding water and decide to stop and setup camp in the middle of a pitch black forest where we have no idea where we are. I think I may have been a bit grumpy.
+- We find a small patch off the trail. Not quite flat or root free but good enough.
+- We setup the tent. Everyone gets in. It smells horrible haha.
+- I find a bit of wtare left in my camel pack and devour it secretly without sharing haha. It's enough water for me to fall asleep.
+- Part of the reason we want to find a shelter so badly is that they have bear boxes where you can hide you food. In this case we leave our bags outside so that if a bear comes, at least it doesn't eat us, just our bags. We had really been manifesting a bear while walking in the dark, thinking any noise could be the bear coming.
+- Sleepytime.
+
+*** Day 3
+
+- Wake up to Soren and Thomas.
+- We pack up the tent. I take my first poo and use the emergen wipes. Very peaceful to poo in the forest.
+- Hit the trail. 20 minutes later we fid the shelter. We were so close! Looking at the map we see that it was 5.5 miles from the highway after all, not 1.5...
+- We stop to fill up on water. There is a very nice stream with a grey pipe that makes filtering the water very easy despite the shallowness of the stream.
+- Cook some freeze dried food for breakfast. Tastes sooo good.
+- I setup the tripod and take some videos. We are having a good time, but then the phone runs out of battery unfortunately.
+- We hear moose noises.
+- Thomas discovers that he missplaced the charging cable so no more phone. I'm bummed cause it's too bad not to be able to take photos.
+- Everyone uses the mens. Mine is a bit messy. Flies are quick to attack. Thank God for emergen wipes lmao.
+- Hit the rode. We summit a very pretty forest. We almost set up the hammock but don't.
+- We find a gorge. It's beautiful.
+- We all swim around to cool off and clean our selves. The first somewhat deep swimming location. Water is cold but feels amazing. There are some tourists there because the gorge is about 5 minutes from road access, so we keep our underwear on.
+- We take lunch break #1. Spend some time patching up food blisters. They are quite bad.
+- We keep hiking and cross a highway.
+- We stop to fill up water at a stream. After the previous experiences, we do not want to be stuck without water again. We eat lunch break #2 at the stream. It is super relaxing.
+- We continue onwards and arrive at the shelter. It is still pretty early in the day with sunlight.
+- There is a beautiful privy and river.
+- We setup a campfire and get food ready. Then we take bathe in the shallow river. My blisters are not fans. Walking around bearfoot. The water is freezing, but we dry off by the fire.
+- We put our food in the lockable privy.
+- Relax by the fire, play some ukelele, and go to bed.
+
+*** Day 4
+
+- Onwards. Everyone uses the privy.
+- We hike up killington mountain. It's absolutely incredible. The tallest summit yet.
+- There is a really cool shelter with bunk beds that we check out.
+- We find another person. He thought we were bears or something.
+- My joints are really starting to get angry with me. Doesn't like.
+- Thomas thinks there might be a restaurant on top and begins manifesting it, desperate to find it, but Soren protests because it would cut into the daylight.
+- Find a way to get higher by climbing a platform at the top. Kinda sketch, with a lot of floor boards missing, but we navigate our way up and enjoy the view.
+- We cross a highway. There is a nice inn where backpackers can normally stop for a warm meal and bed, but it is closed because of Covid. We do take the opportunity to throw out whatever trash we had, and find a person with cute dogs which we pet.
+- We keep hiking and find a nice overlook where we setup a hammock and relax. First round of popping blisters.
+- We meet a stranger and chat with her a bit. Seems nice. She is on a mission to drive to hiking trails in 6 states or something like that.
+- We find an official campsite. It has running water! What incredible technology!
+- They have beach volley ball courts. We pretend to play without a ball. Good times.
+- We keep going and find an awesome lake. Actually swimmable. It's a very hard choice to decide whether we stay here or keep going. Soren convinces us to make up the 2 remaining miles in the day tomorrow.
+- We swim across the lake to an island in the middle. We are manifesting snapping turtles, but luckily none appear. There are some musical toads on the island in the middle. I lag behind because I'm afraid for my blisters, but I make it across. There are some kayakers. And a boy fishing. What a different life it would be to live out here.
+- We come back and dry off while cooking food. We eat and then sleep. In the tent Thomas notices that some green stuff has invaded his blisters. He's not sure if they came from the lake or how they got there. He's a bit stressed about it, but Soren tells him not to worry about it (because Soren wants to go to sleep). We all go to bed.
+
+*** Day 5
+
+- We continue onwards. 
+- Pass by some construction workers and try to ask them for some food, but either they completely ignored us, or couldn't hear us. It's chill though.
+- We find a lake dock and walk out on it but it is somewhat falling apart and starts sinking as we walk out. Good times.
+- We hike through an awesome forest with lots of big rocks.
+- We stop at a river for a snack.
+- There is a steep descent off a rock with a ladder to help you out. Soren just jumps down. No injury.
+- I realize I lost my sleeping pad! I go back to look for it, but can't find it... Alas...
+- We cross a bridge and find some old dudes chilling out by the river. They offer us some trail magic! Pretzels, doritos, lolly pops, and some other snacks. Very cool. They said that hikers were a lot less frequent because of Covid.
+- I take the lead and go full speed up this mountain. I'm sweating like balls and exhausted but I just keep pushing. I keep telling myself 30 more steps. Soren and Thomas are barely keeping up and keep asking me to slow down, but I really just want to get to the top. The thing is that the top never comes haha. Eventually we stop for lunch before we reach the top, even though I protest, saying that we'll get a better view with which to eat lunch once we get to the top. It's chill though. Looking out at the forest is nice too.
+- After lunch we keep going and we do reach the top. It's incredible! This is the highest summit so far I think.
+- There is a shelter at the top of the mountain with a ladder to the roof. This shelter you can actually rent out, but it's open to backpackers when nobody is staying. It finally clicked why the trail to this shelter was so much more well maintained than the rest of the AT. I guess they don't want it to be too hard for the less intense people who rent out the shelter.
+- We climb the ladder onto the roof. There are lots of bees on the top. We take some photos, and give each of our parents a call.
+- Inside the cabin we find snickers, a pop tart, and pistachios! That snickers was the best snickers I've ever had.
+- "leave behind nature valley". Not sure what this is.
+- We go down the mountain and find the next shelter. Unfortunately we can't find any water nearby. Just a dried up river. We keep looking and I find some eventually a bit further downstream.
+- We fill up all of our water packs and make dinner. Then we take it back to the shelter and eat there.
+- We almost start a fire but decide to go to bed instead. We do a rotated sleeping pad strategy because I lost mine so we only have two left.
+
+*** Day 6
+
+- We pack up at shelter.
+- I take a poo in the privy with the door open looking out onto all the trees.
+- We hike for a while. We walk through a farm and find cows! They come right up to us and swarm us on all sides and really like being pet. They seem very interested in us. I was a bit afraid at first but in the end nobody got there fingers bit off. The cows had a bunch of flies in their eyes which was a bit unnerving, but it's cool.
+- Eventually we continue fowards. We stop at a brooke and make a freeze dried lunch.
+- Lots of breaks in the canopy today which makes everything much hotter than it already was.
+- We roll down a hill.
+- Giant mini forests where there are a bunch of plants that look like trees, but only go up to waste height. Really makes you feel like a giant.
+- We stop in the forest and setup the hammock. Nice to relax. Soren and I finish off our peanut butter jars.
+- I go in the hammock and it feels amazing.
+- We keep going towards west hartford, the "big town" of the trip. We fantisize about what we'll find in the town.
+- We find some trail magic sodas which gives us the sugar rush to climb up a mountain.
+- We make it to the last road. This is the longest we walk on a road.
+- We try to find a gas station or restaurant but fail to map food.
+- We meet a friendly family who had just gone swimming and offers us some sodas. We ask if there is a gas station nearby but they say it is about 10 minutes by car which is wayy too far.
+- We find a library with wifi, an ice cream store and a post office. The ice cream store is closed because of covid. The post office has the functionality of letting you ship yourself care packages as you hike along.
+- We find a house with an "AT" sign on it. We check it out and find a friendly woman who gives us soda and says we can camp in her backyard for the night, and use her hose for tap water.
+- We setup camp/tenta nd bring food and water to the river across the road. It's huge! By far the deepest.
+- We find some locals bridge jumping. e join in. The water is very warm. Bridge jumping is awesome.
+- After the bridge jumping we start making dinner. The locals find it funny that we are cooking food and spending the night at their local swimming location.
+- They leave. We eat and washup with soap.
+- Go to bed looking at the stars because we don't expect it to rain. Excited to see parents the next day.
+
+*** Day 7
+
+- The last day. We get a bit lost, but eventually find our way. We are mostly walking on roads. Then mine and Soren's mom find us with the car. The timing was perfect. They brought loads of fast food which was incredible.
+- We drive into town and eat lunch at a restaurant. Human food!
+- We visit Soren's chilhood home.
+- The plan is to stay one more night so the parents can camp with us. I am going back home, but Soren and Thomas are continuing for another week more!
+- We camp next to a nice lake that Thomas and Soren will be starting from the next day. We don't go swimming, but walk around the perimeter. It's great. We see this dude with a drone.
+- We go to bed. The next day Soren and Thomas continue forwards, and the rest of us head home. The drive home was very relaxing.
+
+*** Reflections
+- I keep reading the notes and can't believe how early in the trip they occurred. A similar thing happens when I take courses at school. I wonder why this is.
+- We kept manifesting a bear, but it was irrational of us to be so afraid. The fear made the backpacking more fun in some ways though.
+- We were surprised at how little wild life we saw. Our footsteps must have been load enough to scare them all away.
+- It's incredible what a new experience you can have in such a short period of time. This was just one week, but it was experience like none I've ever had.
+- I regret not taking a photo of the before and after backpack.
+- I regret not taking more photos.
+- I'm really glad I journaled throughout the trip. There's no way I would have remembered even a quarter of these things otherwise.
+- We got very lucky with the weather. No rain the whole time.
+- We Very rarely see people. Maybe one person a day on average.
+
+*** COMMENT Notes
+
+- My hiking boots starts falling apart. I think they might be built for fashion, not actually hiking.
+- Eventually I leveled up from emergen wipes to fresh leaves.
+- At nighttime Soren would read siddartha to us when falling asleep. Sometimes he would even read it while hiking!
+- My joints get quite angry with me by the end.
+- I have a tendancy to almost jog downhill, trying not to waste the potential energy. Also I found that it was easier on the joints. But Thomas and Soren aren't fans because there's a higher risk of falling over. I think I almost fall over a couple of times, but I never do.
+
+Why post this on the blog?
+- to show other people that I backpack.
+- to inspire other people to backpack.
+- to entertain. Problem with this is I don't think my recounting is especially engaging. I could make it more engaging if I put more time into it, but I don't know if that's what I want to spend time.
+- to feel like my time spent writing this up wasn't wasted.
+** DONE On Veganism                                     :veganism:@Thoughts:
+CLOSED: [2020-12-28 Mon 12:06]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: on-veganism
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-28 Mon 10:56]--[2020-12-28 Mon 11:32] =>  0:36
+:END:
+
+*** Overview 
+After being vegetarian for about a year, I went vegan in the Fall of 2020. A friend challenged me to do it for 2 weeks, and then I never stopped. It's been great. I'll come back and elaborate more on my thinking and experiences, but for now here are some of my favorite resources relating to veganism:
+- [[https://zenhabits.net/vegan/][A Call for Compassion for the Defenseless]]
+- [[https://zenhabits.net/vegan-guide/][A Loving Guide to Going Vegan]]
+- [[https://www.utilitarian.net/singer/by/1979----.htm][Peter Singer, "Equality for Animals?"]]
+** DONE A Technical Overview of Artifai              :artifai:@Software_Dev:
+CLOSED: [2020-12-28 Mon 12:06]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: a-technical-overview-of-artifai
+:EXPORT_FILE_NAME: index
+:END:
+
+*** Overview
+
+The goal of Artifai is to help people generate art from photos. I had a problem: My walls were bare. I wanted to decorate them with memories, but I wanted the decorations to be artistic at the same time.
+
+This lead me to discover neural-style, an algorithm that takes two images as input, and copies the style from one onto the other while retaining its content. Neural-style lets you take a meaningful photo and turn it into awesome art! There were several implementations available on Github, but I didn't see a way for non-technical users to easily use it and have the result shipped to their home. And so I began building Artifai with a group of friends; We are a group of university students and this was our first fullstack app! You can visit the website at [[https://artif.ai][https://artif.ai]].
+
+*** Specifications
+
+There is a lot of functionality required from such a webapp:
+- An intuitive user interface
+- A database for keeping track of a user's artifaications and orders
+- Authentication for enabling user identification
+- A pipeline for running GPU intensive jobs
+- On Demand canvas printing
+- Payment processing
+
+*** Implementation Details
+
+**** User Interface
+
+We built the user interface using a combination of Webflow and React. Webflow is used solely for the landing page, and the rest is done with React and Material-UI. The sections of the website:
+- Landing page :: Users can learn about the general idea of neural-style
+- Create page :: Users upload a content, select a style, and press "Artifai" to generate an artifaication (refers to the art they made). Users can select a style from the popular styles or upload their own.
+- Explore page :: A feed of the most recent public artifaications
+- Artifaication page :: Users can link to this page to share their artifaications with others
+- Product page :: Displays the mockup of an artifaication on a canvas and gives the user the option to purchase it.
+- Profile page :: Displays a users own artifaications. User can toggle post options like "public" vs "private".
+
+**** Database
+
+We used Google Firestore for the database. It's here that we store a user's artifaications, orders, and styles. We build the "Explore" feed by taking the most recent "public" artifaications.
+
+When starting out we didn't really understand Google Firebase, and made the silly mistake of trying to combine it with a GraphQL backend. Firestore has security rules that makes this completely unnecessary. After we realized this we corrected course :) 
+
+**** Authentication
+
+We used Google Firebase for dealing with Authentication. It made the process way easier. With a few lines of code we offer:
+- Sign in with Google
+- Sign in with Facebook
+- Passwordless Email Signup
+
+It was also critical to have anonymous users which let's users get the full Artifai experience without even needing to create an account.
+
+**** Artifaication Processing
+
+This was a very challenging part of the project; The goal was to run GPU intensive jobs on Google Cloud Compute without keeping a GPU VM running 24/7 (GPU VM hours aren't cheap!). The difficulty is in starting gpu vms on demand without significantly increasing the time a user waits for their artifaication to complete.
+
+We tried all kinds of things inlcluding gpu containers, knative, etc. In the end we were able to solve this problem with the following strategy: We built an image with all the dependencies for getting started on computing right away. When a user submits an artifaication, it adds it to a "queue" represented as a collection of documents in the database, and creates a gpu vm (up to a maximum of 5 running concurrently). The GPU vms pull artifaications from the queue one by one until there are none left, at which point they destroy themselves. Note that we built off of [[https://github.com/ProGamerGov/neural-style-pt][neural-style-pt]] for the neural-style algorithm which took care of the most of the difficulty associated with implementing neural-style.
+
+#+html: {{< image src="./artifaication-processing-pipeline.png" caption="Artifaication Processing Pipeline">}}
+
+**** On Demand Canvas Printing
+
+For canvas printing we relied on Printify, a print on demand platform that makes it simple to fulfill and send your products to your customers. We use them for generating mockups of user artifaications, and for fulling orders. They don't handle payment processing, so we used Stripe for that.
+
+*** Architecture Overview
+
+#+html: {{< image src="./artifai-architecture-overview.png" caption="Artifai Architecture Overview">}}
+
+*** Meta
+
+We started working on Artifai in March 2020 and have been working on it on and off up to the present. We are a team of 5, with two main developers, two minor developers, and one social media manager.
+
+The next steps are to continue to build out features and dig into marketing. So far we are still pretty far in the red with 2 unknown canvas purchasers.
+
+Please let us know if you have any feedback or suggestions!
+** TODO NeuroTech 2020
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: neurotech-2020
+:EXPORT_FILE_NAME: index
+:END:
+
+*** Overview
+
+I joined [[https://www.facebook.com/McGillNeurotech/][McGill NeuroTech]] this past fall. It's a small, fast-moving team that works on AI and software for brain-computer interface applications. I had the honor of getting to know lots of really smart people, and together we built the EMGBoard. The EMGeyboard interprets the signals from electrodes placed on the arm muscles in order to classify finger movements. The predicted movements are then rendered in our Unity application, either as input controls or text. Thus, this offers a novel way for consumers to interact with VR/AR systems.
+
+A "keyboard" that comes in the form of wristbands that let you type in the air. [[https://www.youtube.com/watch?v=6IJuLtj3400][This]] is the final video we submitted to the NeuroTechX competition (We got first place!). Met a ton of awesome people.
+
+I learned a lot about working on a team. I was responsible for the pipeline that connects all the components together, and the program that translates from finger words to english words.
+
+I almost didn't join NeuroTech, thinking it might take too much time, but glad I did.
+
+Marley is really cool.
+
+Started out as a a programmer doing what I was asked, but overtime took more of a leadership position.
+
+I struggle with hurting people's feelings.
+
+I got to see what it's like to work for a good leader. They get the best work out of you, even when we weren't getting paid.
+
+Very inspiring; makes we want to develop my leadership abilities.
+** TODO The Types of Assholes
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: the-types-of-assholes
+:EXPORT_FILE_NAME: index
+:END:
+
+"Assholes" who make people feel bad, and have good intentions.
+
+"Assholes" who make people feel bad, and have bad intentions.
+** TODO What Makes A Good Leader?
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: what-makes-a-good-leader
+:EXPORT_FILE_NAME: index
+:END:
+
+Does being a good leader sometimes require making people feel bad?
+** TODO The Economics Of Not Cooking Food
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: the-economics-of-not-cooking-food
+:EXPORT_FILE_NAME: index
+:END:
+
+Is it worth it to order take out?
 * About
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: _about
@@ -1380,7 +2000,7 @@ I've learned a lot from a ton of cool and inspiring people. I might not recall a
 - [[https://mtlynch.io/][Michael Lynch]]
 - [[https://web.evanchen.cc/][Evan Chen]]
 
-** Colophon
+** TODO Colophon
 :LOGBOOK:
 CLOCK: [2020-12-23 Wed 17:39]--[2020-12-23 Wed 18:19] =>  0:40
 CLOCK: [2020-12-23 Wed 17:05]--[2020-12-23 Wed 17:08] =>  0:03
@@ -1483,12 +2103,69 @@ Okay so then we are back at square one. Keep them separate. Use org-roam for res
 Is there anything broken with the way I have it right now? No. So I'm going to leave it the way it is. Migration to another system later on probably wouldn't take too long.
 
 In conclusion, would it be nice to have all the posts in org-roam? Yes. Is it worth it right now? Maybe. But it would take a bit of time to setup. I have other things to do. I can come back to it another time.
+** TODO Why Blog
+:LOGBOOK:
+CLOCK: [2020-12-26 Sat 13:18]--[2020-12-26 Sat 13:28] =>  0:10
+CLOCK: [2020-12-26 Sat 12:53]--[2020-12-26 Sat 13:18] =>  0:25
+:END:
+
+*** Overview
+Even if nobody reads them, you should write them. It's become pretty clear to me that blogging is a source of both innovation and clarity. I have many of my best ideas and insights while blogging. Struggling to express things that you're thinking or feeling helps you understand them better. 
+ 
+Because it really helps you to write regularly, and forces you to think in different ways, when you have an audience. Even if the audience is small. It’s scary, I know, but just do it. You’ll grow comfortable with it over time, and you should never let fear stop you from doing something amazing.
+
+*** List Of Reasons To Blog
+
+1. You’ll become a better writer. At its core, writing is communication. It is about recording thoughts on paper and compelling others to agree with them. To that end, writing (just like every other form of communication that has ever existed) improves with practice. Blogging will not force you to become a better writer, it’ll just happen as you do it. And becoming a better writer holds important benefits for the rest of your life—whether you are creating a book, a presentation, a résumé, or an anniversary card for your spouse.
+
+2. You’ll become a better thinker. Because the process of writing includes recording thoughts on paper, the blogging process encourages you to stop and think deeper. You will delve deeper into the matters of your life and the worldview that shapes them. Unfortunately, at this point, many will choose not to blog (or write at all) based on the faulty reasoning that they “have nothing to say.” But to that line of thinking I always respond the same way, maybe you just haven’t discovered yet what you have to say.
+
+3. You’ll live a more intentional life. Once you start writing about your life and the thoughts that shape it, you’ll begin thinking more intentionally about who you are, who you are becoming, and whether you like what you see or not. And that just may be reason enough to get started.
+
+4. You’ll meet new people. Whether it be through comments, e-mails, or social media, you may be surprised at how quickly you meet people on-line. And by meet people, I mean legitimately form relationships that seek to serve one another. The blogging community is friendly, encouraging, and genuinely cheering for you to succeed—the only thing missing is you.
+
+5. You’ll make some money. You don’t need to make money to enjoy blogging. In fact, sometimes making money from your blog can actually start to distract you from the joy that you found in the first place. That being said, whether you make $20/year or $20,000/year, it’s still pretty nice to have a hobby that actually pays you back.
+
+6. You’ll inspire others. Blogging not only changes your life, it also changes the life of the reader. And because blogs are free for the audience and open to the public, on many levels, it is an act of giving. It is a selfless act of service to invest your time, energy, and worldview into a piece of writing and then offer it free to anybody who wants to read it. Others will find inspiration in your writing… and that’s a wonderful feeling.
+
+7. It’ll serve as a personal journal. Blogging serves many of the same roles as keeping a journal. It trains us to be observant and gives weight to the personal growth that we are experiencing. It trains our minds to track life and articulate the changes we are experiencing. Your blog becomes a digital record of your life that is saved “in the cloud.” As a result, it can never be lost, stolen, or destroyed in a fire.
+
+8. You’ll become more confident. Blogging will help you discover more confidence in your life. You will quickly realize that you do live an important life with a unique view and have something to offer others.
+
+9. Build an audience.
+
+*** Blogging Categories on This Website
+- Productivity :: Here I write about how I am productive. Share productivity tips with others.
+- Software-Dev :: Here I write about things I know related to software development. Share software-dev tips with others.
+- Thoughts :: Share thoughts with others. Mainly personal reflections that I think other people might find applicable / relevant to their own lives. 
+- Stories :: Share stories with others. Become a better story teller. Other people might find the stories entertaining / interesting.
+- Retrospectives :: It's good for me to do them to help internalize lessons. Share them with others so that they can learn those lessons as well. And to inspire others.
+
+*** Thoughts
+
+Productivity and software dev, there is some pretty obvious value to the post in that it helps inform other people on a subject. Same with thoughts.
+
+Stories is more about entertaining other people. Might be seen as showing off though.
+
+Retrospectives is more about giving people an inside look into what it might be to be like me. Michael lynch retrospectives come to mind. I like reading them because I get to understand a little better what it would be like to live like him; working on personal projects. I find them inspiring. Get to see what is going on behind the scenes. Why is that appealing? Because helps show you what it takes.
+
+So for Harvard post, gives some insight into what it would be like to work as intern. Great.
+
+What makes stories different from retrospectives. Stories are more personal. Entertaining. Retrospectives can be entertaining, but are more focused on learning.
+
+Retrospectives vs projects post? Projects page can probably link to retrospective post on the project.
+
+Although potential the project post will be more technical than the retrospective post. I'll think about this more later.
+
+*** List of other similar posts 
+- https://sites.google.com/site/steveyegge2/you-should-write-blogs
+- https://zenhabits.net/write-daily/
+- https://www.becomingminimalist.com/how-to-start-a-blog/
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: projects
 :EXPORT_HUGO_WEIGHT: auto
 :END:
-
 ** Artifai
 ** Age Prediction Via Methylation Data
 ** Libravos
@@ -1496,171 +2173,7 @@ In conclusion, would it be nice to have all the posts in org-roam? Yes. Is it wo
 ** Aspine
 
 * Footnotes
-* About
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: _about
-:EXPORT_HUGO_WEIGHT: auto
-:END:
-** TODO Site Map
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: site_map
-:EXPORT_FILE_NAME: index
-:END:
-
-Categories for the site:
-- Software_Dev :: Things related To software development.
-- Productivity :: Productivity. Computer tweaks. 
-- Thoughts :: For thoughts, quick and short.
-- Stories :: For stories. Backpacking. Breaking into computer. Similar to thoughts, but story based.
-
-Web Dev is chill. But what if I do something Computer workflow related that helps with web dev? Then put it in both categories. That's fine. Same with productivity.
-
-So "To Take Notes or Not to Take Notes, That is the Question" would go in "Thoughts" and "Productivity".
-
-Need to improve categories.
-
-Web Dev is easy. Everything that aids goes there.
-
-Productivity should follow the same route. Everything that aids productivity goes there.
-
-What about Web Dev Productivity? Web Dev takes preference.
-
-How to distinguish between long and short posts? Don't worry about it. There will be a separate projects section.
-** Elaborate on Computer Configuration
-I use Manjaro i3.
-
-Emacs for development and organization.
-- org-super-agenda
-- org-roam
-- org-noter
-- org-reveal
-- evil-org
-- org-gcal
-
-Keepmenu
-Firefox
-St
-
-** DONE What I'm Doing Now
-CLOSED: [2020-12-02 Wed 09:47]
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: now
-:EXPORT_FILE_NAME: index
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :narrow true
-:END:
-
-(This is a [[https://nownownow.com/about][now]] page. If you have your own site, [[https://nownownow.com/about][consider making one too!]])
-
-
-*** Artifai
-
-I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [[https://artif.ai][https://artif.ai]].
-
-*** McGill
-
-I'm a U2 honors math and computer science at McGill. My list of coursework is [[https://colekillian.com/coursework-overview/][here]].
-
-*** Skills In Progress
-(inspired by [[https://jamesbvaughan.com/skills-in-progress/][james vaughan]])
-
-One thing that helps me stay happier and more energized is to always be working on developing a skill. As Willy Wonka says, we have "so much time and so little to do".
-
-**** Current
-These are skills that I'm currently working on.
-
-- Fullstack Development
-- Competitive Programming
-- Acoustic Guitar and Singing
-- Writing
-- 1 Minute Handstand
-- Leadership
-- Storytelling
-- Middle Splits
-
-**** Backlog
-These are skills that I'm excited to work on, but that I'm not making time for just yet.
-
-- Electric Guitar
-- Solve a Rubik's Cube Blindfolded
-- YouTube channel
-- Straddle Planche
-- Reinforcement Learning
-- Marathon
-  
-**** Back-Backlog
-These are skills that I hope to get to eventually, but it could be a while.
-
-- Paint
-- Piano
-- Biology
-- 30 Day Fast
-
-**** Past
-These are skills I have developed in the past.
-
-- Standing Backflip
-- Basketball Finger Spin
-- 150 Soccer Juggles
-- Unicycle
-- Magic Card Tricks
-- Bike Wheelie
-  
-** TODO Habits / Rules
-- No Phone In Bed or Bathroom
-- Cold Showers
-- Workout At Least Every Other Day
-- Daily Recall
-** DONE About
-CLOSED: [2020-12-02 Wed 09:47]
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: about
-:EXPORT_FILE_NAME: index
-:END:
-
-<img src='/images/cole.jpg' title="Cole Killian" style="float: right; border-radius: 50%" width="200px"/>
-
-Hello there! My name is Cole. Currently a U2 Math
-<br>
-and Computer Science student at McGill.
-
-Excited about the future. I try to spend my free time hiking, <br>
-playing guitar, building side projects, reading, writing, <br> and seeing friends. Here's what I'm working on [[/now][now]].
-
-I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know what brings <br> you here or if you want grab coffee.
-
-*** Tech
-- My daily driver is a ThinkPad T450.
-- I run [[https://manjaro.org/][Manjaro]] [[https://i3wm.org/][i3]] ([[https://github.com/Ruborcalor/voidrice][dotfiles]]).
-- I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
-- I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
-- [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
-
-*** People
-I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
-- [[http://paulgraham.com/][Paul Graham]]
-- [[https://www.nateliason.com][Nat Eliason]]
-- [[https://jamesbvaughan.com/][James Vaughan]]
-- [[https://aliabdaal.com/][Ali Abdaal]]
-- [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
-- [[https://mtlynch.io/][Michael Lynch]]
-- [[https://web.evanchen.cc/][Evan Chen]]
-
-
-
-* Projects
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: projects
-:EXPORT_HUGO_WEIGHT: auto
-:END:
-
-** Artifai
-** Age Prediction Via Methylation Data
-** Libravos
-** McGill OneCard Scraper
-** Aspine
-
-* Footnotes
-* COMMENT Local Variables                          :ARCHIVE:
+* COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
 # eval: (org-hugo-auto-export-mode)
 # End:

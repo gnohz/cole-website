@@ -2,7 +2,7 @@
 title = "Hacking Into My Computer After Getting Locked Out"
 date = 2020-09-25T10:11:00-04:00
 tags = ["linux"]
-categories = ["Story"]
+categories = ["Stories"]
 draft = false
 +++
 
