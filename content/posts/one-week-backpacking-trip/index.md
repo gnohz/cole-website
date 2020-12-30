@@ -5,16 +5,20 @@ categories = ["Stories"]
 draft = true
 +++
 
-Backpacking with friends from Highschool, Soren and Thomas.
+# Overview {#overview}
 
-Soren and Thomas had backpacked before, but it was my first time.
+This past summer I went on my first backpacking trip with two friends from highschool: Soren and Thomas. Soren and Thomas had backpacked before, but it was my first time. We hiked just about 100 miles over the course of 7 days!
 
-We hiked just about 100 miles over the course of 7 days!
+The point of this post is to share what it might be like to go backpacking, and to provide entertainement value.
+
+I haven't made it entertaining though. It's just a bullet point of things. You would never read a story that is a bullet point of events. You have to tie everything together. But I'm not ready for that right now.
 
 
 # Preparation {#preparation}
 
 -   I found my backpacking backpack on the side of the road left out for the trash. At first we weren't sure if it was going to cut it, but it worked out fine in the end (although it was heavy, creeked a lot, put a sharp pressure on hips, and fabric coming apart onto anything you put into the bag).
+-   We did one practice hike where we walked around cambridge with heavy water jugs in our backpacks.
+-   Thomas and I were vegetarian for the trip. We packed food which consisted primarily of freeze dried food, cliff bars, granola bars, and a jar of peanut butter.
 
 
 # Day 1 {#day-1}
@@ -32,7 +36,6 @@ We hiked just about 100 miles over the course of 7 days!
 -   After we pass them I start saying "We should've asked...", but then stop myself because I realize that I was trying to spread the "blame" when really it was entirely up to me to ask them a question. I wanted to ask them the details of their hike and how it was going.
 -   We summit a second mountain and stop for our first snack. Feels really good. We are eating at the top.
 -   We find our first stream and filter some water. While filtering water soren got out his ukelele and we started making up some songs together. Good times.
--   We find another bigger stream and take our first swim break. First swim on the first day! We were having a good time. Soren and Thomas had already dunked their heads, so it was my turn. I went for the big plunge, and when I resurface my glasses were missing! This was a relatively deep river, and the water was mostly clear, but not clear enough for us to find the glasses easily. And the river was flowing pretty strongly so we were afraid they could get pushed downstream! Soren guarded the downstream exit, while Thomas and I searched for the glasses. We found them! That would have been quite brutal if I had lost my glasses on the first day.
 -   We continue to the campsite. Set up the tent. The first freeze dried meals!
 -   An old man tells us to stay at this campsie instead of continuing forwards.
 -   We eat our meals by the river.
@@ -45,6 +48,7 @@ We hiked just about 100 miles over the course of 7 days!
 
 -   Wake up and east some musli. It's a food very similar to overnight oats.
 -   We pack up the tent. I am trying to squeeze it against the trunk of a tree to speed up the flow of water. A branch punctures the water filter! It's the second morning lol.
+-   We find a stream and take a swim break. We were having a good time. Soren and Thomas had already dunked their heads, so it was my turn. I went for the big plunge, and when I resurface my glasses were missing! This was a relatively deep river, and the water was mostly clear, but not clear enough for us to find the glasses easily. And the river was flowing pretty strongly so we were afraid they could get pushed downstream! Soren guarded the downstream exit, while Thomas and I searched for the glasses. We found them! That would have been quite brutal if I had lost my glasses on the first day.
 -   We continue forward, eventually reaching a lake.
 -   Thomas goes swimming nakes. Some rangers pass by and we chat with them while thomas is hiding the lower half of his body in the water. It's difficult though because the lake is super shallow haha. Thomas didn't realize when he was first getting in. What a small world; turns out Thomas and Soren competed against the rangers in the MA sailing team league.
 -   We climb a mountain. Thomas calls with crystal. I get a selfie video on top of the mountain using a mini tripod I brought. Glad I brought it.
@@ -80,7 +84,7 @@ We hiked just about 100 miles over the course of 7 days!
 -   We stop to fill up on water. There is a very nice stream with a grey pipe that makes filtering the water very easy despite the shallowness of the stream.
 -   Cook some freeze dried food for breakfast. Tastes sooo good.
 -   I setup the tripod and take some videos. We are having a good time, but then the phone runs out of battery unfortunately.
--   We hear moose noises.
+-   We hear moose noises, but think that they might be chain saws. They are coming closer! We were a bit afraid of what we would see come into our field of view.
 -   Thomas discovers that he missplaced the charging cable so no more phone. I'm bummed cause it's too bad not to be able to take photos.
 -   Everyone uses the mens. Mine is a bit messy. Flies are quick to attack. Thank God for emergen wipes lmao.
 -   Hit the rode. We summit a very pretty forest. We almost set up the hammock but don't.

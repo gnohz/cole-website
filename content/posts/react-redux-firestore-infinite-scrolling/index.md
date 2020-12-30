@@ -1,5 +1,7 @@
 +++
 title = "React Redux Firestore Infinite Scrolling"
+tags = ["react", "redux", "firestore"]
+categories = ["Software-Dev"]
 draft = true
 +++
 

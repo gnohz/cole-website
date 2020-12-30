@@ -34,7 +34,7 @@ A lot happened this year!
 -   Hiked 100 miles on a 1 week backpacking trip
 -   Learned to do 150 soccer juggles in a row
 -   Got better at kite surfing
--   Went Vegan and improved cooking skills
+-   [Went Vegan](../on-veganism) and improved cooking skills
 
 
 ## Productivity {#productivity}
@@ -111,6 +111,11 @@ Similarly to marketing, this comes with practice. I really want to be a good lea
 ## Becoming A Better Story Teller {#becoming-a-better-story-teller}
 
 Being a good story teller improves many aspects of life, so I'd like to become one. My plan is to read Storyworthy, and to practice. My plan is to record myself telling a story once a week on Mondays.
+
+
+## Improving as a Software Developer {#improving-as-a-software-developer}
+
+Can't forget programming!
 
 
 # The Four Burners Theory {#the-four-burners-theory}

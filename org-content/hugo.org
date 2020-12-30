@@ -12,106 +12,6 @@
 :EXPORT_HUGO_BUNDLE: python-script-to-self-destruct-a-gcp-virtual-machine
 :EXPORT_FILE_NAME: index
 :END:
-** TODO React Redux Firestore Infinite Scrolling
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: react-redux-firestore-infinite-scrolling
-:EXPORT_FILE_NAME: index
-:END:
-:LOGBOOK:
-CLOCK: [2020-09-29 Tue 17:23]--[2020-09-29 Tue 17:43] =>  0:20
-:END:
-
-Recently I implemented infinite scrolling at [[https://artif.ai][Artifai]] with react-redux-firebase. It's not too difficult but it's helpful to work off of an example.
-
-See below the component where the querying takes place.
-
-#+begin_src js
-export default () => {
-  const firestore = useFirestore();
-  const [recentArtifaications, setRecentArtifaications] = React.useState([]);
-
-  const loadMorePosts = () => {
-    (async () => {
-      let recentArtifaicationsQuery = firestore
-        .collectionGroup("artifaications")
-        .where("accessLevel", "==", "public")
-        .where("percentProcessed", "==", 100)
-          .orderBy("created", "desc").limit(15);
-
-      recentArtifaications.length !== 0 &&
-        recentArtifaicationsQuery.startAfter(
-          recentArtifaications.slice(-1)[0]["created"]
-        );
-
-      let recentArtifaicationsSnapshot = [];
-      const querySnapshot = await recentArtifaicationsQuery.get();
-
-      querySnapshot.forEach((doc) => {
-        recentArtifaicationsSnapshot.push({
-          id: doc.id,
-          ...doc.data(),
-        });
-      });
-
-      setRecentArtifaications([
-        ...recentArtifaications,
-        ...recentArtifaicationsSnapshot,
-      ]);
-    })();
-  };
-
-  useEffect(() => {
-    // call loadMorePosts on component mount
-    loadMorePosts();
-  }, []);
-
-  return (
-    <>
-      <Typography variant="h2" style={{ marginTop: "150px" }} align="center">
-        Explore Other's Creations
-      </Typography>
-      <TripleImageViewList
-        feed={recentArtifaications}
-        view="general"
-        loadMorePosts={loadMorePosts}
-      />
-    </>
-  );
-};
-#+end_src
-
-The function =loadMorePosts= loads the next 15 posts from firestore. This method is called from =TripleImageViewList= seen below.
-
-#+begin_src js
-const TripleImageViewList = (props) => {
-  console.log(props.feed);
-  return (
-    <>
-      <br />
-      {props.feed.map((tileData, index) => (
-        <React.Fragment key={tileData.id}>
-          <TripleImageCard
-            tileData={tileData}
-            index={index}
-            cardHeight={cardHeight}
-            view={props.view}
-          />
-          {(index === props.feed.length - 5 && (props.feed.length < 100)) && (
-            <Waypoint onEnter={() => props.loadMorePosts()} />
-          )}
-        </React.Fragment>
-      ))}
-    </>
-  );
-};
-#+end_src
-
-Here we use the [[https://github.com/civiccc/react-waypoint][react-waypoint]] library to trigger the =loadMorePosts= when the user only has 5 cards left to see. Ta-da! You now have infinite scrolling in your React app.
-
-Links:
-- [[https://www.youtube.com/watch?v=9dRk3bxEbS8&t=371s][Infinite Scrolling with React Waypoint]]
-- [[https://stackoverflow.com/questions/60789004/about-infinite-scroll-in-react-js-and-material-ui][Infinite Scroll in React.js]]
-
 ** TODO One Week Backpacking Trip                     :backpacking:@Stories:
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: one-week-backpacking-trip
@@ -127,9 +27,14 @@ CLOCK: [2020-12-26 Sat 16:41]--[2020-12-26 Sat 17:43] =>  1:02
 
 This past summer I went on my first backpacking trip with two friends from highschool: Soren and Thomas. Soren and Thomas had backpacked before, but it was my first time. We hiked just about 100 miles over the course of 7 days!
 
+The point of this post is to share what it might be like to go backpacking, and to provide entertainement value.
+
+I haven't made it entertaining though. It's just a bullet point of things. You would never read a story that is a bullet point of events. You have to tie everything together. But I'm not ready for that right now.
+
 *** Preparation
 
 - I found my backpacking backpack on the side of the road left out for the trash. At first we weren't sure if it was going to cut it, but it worked out fine in the end (although it was heavy, creeked a lot, put a sharp pressure on hips, and fabric coming apart onto anything you put into the bag).
+- We did one practice hike where we walked around cambridge with heavy water jugs in our backpacks.
 - Thomas and I were vegetarian for the trip. We packed food which consisted primarily of freeze dried food, cliff bars, granola bars, and a jar of peanut butter.
 
 *** Day 1
@@ -147,7 +52,6 @@ This past summer I went on my first backpacking trip with two friends from highs
 - After we pass them I start saying "We should've asked...", but then stop myself because I realize that I was trying to spread the "blame" when really it was entirely up to me to ask them a question. I wanted to ask them the details of their hike and how it was going.
 - We summit a second mountain and stop for our first snack. Feels really good. We are eating at the top.
 - We find our first stream and filter some water. While filtering water soren got out his ukelele and we started making up some songs together. Good times.
-- We find another bigger stream and take our first swim break. First swim on the first day! We were having a good time. Soren and Thomas had already dunked their heads, so it was my turn. I went for the big plunge, and when I resurface my glasses were missing! This was a relatively deep river, and the water was mostly clear, but not clear enough for us to find the glasses easily. And the river was flowing pretty strongly so we were afraid they could get pushed downstream! Soren guarded the downstream exit, while Thomas and I searched for the glasses. We found them! That would have been quite brutal if I had lost my glasses on the first day.
 - We continue to the campsite. Set up the tent. The first freeze dried meals!
 - An old man tells us to stay at this campsie instead of continuing forwards.
 - We eat our meals by the river.
@@ -159,6 +63,7 @@ This past summer I went on my first backpacking trip with two friends from highs
 
 - Wake up and east some musli. It's a food very similar to overnight oats.
 - We pack up the tent. I am trying to squeeze it against the trunk of a tree to speed up the flow of water. A branch punctures the water filter! It's the second morning lol.
+- We find a stream and take a swim break. We were having a good time. Soren and Thomas had already dunked their heads, so it was my turn. I went for the big plunge, and when I resurface my glasses were missing! This was a relatively deep river, and the water was mostly clear, but not clear enough for us to find the glasses easily. And the river was flowing pretty strongly so we were afraid they could get pushed downstream! Soren guarded the downstream exit, while Thomas and I searched for the glasses. We found them! That would have been quite brutal if I had lost my glasses on the first day.
 - We continue forward, eventually reaching a lake.
 - Thomas goes swimming nakes. Some rangers pass by and we chat with them while thomas is hiding the lower half of his body in the water. It's difficult though because the lake is super shallow haha. Thomas didn't realize when he was first getting in. What a small world; turns out Thomas and Soren competed against the rangers in the MA sailing team league.
 - We climb a mountain. Thomas calls with crystal. I get a selfie video on top of the mountain using a mini tripod I brought. Glad I brought it.
@@ -193,7 +98,7 @@ This past summer I went on my first backpacking trip with two friends from highs
 - We stop to fill up on water. There is a very nice stream with a grey pipe that makes filtering the water very easy despite the shallowness of the stream.
 - Cook some freeze dried food for breakfast. Tastes sooo good.
 - I setup the tripod and take some videos. We are having a good time, but then the phone runs out of battery unfortunately.
-- We hear moose noises.
+- We hear moose noises, but think that they might be chain saws. They are coming closer! We were a bit afraid of what we would see come into our field of view.
 - Thomas discovers that he missplaced the charging cable so no more phone. I'm bummed cause it's too bad not to be able to take photos.
 - Everyone uses the mens. Mine is a bit messy. Flies are quick to attack. Thank God for emergen wipes lmao.
 - Hit the rode. We summit a very pretty forest. We almost set up the hammock but don't.
@@ -328,6 +233,121 @@ I struggle with hurting people's feelings.
 I got to see what it's like to work for a good leader. They get the best work out of you, even when we weren't getting paid.
 
 Very inspiring; makes we want to develop my leadership abilities.
+** TODO What Makes A Good Leader?
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: what-makes-a-good-leader
+:EXPORT_FILE_NAME: index
+:END:
+
+Does being a good leader sometimes require making people feel bad?
+** TODO The Economics Of Not Cooking Food
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: the-economics-of-not-cooking-food
+:EXPORT_FILE_NAME: index
+:END:
+
+Is it worth it to order take out?
+** DONE React Redux Firestore Infinite Scrolling :react:redux:firestore:@Software_Dev:
+CLOSED: [2020-12-30 Wed 09:10]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: react-redux-firestore-infinite-scrolling
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-09-29 Tue 17:23]--[2020-09-29 Tue 17:43] =>  0:20
+:END:
+
+Recently I implemented infinite scrolling at [[https://artif.ai][Artifai]] with react-redux-firebase. It's not too difficult but it's helpful to work off of an example.
+
+See below the component where the querying takes place.
+
+#+begin_src js
+export default () => {
+  const firestore = useFirestore();
+  const [recentArtifaications, setRecentArtifaications] = React.useState([]);
+
+  const loadMorePosts = () => {
+    (async () => {
+      let recentArtifaicationsQuery = firestore
+        .collectionGroup("artifaications")
+        .where("accessLevel", "==", "public")
+        .where("percentProcessed", "==", 100)
+          .orderBy("created", "desc").limit(15);
+
+      recentArtifaications.length !== 0 &&
+        recentArtifaicationsQuery.startAfter(
+          recentArtifaications.slice(-1)[0]["created"]
+        );
+
+      let recentArtifaicationsSnapshot = [];
+      const querySnapshot = await recentArtifaicationsQuery.get();
+
+      querySnapshot.forEach((doc) => {
+        recentArtifaicationsSnapshot.push({
+          id: doc.id,
+          ...doc.data(),
+        });
+      });
+
+      setRecentArtifaications([
+        ...recentArtifaications,
+        ...recentArtifaicationsSnapshot,
+      ]);
+    })();
+  };
+
+  useEffect(() => {
+    // call loadMorePosts on component mount
+    loadMorePosts();
+  }, []);
+
+  return (
+    <>
+      <Typography variant="h2" style={{ marginTop: "150px" }} align="center">
+        Explore Other's Creations
+      </Typography>
+      <TripleImageViewList
+        feed={recentArtifaications}
+        view="general"
+        loadMorePosts={loadMorePosts}
+      />
+    </>
+  );
+};
+#+end_src
+
+The function =loadMorePosts= loads the next 15 posts from firestore. This method is called from =TripleImageViewList= seen below.
+
+#+begin_src js
+const TripleImageViewList = (props) => {
+  console.log(props.feed);
+  return (
+    <>
+      <br />
+      {props.feed.map((tileData, index) => (
+        <React.Fragment key={tileData.id}>
+          <TripleImageCard
+            tileData={tileData}
+            index={index}
+            cardHeight={cardHeight}
+            view={props.view}
+          />
+          {(index === props.feed.length - 5 && (props.feed.length < 100)) && (
+            <Waypoint onEnter={() => props.loadMorePosts()} />
+          )}
+        </React.Fragment>
+      ))}
+    </>
+  );
+};
+#+end_src
+
+Here we use the [[https://github.com/civiccc/react-waypoint][react-waypoint]] library to trigger the =loadMorePosts= when the user only has 5 cards left to see. Ta-da! You now have infinite scrolling in your React app.
+
+Links:
+- [[https://www.youtube.com/watch?v=9dRk3bxEbS8&t=371s][Infinite Scrolling with React Waypoint]]
+- [[https://stackoverflow.com/questions/60789004/about-infinite-scroll-in-react-js-and-material-ui][Infinite Scroll in React.js]]
+
 ** DONE The Two Types of Assholes                  :moral_courage:@Thoughts:
 CLOSED: [2020-12-29 Tue 14:51]
 :PROPERTIES:
@@ -335,6 +355,7 @@ CLOSED: [2020-12-29 Tue 14:51]
 :EXPORT_FILE_NAME: index
 :END:
 :LOGBOOK:
+CLOCK: [2020-12-29 Tue 14:51]--[2020-12-29 Tue 14:58] =>  0:07
 CLOCK: [2020-12-29 Tue 14:02]--[2020-12-29 Tue 14:51] =>  0:49
 CLOCK: [2020-12-29 Tue 11:58]--[2020-12-29 Tue 12:23] =>  0:25
 CLOCK: [2020-12-29 Tue 10:49]--[2020-12-29 Tue 11:35] =>  0:46
@@ -402,20 +423,6 @@ The first few times you’re an asshole in this way, it’ll feel terrifying. Bu
 - https://medium.com/@Kurt_R/5-reasons-to-be-an-asshole-2709fc04bca8
 - https://www.vice.com/en/article/avawb4/i-acted-like-an-asshole-for-a-week
 - https://www.linkedin.com/pulse/20140507131711-1039282-why-it-s-ok-to-be-an-asshole-in-business/
-** TODO What Makes A Good Leader?
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: what-makes-a-good-leader
-:EXPORT_FILE_NAME: index
-:END:
-
-Does being a good leader sometimes require making people feel bad?
-** TODO The Economics Of Not Cooking Food
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: the-economics-of-not-cooking-food
-:EXPORT_FILE_NAME: index
-:END:
-
-Is it worth it to order take out?
 ** DONE Trying Out Emacs Calendar                   :@Productivity:org_mode:
 CLOSED: [2020-09-30 Wed 10:35]
 :PROPERTIES:
@@ -1397,7 +1404,7 @@ A lot happened this year!
 - Hiked 100 miles on a 1 week backpacking trip
 - Learned to do 150 soccer juggles in a row
 - Got better at kite surfing
-- Went Vegan and improved cooking skills
+- [[../on-veganism][Went Vegan]] and improved cooking skills
 
 **** Productivity
 - Switched from Vim to Spacemacs and discovered org-mode
@@ -1472,22 +1479,28 @@ Similarly to marketing, this comes with practice. I really want to be a good lea
 
 Being a good story teller improves many aspects of life, so I'd like to become one. My plan is to read Storyworthy, and to practice. My plan is to record myself telling a story once a week on Mondays.
 
+**** Improving as a Software Developer
+
+Can't forget programming!
+
 **** COMMENT Am I Listing Too Many Things?
 
 Time calculation. Frame everything in terms of time per week.
+
+Ideally everything I do should fit into one of these goals.
 
 *** The Four Burners Theory
 
 It can be helpful to reflect on where you fall in the [[https://jamesclear.com/four-burners-theory][four burners theory]]. I'm planning on making health and work priorities for the coming year. It makes me a bit uneasy that I don't know whether or not this will be a regret in the future, but I don't think it will.
 
 *** COMMENT Goals For 2021
-- publish one blog post a week
-- read one book a month
-- exercise 20 minutes everyday
-- improve marketing and take artifai to sustainability
-- improve leadership skills
-- improve story telling skills
-- become comfortable with being perceived as an "asshole"
+- publish one blog post a week :: 5 hours per week
+- read one book a month :: 2 hours per week
+- exercise 20 minutes everyday :: 2 hours per week
+- improve marketing and take artifai to sustainability :: 5 hours per week
+- improve leadership skills :: 5 hours per week
+- improve story telling skills :: 2 hours per week
+- become comfortable with being perceived as an "asshole" :: 2 hours per week
 - improve competitive programming skills (less of a priority). Main reason I see this as appealing is because I think it's something I could get very good at. And it's enjoyable to be very good at something. Also it would help with interviews. But I won't be doing interviews for another 9 months.
 
 *** COMMENT 5 Lessons
@@ -1918,6 +1931,55 @@ We started working on Artifai in March 2020 and have been working on it on and o
 The next steps are to continue to build out features and dig into marketing. So far we are still pretty far in the red with 2 unknown canvas purchasers.
 
 Please let us know if you have any feedback or suggestions!
+** DONE The Best Way To Make Quick Presentations :org_mode:presentations:@Productivity:
+CLOSED: [2020-12-30 Wed 11:15]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: quick-presentations
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-30 Wed 10:11]--[2020-12-30 Wed 10:32] =>  0:21
+CLOCK: [2020-12-30 Wed 09:06]--[2020-12-30 Wed 10:11] =>  1:05
+:END:
+
+*** Overview
+
+There are three aspects to a slideshow presentation:
+- the content
+- the design
+- the delivery
+
+This post focuses on the content and design. Imagine yourself, looking to quickly prepare a slideshow, and opening up google slides or powerpoint. What you really bring to the table is the content, but along the way you have to deal with manually composing slides; moving the textbox a little to the right, changing the font, resizing images.
+
+Would it be possible to write a program that lets you forget about design, focus on the content, and then have a polished presentation generated for you? You would need a way to communicate the content with the program, an outliner tool. hmm
+
+It turns out that there is a great package that accomplishes exactly this! See [[https://github.com/yjwen/org-reveal][org-reveal]], a package that uses [[https://revealjs.com/][reveal.js]] to turn plain text org files into html slideshow presentations. You can include all the typical presentation things: images, code, tables, etc. See an example presentation [[https://revealjs.com/][here]].
+
+*** Installation
+
+In spacemacs =org-reveal= is easy to setup. You enable it using org variables as follows and set the =org-re-reveal-root= to where you installed =reveal.js= on your computer:
+#+begin_src elisp
+  (org :variables
+       org-enable-reveal-js-support t
+     )
+
+  (setq org-re-reveal-root "file:///home/gautierk/.npm-global/lib/node_modules/reveal.js/")
+#+end_src
+
+*** Usage
+
+To use org-reveal, outline your presentation in an org file. Use org metadata to set things like the title and author. When you're ready to export, run =org-export-dispatch= (=, e e= on spacemacs) and then type =v b= to export using reveal. You did it! For more options see the [[https://github.com/yjwen/org-reveal][org-reveal]] README. [[https://ruborcalor.github.io/Academic-Cluster-Presentation/][Here]] is an example presentation I made.
+
+*** COMMENT Similar post
+https://cestlaz.github.io/posts/using-emacs-50-presentations/
+
+He does a good job.
+
+First introduces the problem and then says how emacs solves the problem as opposed to introducing emacs as a solution without making it clear what problem is being solved.
+
+Don't think there is anything I would add that cestlaz didn't already so I'm not sure if it's worth writing this post.
+
+Do I want to talk about how to host on github pages? Not sure. I should write it down for myself though, and then might as wel publish.
 * About
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: _about
