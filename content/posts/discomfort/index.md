@@ -1,17 +1,12 @@
 +++
-title = "On Discomfort In Decision Making"
+title = "Discomfort Has No Role In Decision Making"
 date = 2021-01-21T21:27:00-05:00
 draft = false
 +++
 
-# What is Discomfort {#what-is-discomfort}
-
-Discomfort is a slight physical or emotional pain. It makes for a less pleasant experience and oftentimes your first reaction is to make it stop.
-
-
 # Discomfort Is Outdated {#discomfort-is-outdated}
 
-Discomfort developed as an evolutionary necessity; historically, considering the unpleasantness of discomfort during decision making was for the best of the species. Berries make your stomach uneasy? Stop eating them. Prickly bush scratches your skin? Don't let it happen again.
+Discomfort, a slight physical or emotional pain, developed as an evolutionary necessity; historically, considering the unpleasantness of discomfort during decision making was for the best of the species. Berries make your stomach uneasy? Stop eating them. Prickly bush scratches your skin? Don't let it happen again.
 
 On average your body does a good job correlating discomfort with actions that are bad for your well being, but it's important to note that your body isn't right 100% of the time!
 
