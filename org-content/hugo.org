@@ -1,6 +1,6 @@
 #+STARTUP: content
 #+options: author:nil
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: /home/cole/Projects/cole-website/
 #+hugo_level_offset: 0
 
 * Posts
@@ -247,6 +247,94 @@ Does being a good leader sometimes require making people feel bad?
 :END:
 
 Is it worth it to order take out?
+** TODO Comparing Veganism and Composting
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: comparing-veganism-and-composting
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Patching Inconsolata Nerd Fonts Mono
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: patching-inconsolata-nerd-fonts-mono
+:EXPORT_FILE_NAME: index
+:END:
+
+** DONE On Discomfort In Decision Making
+CLOSED: [2021-01-21 Thu 21:27]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: discomfort
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-21 Thu 21:12]--[2021-01-21 Thu 21:27] =>  0:15
+CLOCK: [2021-01-21 Thu 16:01]--[2021-01-21 Thu 16:28] =>  0:27
+CLOCK: [2021-01-21 Thu 15:33]--[2021-01-21 Thu 16:01] =>  0:28
+:END:
+
+*** What is Discomfort
+
+Discomfort is a slight physical or emotional pain. It makes for a less pleasant experience and oftentimes your first reaction is to make it stop.
+
+*** Discomfort Is Outdated
+
+Discomfort developed as an evolutionary necessity; historically, considering the unpleasantness of discomfort during decision making was for the best of the species. Berries make your stomach uneasy? Stop eating them. Prickly bush scratches your skin? Don't let it happen again.
+
+On average your body does a good job correlating discomfort with actions that are bad for your well being, but it's important to note that your body isn't right 100% of the time!
+
+The world has changed a lot since we developed the capacity to feel discomfort. I claim that people would be better off if they were to diminish or even eliminate the role that discomfort plays in the decision making process, opting instead for considering "long term" consequences. At least personally, this mentality shift has had a huge positive impact on my day to day life.
+
+*** COMMENT Notes
+
+for some instances, discomfort plays no role in the decision making process which should instead be purely rational.
+Pain is experienced by all vertebrates. Discomfort is common among all mammals. This leads me to the claim that in the present day, we should try to elimate our 
+
+Discomfort in Evolution
+
+There are two types of discomfort: physical and emotional. I will mainly be talking about physical discomfort, but similar points can be made about emotional discomfort.
+
+Why should temporary discomfort matter?
+
+Discomfort is an evolutionary necessity; in the past, considering the unpleasantness of discomfort during the decision making process was for the best, but in the present day this is often times not the case.
+
+This mentality shift of considering discomfort as something that is no longer relevant to decision making has a huge positive affect on daily life.
+
+After removing discomfort, mainy life improvings activities open up. The open cost to consider now is time, which people can work better with
+
+*** Benefits to Daily Life
+
+There are many things that people know they should be doing try to do but can't do with success:
+- eating healthy
+- getting 8 hours of sleep a night
+- exercising regularly
+- taking cold showers
+
+A common reason people don't commit to these resolutions is that they rationalize them away on the basis of the required discomfort. People don't want to miss out on the taste of junk food, or deal with the pain of a work out. After removing discomfort, the only reason left not to do build these healthy habits would be the cost of time, but even the busiest people can carve out a little bit of time for these activities that have much higher returns than the time investment (yes even you!).
+
+*** Personal Example
+
+Since the new year I have started every morning with a 20 minute workout. My workout consists of handstand pushups, pullups, hanging leg raises, and stretching. By framing the workout as having a cost of 20 minutes and forgetting about the discomfort I will experience during the workout, I am having an easier time maintaining the habit (knock on wood). It takes just 20 minutes and leaves me feeling energized for the rest of the day.
+
+After my workout I hop into a cold shower. Similarly, I dispell thoughts relating to the discomfort of the cold water, and instead phrase the cold shower as a healthy experience that will take just 5 minutes. I wake right up and feel warm as soon as I get out of the cold.
+
+*** Dire Needs
+
+The previous examples were activites of relatively minor discomfort that have compounding positive effects when incorporating them into daily life. Another benefit of making them ritual is to prepare you for dire needs which may include:
+- a necessary confrontation
+- asking someone out
+- asking for a raise
+- building moral courage
+- generally getting out of one's comfort zone
+
+These are the types of scenarios where people often regret not stepping out of their comfort zones; by building a tolerance for discomfort you will more easily take them on.
+
+> Keep the faculty of effort alive in you by a little gratuitous exercise every day. Do every day or two something for no other reason than that you would rather not do it, so that when the hour of dire needs draws nigh, it may find you not unnerved and untrained to stand the test - The Way To Willpower
+
+*** Final Words
+
+I hope that this mentality shift is as helpful to you as it was to me. Please leave any comments or reflections below :)
+
+
+
+
 ** DONE React Redux Firestore Infinite Scrolling :react:redux:firestore:@Software_Dev:
 CLOSED: [2020-12-30 Wed 09:10]
 :PROPERTIES:
@@ -2010,125 +2098,11 @@ Productivity should follow the same route. Everything that aids productivity goe
 What about Web Dev Productivity? Web Dev takes preference.
 
 How to distinguish between long and short posts? Don't worry about it. There will be a separate projects section.
-** Elaborate on Computer Configuration
-I use Manjaro i3.
-
-Emacs for development and organization.
-- org-super-agenda
-- org-roam
-- org-noter
-- org-reveal
-- evil-org
-- org-gcal
-
-Keepmenu
-Firefox
-St
-
-** DONE What I'm Doing Now
-CLOSED: [2020-12-02 Wed 09:47]
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: now
-:EXPORT_FILE_NAME: index
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :narrow true
-:END:
-
-(This is a [[https://nownownow.com/about][now]] page. If you have your own site, [[https://nownownow.com/about][consider making one too!]])
-
-
-*** Artifai
-
-I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [[https://artif.ai][https://artif.ai]].
-
-*** McGill
-
-I'm a U2 honors math and computer science at McGill. My list of coursework is [[https://colekillian.com/coursework-overview/][here]].
-
-*** Skills In Progress
-(inspired by [[https://jamesbvaughan.com/skills-in-progress/][james vaughan]])
-
-One thing that helps me stay happier and more energized is to always be working on developing a skill. As Willy Wonka says, we have "so much time and so little to do".
-
-**** Current
-These are skills that I'm currently working on.
-
-- Fullstack Development
-- Competitive Programming
-- Acoustic Guitar and Singing
-- Writing
-- 1 Minute Handstand
-- Leadership
-- Storytelling
-- Middle Splits
-
-**** Backlog
-These are skills that I'm excited to work on, but that I'm not making time for just yet.
-
-- Electric Guitar
-- Solve a Rubik's Cube Blindfolded
-- YouTube channel
-- Straddle Planche
-- Reinforcement Learning
-- Marathon
-  
-**** Back-Backlog
-These are skills that I hope to get to eventually, but it could be a while.
-
-- Paint
-- Piano
-- Biology
-- 30 Day Fast
-
-**** Past
-These are skills I have developed in the past.
-
-- Standing Backflip
-- Basketball Finger Spin
-- 150 Soccer Juggles
-- Unicycle
-- Magic Card Tricks
-- Bike Wheelie
-  
 ** TODO Habits / Rules
 - No Phone In Bed or Bathroom
 - Cold Showers
 - Workout At Least Every Other Day
 - Daily Recall
-** DONE About
-CLOSED: [2020-12-02 Wed 09:47]
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: about
-:EXPORT_FILE_NAME: index
-:END:
-
-<img src='/images/cole.jpg' title="Cole Killian" style="float: right; border-radius: 50%" width="200px"/>
-
-Hello there! My name is Cole. Currently a U2 Math
-<br>
-and Computer Science student at McGill.
-
-Excited about the future. I try to spend my free time hiking, <br>
-playing guitar, building side projects, reading, writing, <br> and seeing friends. Here's what I'm working on [[/now][now]].
-
-I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know what brings <br> you here or if you want grab coffee.
-
-*** Tech
-- My daily driver is a ThinkPad T450.
-- I run [[https://manjaro.org/][Manjaro]] [[https://i3wm.org/][i3]] ([[https://github.com/Ruborcalor/voidrice][dotfiles]]).
-- I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
-- I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
-- [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
-  
-*** People
-I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
-- [[http://paulgraham.com/][Paul Graham]]
-- [[https://www.nateliason.com][Nat Eliason]]
-- [[https://jamesbvaughan.com/][James Vaughan]]
-- [[https://aliabdaal.com/][Ali Abdaal]]
-- [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
-- [[https://mtlynch.io/][Michael Lynch]]
-- [[https://web.evanchen.cc/][Evan Chen]]
-
 ** TODO Colophon
 :LOGBOOK:
 CLOCK: [2020-12-23 Wed 17:39]--[2020-12-23 Wed 18:19] =>  0:40
@@ -2290,6 +2264,120 @@ Although potential the project post will be more technical than the retrospectiv
 - https://sites.google.com/site/steveyegge2/you-should-write-blogs
 - https://zenhabits.net/write-daily/
 - https://www.becomingminimalist.com/how-to-start-a-blog/
+** Elaborate on Computer Configuration
+I use Manjaro i3.
+
+Emacs for development and organization.
+- org-super-agenda
+- org-roam
+- org-noter
+- org-reveal
+- evil-org
+- org-gcal
+
+Keepmenu
+Firefox
+St
+
+** DONE What I'm Doing Now
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: now
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :narrow true
+:END:
+
+(This is a [[https://nownownow.com/about][now]] page. If you have your own site, [[https://nownownow.com/about][consider making one too!]])
+
+
+*** Artifai
+
+I'm leading the development of Artifai. Our goal is to making neural style technology available to non technical users, while streamlining the process for users to purchase their art on a poster/canvas. You can check it out at [[https://artif.ai][https://artif.ai]].
+
+*** McGill
+
+I'm a U2 honors math and computer science at McGill. My list of coursework is [[https://colekillian.com/coursework-overview/][here]].
+
+*** Skills In Progress
+(inspired by [[https://jamesbvaughan.com/skills-in-progress/][james vaughan]])
+
+One thing that helps me stay happier and more energized is to always be working on developing a skill. As Willy Wonka says, we have "so much time and so little to do".
+
+**** Current
+These are skills that I'm currently working on.
+
+- Fullstack Development
+- Competitive Programming
+- Acoustic Guitar and Singing
+- Writing
+- 1 Minute Handstand
+- Leadership
+- Storytelling
+- Middle Splits
+
+**** Backlog
+These are skills that I'm excited to work on, but that I'm not making time for just yet.
+
+- Electric Guitar
+- Solve a Rubik's Cube Blindfolded
+- YouTube channel
+- Straddle Planche
+- Reinforcement Learning
+- Marathon
+  
+**** Back-Backlog
+These are skills that I hope to get to eventually, but it could be a while.
+
+- Paint
+- Piano
+- Biology
+- 30 Day Fast
+
+**** Past
+These are skills I have developed in the past.
+
+- Standing Backflip
+- Basketball Finger Spin
+- 150 Soccer Juggles
+- Unicycle
+- Magic Card Tricks
+- Bike Wheelie
+  
+** DONE About
+CLOSED: [2020-12-02 Wed 09:47]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: about
+:EXPORT_FILE_NAME: index
+:END:
+
+<img src='/images/cole.jpg' title="Cole Killian" style="float: right; border-radius: 50%" width="200px"/>
+
+Hello there! My name is Cole. Currently a U2 Math
+<br>
+and Computer Science student at McGill.
+
+Excited about the future. I try to spend my free time hiking, <br>
+playing guitar, building side projects, reading, writing, <br> and seeing friends. Here's what I'm working on [[/now][now]].
+
+I'd love if you clicked [[mailto:cole@colekillian.com][here]] to let me know what brings <br> you here or if you want grab coffee.
+
+*** Tech
+- My daily driver is a ThinkPad T450.
+- I run [[https://manjaro.org/][Manjaro]] [[https://i3wm.org/][i3]] ([[https://github.com/Ruborcalor/voidrice][dotfiles]]).
+- I live by [[https://www.spacemacs.org/][Spacemacs]] [[https://orgmode.org/][org-mode]].
+- I use [[https://apps.ankiweb.net/][Anki]] for things I don't want to forget.
+- [[https://www.thunderbird.net/en-US/][Thunderbird]] with [[https://github.com/wshanks/tbkeys][tbkeys]] for checking mail.
+  
+*** People
+I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
+- [[http://paulgraham.com/][Paul Graham]]
+- [[https://www.nateliason.com][Nat Eliason]]
+- [[https://jamesbvaughan.com/][James Vaughan]]
+- [[https://aliabdaal.com/][Ali Abdaal]]
+- [[https://vasilishynkarenka.com/][Vasili Shynkarenka]]
+- [[https://mtlynch.io/][Michael Lynch]]
+- [[https://web.evanchen.cc/][Evan Chen]]
+
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: projects
