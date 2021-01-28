@@ -10,7 +10,7 @@ draft = false
 
 When approaching "self-improvement", it can be intimidating to want a change but not know where or how to start. By breaking change into a sequence of phases with tips for passing each one, it becomes more approachable; you can take the process one step at a time. Merely giving each phase a name can help you to ground yourself in the adventure.
 
-A helpful framework is to think about change as a way of ridding oneself from cognitive dissonance: a situation involving conflicting beliefs, attitudes, or behaviors. In this post I don't discuss changing your beliefs or tell you which beliefs are "right" and "wrong". Instead I assume your beliefs to be axiomatic truths and discuss change as a process by which one aligns his attitudes and behaviors with his beliefs.
+A helpful framework is to think about change as a way of ridding oneself from cognitive dissonance: a situation involving conflicting beliefs, attitudes, or behaviors. In this post I don't discuss changing your beliefs or tell you which beliefs are "right" and "wrong". Instead, I assume your beliefs to be absolute truths and that all positive change fits under the umbrella of aligning one's attitudes and behaviors with one's beliefs. Then I discuss change as a process by which one aligns his attitudes and behaviors with his beliefs.
 
 Quick Definitions:
 
@@ -91,6 +91,6 @@ Here are some examples for better understanding the previous phases. Depending o
 4.  celebrating success in quitting excessively playing video games
 
 
-# Last Words {#last-words}
+# Final Words {#final-words}
 
-I hope that this framework is as helpful for you as it has been for me! Please let me know if you have any comments or ideas :)
+I hope that this mentality shift is as helpful to you as it was to me. Please leave any comments or reflections below :)

@@ -1,9 +1,9 @@
 +++
 title = "Discomfort Has No Role In Decision Making"
-date = 2021-01-21T21:27:00-05:00
+date = 2021-01-21T07:57:00-05:00
 tags = ["discomfort", "decision-making"]
 categories = ["Thoughts"]
-draft = true
+draft = false
 +++
 
 # Discomfort Is Outdated {#discomfort-is-outdated}
