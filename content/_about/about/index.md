@@ -20,20 +20,7 @@ I'd love if you clicked [here](mailto:cole@colekillian.com) to let me know what 
 # Tech {#tech}
 
 -   My daily driver is a ThinkPad T450.
--   I run [Manjaro](https://manjaro.org/) [i3](https://i3wm.org/) ([dotfiles](https://github.com/Ruborcalor/voidrice)).
+-   I run [arch](https://archlinux.org/) [i3](https://i3wm.org/) ([dotfiles](https://github.com/Ruborcalor/dotFiles)).
 -   I live by [Spacemacs](https://www.spacemacs.org/) [org-mode](https://orgmode.org/).
 -   I use [Anki](https://apps.ankiweb.net/) for things I don't want to forget.
 -   [Thunderbird](https://www.thunderbird.net/en-US/) with [tbkeys](https://github.com/wshanks/tbkeys) for checking mail.
-
-
-# People {#people}
-
-I've learned a lot from a ton of cool and inspiring people. I might not recall all of them but here are some:
-
--   [Paul Graham](http://paulgraham.com/)
--   [Nat Eliason](https://www.nateliason.com)
--   [James Vaughan](https://jamesbvaughan.com/)
--   [Ali Abdaal](https://aliabdaal.com/)
--   [Vasili Shynkarenka](https://vasilishynkarenka.com/)
--   [Michael Lynch](https://mtlynch.io/)
--   [Evan Chen](https://web.evanchen.cc/)
