@@ -258,6 +258,121 @@ Is it worth it to order take out?
 :EXPORT_FILE_NAME: index
 :END:
 
+** TODO Online school?
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: location
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2021-02-18 Thu 14:51]--[2021-02-18 Thu 15:21] =>  0:30
+CLOCK: [2021-02-04 Thu 18:36]--[2021-02-04 Thu 18:54] =>  0:18
+:END:
+
+For the past year, the lectures for my courses have been given over zoom because of Covid.
+
+My first reaction to online school is to dislike it, because it feels like a lot of the value is removed by not having courses in person.
+
+But over the last year i've realized that I prefer learning material via recordings than I do learning material live.
+
+Disclaimer: my thoughts are tailored towards computer science and math courses, because those are the courses that I take.
+
+*** What are the main components of school?
+
+There's two main ways schools are handling covid:
+- nobody allowed on campus
+- limited people allowed on campus
+
+The point of going to school is to grow as a person whether it be through technical knowledge, self-sufficiency, .
+
+How does covid affect this process?
+
+School being online is a subcategory of the consequence of covid.
+
+What does school being "online" mean? There are a few different components that we might want to isolate:
+- No requirement for attending lectures live / no option to attend lectures live
+- Exams are open note and written at home
+
+That's it. That is what "online school" means. No, this is wrong. These are the appealing parts of online school. But it also means:
+- no in person activities
+
+There are lots of other consequences
+
+  
+
+Envision a future taking from the best of both worlds.
+
+We want to isolate school
+
+Good things about school being online:
+- 
+- less commuting
+- less commuting
+- 
+
+**** Courses
+***** Assessments
+***** Assignments
+***** Lectures
+***** Socialization
+***** Environment
+**** Clubs
+***** Socialization
+**** Adventures
+
+
+*** Live vs Recorded Consumption
+
+When consuming a live lecture, you have to shape your brain to the pace of the lecture. This is problematic because it is unlikely that the lecture's pace and your natural pace are the same by coincidence. For example, the prof may tailor the pace of the lecture to that of the average person of the class. This leaves lots of people with non optimal pace. Nobody is average ([[https://www.thestar.com/news/insight/2016/01/16/when-us-air-force-discovered-the-flaw-of-averages.html][link]]).
+
+When recorded, you can consume the lecture at your preferred pace. You can speed it up, slow it down, pause, start, take breaks. This can enable the time spent learning material to be much more efficient.
+
+A good thing about live lectures is that they don't require as much will power. For recorded lectures you are left to manage your own time, while for live lectures you are forced to go to class and keep up the pace or else you won't get access to the lectures.
+
+*** Preparation and Consumption
+
+There are two factors. Preparation and Consumption. 
+
+It is hard to prepare a live lecture. Everything has to be done live; there isn't an undo button.
+
+With recordings, a lot of post processing can be added in order to improve the quality of a lecture. Jump cutter. Auto post processor idea.
+
+*** Pros of Recordings
+
+Questions:
+***  What do I think about online school?
+Pros:
+- no commute
+- 3x lecture recordings.
+
+When school was in person, I didn't go to a lot of the classes anyways if I thought my time would be better spent else where. Why go to lecture when you can watch the recording at 3x speed later.
+
+Cons:
+- can't go to the gym
+- working on problem sets in person
+
+The right roommates solve the problems of online school. You have someone to work on problem sets with so that the class doesn't feel as alone.
+
+I like the flipped classroom format. I think lectures can be done best with recordings, because you aren't interacting anyways. Discussion on the other hand needs to be live. It's actually easier to do flipped classroom over zoom because you don't need a classroom with breakout tables.
+
+Why do I want covid to go away?
+- 
+***  What do I think about where I live
+** TODO Binary Search daily life upper bound
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: binary-search-daily-life-upper-bound
+:EXPORT_FILE_NAME: index
+:END:
+** TODO assertiveness vs tolerance building
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: assertiveness-vs-tolerance-building
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Talk about the power of enthusiasm. I want to be more enthuastic
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: talk-about-the-power-of-enthusiasm-dot-i-want-to-be-more-enthuastic
+:EXPORT_FILE_NAME: index
+:END:
+
 ** DONE Cognitive Dissonance As A Framework For Change    :change:@Thoughts:
 CLOSED: [2021-01-28 Thu 07:55]
 :PROPERTIES:
@@ -1305,147 +1420,6 @@ In keeping with these goals, I prefer Organice because of the capture templates 
 Keep in mind these are my initial impressions. My plan is to go with Organice for a few weeks and report back with anything else I notice.
 
 Feel free to leave a comment below!
-** DONE The Way To Willpower By Henry Hazlitt
-CLOSED: [2020-12-01 Tue 19:04]
-:PROPERTIES:
-:EXPORT_HUGO_BUNDLE: the-way-to-willpower
-:EXPORT_FILE_NAME: index
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :Score 8 :Thoughts The Way to WillPower was published in 1922, but still packs a ton of super valuable information relating to "will-power". I found many of its ideas useful in my everyday life. It's a relatively quick read, I definitely recommend!
-:END:
-
-*** Summary and Notes (By Chapter)
-**** A Revelation
-Introduces the idea that the will does not exist as another faculty alongside the memory, imagination, and a way to reason.
-**** The Intellect as a Valet
-Claims that the intellect is responsible for choosing between desires.
-**** The Price One Pays
-There is a price to be payed for valuing remote desires over present ones.
-**** Old Bottles for the New Wine
-The will may be defined as our desire to be a certain sort of character. If this desire is strong enough, it can assist your intellect to make decisions that value the future. Will-power may be defined as the ability to keep a remote desire so vividly in mind that immediate desires which interfere with it are not gratified.
-**** Resolutions Made and Resolutions Kept
-It's problematic that people make too many resolutions and then don't keep them. Instead people should think long and hard about the prices associated with a resolution, and then only make them when they are confident that they can keep them. This helps avoid the demoralizing act of breaking one. 
-**** Success and the Capital S
-Decide for yourself what "success" means; Don't make the mistake of continually trying to obtain the things that the people around us want or profess to want, rather than what you want yourself, because you have never really tried to examine whether there is any difference between the two. After reflecting on success, decide if you are willing to pay the price to get there. 
-**** The Scale of Values
-Material values are not the way to go. A man's goal ought to be (beyond the mere duty of making himself happy) to increase social well-being to confer the greatest benefits he can upon humanity. So long as fame and money are the ends sought, the benefits conferred upon humanity are mere by-products; whereas, in any civilization worthy of the name, the ends sought by individuals ought to be social well-being, and fame and money the by-products.
-**** Controlling One's Thoughts
-Tips for carrrying out resolutions:
-- Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
-- Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
-- Dwell on the benefits of carrying your resolove out, not on the evils of failing. Fill the mind with the positive idea of your resolve.
-- When combating insomnia, don't say to oneself "I shall sleep". Instead say "I sleep".
-- Don't defy temptation, instead evade it. Don't do things that trigger desires you don't want.
-- After mastering evading temptation, you can start to add it back in. "It breeds great perfection if the practice be harder than the use".
-**** The Omnipresence of Habit
-Desires and fears are not the sole determinants of action; there is also habit. Habit is the doing of a thing without conscious attention and often without thought of the purpose of doing it.
-**** The Alteration of Habit
-When you first set about to abolish a bad habit and establish a good one, it is going to take all the effort, all the "will-power", at your command. But habit begins soon to take the place of will-power; it will require less and less effort. You make your nervous system your ally instead of your enemy.
-
-Tips for altering habits:
-- In acquisition of a new habit or the leaving off an old one, we must take care to launch ourselves with as strong and decided an initiative as possible. This helps give momentum and postpones a potential breakdown.
-- Never suffer an exception to occur till the new habit is securely rotted in your life.
-- Seize the very first possible opportunity to act on every resolution you make, and on every emotional prompting you may experience in the direction of the habits you aspire to gain.
-- When temptations arise, instead of telling yourself "I will begin to reform the next time", tell yourself that "the last time was the last".
-**** Will and The Psychoanalysts
-This chapter focuses on discussing how psychoanalysts have it wrong. Points:
-- "Whichever your belief you tend to make your belief true".
-- There is a difference between a desire and a craving. We have a desire for food, but a craving for cigarettes, whiskey, morphine.
-- Oscar Wilde said: "The only way to get rid of a temptation is to yield to it". Like all good epigrams, it is at least true in a special sense. It is true in that if you yield to a temptation, you will get rid of it "for the moment". But everytime you yield you do two things: increase the intensity of the desire and lessen the power of resistance.
-- You develop and strengthen the craving by use, just as you develop a muscle by use. Everytime you resist a desire you strengthen your power to resist.
-- Makes a point that sexual craving can be fought, that it can be lived down, that it can be conquered, that the conquest of it would immensly strengthen the character, and make most other moral victories comparatively easy. This differs from psychoanalysts who believe "it is not only impossible to conquer the sexual passion, but highly dangerous to try".
-**** Concentration
-Discusses what to do with your will-power once you have it. Points:
-- Minute-to-minute concentration is the ability to keep your mind upon a certain subject for a given period, say for ten minutes, one half hour or two hours without interruption.
-- Night-after-night concentration is the ability to specialize in a certain subject or in a certain branch of that subject until you have mastered it thoroughly, before advancing to other subjects.
-- Concentration is primarily an act of will (desire of character). It need not necessarily by so. If you enjoy working, getting up early, remaining home nights, staying sober, you will do so without effort. If you are interested in a book or in a particular subject, you will read it or meditate upon it without effort. But you need will-power in action precisely because you do not enjoy doing these commendable things, and you need will-power in reading, thought or writing precisely because your mind will otherwise be distracted by lack of lapses of interest in the subject at hand or by greater interest in something else.
-- The act of will involved in concentration is the same in principle as any other act of will
-  - We must be certain in your own mind that the end is worth while.
-  - There is a price attached to concentration. We will have less time for other things. We must be content to remain somewhat ignorant of the other things, at least for a time.
-  - This applies particuarly to night-after-night concentration. If you keep switching subjects, you won't be able to specialize adequately. By trying to know something about everything, you may miss really knowing anything about anything.
-  - One needs one's play to keep from going stale, but there are limits to this principle. No man will become an savant from an evening a week. "Most careers are made or marred in the hours after supper".
-  - When our mind wanders, we do so because of a half-conscious belief that the new idea, problem or fact needs attending to is important. If it were to truely be important, it would be so only by accident. Nine times out of ten we should find that they are not.
-  - Forms of involuntary concentration of which you were not conscious, were possible because the interest in the subject was intense enough. An example is when you are asked a question and don't even notice.
-  - When a person is left alone for a short time, he often takes pleasant but uneducative roamings. The only way a man can put a stop to this is to snap off his train of day-dreaming the first moment he becomes aware of it, and to address his mind to some serious subject. If he has never done this, he will find the effort great. But "just do it".
-**** A Program of Work
-There are some tasks that we don't even see as anything requiring will-power at all, simply because they do not come in the teeth-gritting class, but that we continue to put off anyways. The reasons for this are not being as efficient as we might be, and procrastination from lack of will-power.
-
-Makes an example of a person who decides to devote evenings to the study of money and banking. They could learn it just as well at home as by going to night-school, but the rigidity of night-school means it requires less will-power. Another element is that it is much easier to say to a friend: "I'm sorry I'd like to go, but I have to go to night-school" then it is to say "I'm sorry but I have to stay home and study". Your friend is likely to be skeptical. He may be unable to see than an obligation to yourself is quite as sacred as an obligation to others. But you have to commit anyways and stick to your self-study schedule. Note that it is much easier for the discipline of will-power to plan modestly and to carry out your schedule than to plan greatly and fail. The first builds self-confidence; the second destroys it.
-**** The Daily Challenge
-Keep the faculty of effort alive in you by a little gratuitous exercise every day. Do every day or two something for no other reason than that you would rather not do it, so that when the hour of dire needs draws nigh, it may find you not unnerved and untrained to stand the test.
-
-There is the practical example of asking for a raise. You know you are worth more money, but you don't have the courage. A test of meeting the challenge is the way you feel at the end of the day. If you have met the challenge, you will be rewarded with a glow of soul; if you have evaded or postponed it, your lot will be a sense of guilt.
-
-Emotion follows action, not the other way around. If you really mean to do it at all, insist upon fixing a definite deadline.
-
-Another case is when you would like to give the answer "No". Yet you fear to give offense; you fear friendship, you fear having to defend your position; you fear embarassment. A man cannot respect himself if he grants a request or gives money to a beggar not because he believes the request is fair, or to relieve the beggar's distress, but simply because he cannot look his supplicant in the eye and tell him No.
-
-There is always the infinitude of bad habits to be broken and good habits to be formed. One example is a cold shower every morning: it is an excellent will exercise, which more than pays for itself in its effects upon your health.
-**** Second And Third Winds
-There are times when physical and mental fatigue appear to make us quit a task. But eight times out of ten is it flagging interest, rather than real fatigue, which makes us quit. As long as interest is intense enough, physical and mental fatigue won't really matter.
-
-There are two main ways to get past this problem: 
-1. Diversification. By turning from one subject to another, you sustain or increase your interest in the subjects.
-2. Sheer effort. Trusting that after a time either the interest will rise again or the fatigue will decrease. "Heroism is endurance for one moment more".
-
-This can be a dangerous doctrine that would leave to overwork, overstrain and nervous breakdown. It is possible to overdo it; but for overwhelming majority it is not the slightest danger. Most breakdowns attributed to overwork do not come from overwork, but from worry, dissipation and unhygienic living. Indolence will always find excuses for its own existence.
-**** Moral Courage
-Final notes before parting from the book:
-- Never boast to friends about will-power. They are apt to become cynical and facetious, especially when you have broken some major or minor resolution. You want your friends to know of your will-power, but the best way for them to discover it is through actions, not words.
-- Don't be a prig, someone who has become vastly well satisfied with himself. His chief pastime is to talk about the shortcomings of over the people.
-- True willpower is perfectly compatible with true humility.
-- It is in general more profitable to reckon up our defects than to boast of our attainments. Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and inteded to do.
-- Don't be stubborn. Don't fancy that will-power is incompatible with making yourself agreeable. A man who stands for principles in which you believe has backbone; a man who stands for principles in which you do not believe is stubborn.
-- The man with backbone will never give in because of mere lack of physical and moral courage. Moral courage is the rarest thing on earth. How many had the ecourage merely to make themselves unpopular.
-- How can it profit a man to be able to think if he does not dare to. You must have the courage to go where the mind leads, no matter how startling the conclusion. This may require the courage to stand against the whole world.
-- Great is the man who has that moral courage, for he indeed has achieved will-power.
-  
-*** My Top 3 Quotes
-
-- "We may think his ethical ideas mistaken, and mistaken they may be; but we cannot but admire the strength of character which leads him to act them out in spite of social opposition."
-- "If your ability to refuse to yield to this particular impulse becomes in your mind a challenge to and a test of your entire character, you have thrown into the scale a mighty force to ensure your taking the right action."
-- "Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and intended to do."
-
-*** How The Book Changed Me
-
-You would think that a goal of reading the book is to improve your will-power, and that's definitely an effect that it had on me. I find that even just having the words to conceptualize will-power as the desire to be a certain character helps me resist "temptation". I also find the "rules of will-power" to be very helpful:
-1. Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
-2. Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
-
-Here i'll list some ways my mindset changed after reading the book:
-- More value for the importance of habits
-- An appreciation for "Whichever your belief you tend to make your belief true"
-- Opened my mind to the perspective that sexual desire can be conquered. I rarely see that point made.
-- I related to the example of a person who decides to devote some evenings to studying and the difficulty of telling friends. Previously I would tell myself that I would make up for it by becoming more efficient. But now I'm more inclined to say "No" sometimes. I still see a need for occasional "play to keep from going stale".
-- I like the idea of a daily challenge. I already take cold showers, but I'll be introducing some more daily challenges.
-- Cool to read the idea of using sheer effort to overcome physical and mental fatigue.
-- I have a stronger desire for moral courage than before.
-- Just do it.
-
-*** How I Discovered It
-I discovered the book through [[https://vasilishynkarenka.com/][Vasili]] who very kindly gifted it to me. Thank you!
-
-*** Time Spent Reading
-*Total time: 3:48*
-#+begin_src 
-:LOGBOOK:
-CLOCK: [2020-11-10 Tue 17:16]--[2020-11-10 Tue 18:02] =>  0:46
-CLOCK: [2020-11-10 Tue 16:34]--[2020-11-10 Tue 17:16] =>  0:42
-CLOCK: [2020-11-09 Mon 11:10]--[2020-11-09 Mon 11:50] =>  0:40
-CLOCK: [2020-11-09 Mon 10:28]--[2020-11-09 Mon 11:10] =>  0:42
-CLOCK: [2020-11-07 Sat 08:03]--[2020-11-07 Sat 08:22] =>  0:19
-CLOCK: [2020-11-06 Fri 15:43]--[2020-11-06 Fri 16:22] =>  0:39
-:END:
-#+end_src
-
-*** Time Spent Reviewing/Writing
-
-*Total time: 3:19*
-#+begin_src 
-:LOGBOOK:
-CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
-CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
-:END:
-#+end_src
 ** DONE Org Pomodoro and Polybar   :org_mode:pomodoro:polybar:@Productivity:
 CLOSED: [2020-12-23 Wed 11:19]
 :PROPERTIES:
@@ -2197,6 +2171,629 @@ After struggling with this problem for weeks, I found a solution that gets the b
 - When I get hungry, finish the remaining oats
 
 It's as simple as that! It's silly that it took me so long to recognize this option; I wasn't BFSing hard enough. Note that this idea can be generalized. Identify a scneario where something is being forced, and inspect whether or not spreading out the events of the scenario will reduce the required force. If so, then spread out the events of the scneario, and bam! problem solved :)
+
+* Book Notes
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: book-notes
+:END:
+** DONE The Way To Willpower By Henry Hazlitt
+CLOSED: [2020-12-01 Tue 19:04]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: the-way-to-willpower
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :Score 8 :Thoughts The Way to WillPower was published in 1922, but still packs a ton of super valuable information relating to "will-power". I found many of its ideas useful in my everyday life. It's a relatively quick read, I definitely recommend!
+:END:
+
+*** My Top 3 Quotes
+
+- "We may think his ethical ideas mistaken, and mistaken they may be; but we cannot but admire the strength of character which leads him to act them out in spite of social opposition."
+- "If your ability to refuse to yield to this particular impulse becomes in your mind a challenge to and a test of your entire character, you have thrown into the scale a mighty force to ensure your taking the right action."
+- "Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and intended to do."
+
+*** How The Book Changed Me
+
+You would think that a goal of reading the book is to improve your will-power, and that's definitely an effect that it had on me. I find that even just having the words to conceptualize will-power as the desire to be a certain character helps me resist "temptation". I also find the "rules of will-power" to be very helpful:
+1. Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
+2. Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
+
+Here i'll list some ways my mindset changed after reading the book:
+- More value for the importance of habits
+- An appreciation for "Whichever your belief you tend to make your belief true"
+- Opened my mind to the perspective that sexual desire can be conquered. I rarely see that point made.
+- I related to the example of a person who decides to devote some evenings to studying and the difficulty of telling friends. Previously I would tell myself that I would make up for it by becoming more efficient. But now I'm more inclined to say "No" sometimes. I still see a need for occasional "play to keep from going stale".
+- I like the idea of a daily challenge. I already take cold showers, but I'll be introducing some more daily challenges.
+- Cool to read the idea of using sheer effort to overcome physical and mental fatigue.
+- I have a stronger desire for moral courage than before.
+- Just do it.
+
+*** How I Discovered It
+I discovered the book through [[https://vasilishynkarenka.com/][Vasili]] who very kindly gifted it to me. Thank you!
+
+*** Summary and Notes (By Chapter)
+**** A Revelation
+Introduces the idea that the will does not exist as another faculty alongside the memory, imagination, and a way to reason.
+**** The Intellect as a Valet
+Claims that the intellect is responsible for choosing between desires.
+**** The Price One Pays
+There is a price to be payed for valuing remote desires over present ones.
+**** Old Bottles for the New Wine
+The will may be defined as our desire to be a certain sort of character. If this desire is strong enough, it can assist your intellect to make decisions that value the future. Will-power may be defined as the ability to keep a remote desire so vividly in mind that immediate desires which interfere with it are not gratified.
+**** Resolutions Made and Resolutions Kept
+It's problematic that people make too many resolutions and then don't keep them. Instead people should think long and hard about the prices associated with a resolution, and then only make them when they are confident that they can keep them. This helps avoid the demoralizing act of breaking one. 
+**** Success and the Capital S
+Decide for yourself what "success" means; Don't make the mistake of continually trying to obtain the things that the people around us want or profess to want, rather than what you want yourself, because you have never really tried to examine whether there is any difference between the two. After reflecting on success, decide if you are willing to pay the price to get there. 
+**** The Scale of Values
+Material values are not the way to go. A man's goal ought to be (beyond the mere duty of making himself happy) to increase social well-being to confer the greatest benefits he can upon humanity. So long as fame and money are the ends sought, the benefits conferred upon humanity are mere by-products; whereas, in any civilization worthy of the name, the ends sought by individuals ought to be social well-being, and fame and money the by-products.
+**** Controlling One's Thoughts
+Tips for carrrying out resolutions:
+- Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
+- Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
+- Dwell on the benefits of carrying your resolove out, not on the evils of failing. Fill the mind with the positive idea of your resolve.
+- When combating insomnia, don't say to oneself "I shall sleep". Instead say "I sleep".
+- Don't defy temptation, instead evade it. Don't do things that trigger desires you don't want.
+- After mastering evading temptation, you can start to add it back in. "It breeds great perfection if the practice be harder than the use".
+**** The Omnipresence of Habit
+Desires and fears are not the sole determinants of action; there is also habit. Habit is the doing of a thing without conscious attention and often without thought of the purpose of doing it.
+**** The Alteration of Habit
+When you first set about to abolish a bad habit and establish a good one, it is going to take all the effort, all the "will-power", at your command. But habit begins soon to take the place of will-power; it will require less and less effort. You make your nervous system your ally instead of your enemy.
+
+Tips for altering habits:
+- In acquisition of a new habit or the leaving off an old one, we must take care to launch ourselves with as strong and decided an initiative as possible. This helps give momentum and postpones a potential breakdown.
+- Never suffer an exception to occur till the new habit is securely rotted in your life.
+- Seize the very first possible opportunity to act on every resolution you make, and on every emotional prompting you may experience in the direction of the habits you aspire to gain.
+- When temptations arise, instead of telling yourself "I will begin to reform the next time", tell yourself that "the last time was the last".
+**** Will and The Psychoanalysts
+This chapter focuses on discussing how psychoanalysts have it wrong. Points:
+- "Whichever your belief you tend to make your belief true".
+- There is a difference between a desire and a craving. We have a desire for food, but a craving for cigarettes, whiskey, morphine.
+- Oscar Wilde said: "The only way to get rid of a temptation is to yield to it". Like all good epigrams, it is at least true in a special sense. It is true in that if you yield to a temptation, you will get rid of it "for the moment". But everytime you yield you do two things: increase the intensity of the desire and lessen the power of resistance.
+- You develop and strengthen the craving by use, just as you develop a muscle by use. Everytime you resist a desire you strengthen your power to resist.
+- Makes a point that sexual craving can be fought, that it can be lived down, that it can be conquered, that the conquest of it would immensly strengthen the character, and make most other moral victories comparatively easy. This differs from psychoanalysts who believe "it is not only impossible to conquer the sexual passion, but highly dangerous to try".
+**** Concentration
+Discusses what to do with your will-power once you have it. Points:
+- Minute-to-minute concentration is the ability to keep your mind upon a certain subject for a given period, say for ten minutes, one half hour or two hours without interruption.
+- Night-after-night concentration is the ability to specialize in a certain subject or in a certain branch of that subject until you have mastered it thoroughly, before advancing to other subjects.
+- Concentration is primarily an act of will (desire of character). It need not necessarily by so. If you enjoy working, getting up early, remaining home nights, staying sober, you will do so without effort. If you are interested in a book or in a particular subject, you will read it or meditate upon it without effort. But you need will-power in action precisely because you do not enjoy doing these commendable things, and you need will-power in reading, thought or writing precisely because your mind will otherwise be distracted by lack of lapses of interest in the subject at hand or by greater interest in something else.
+- The act of will involved in concentration is the same in principle as any other act of will
+  - We must be certain in your own mind that the end is worth while.
+  - There is a price attached to concentration. We will have less time for other things. We must be content to remain somewhat ignorant of the other things, at least for a time.
+  - This applies particuarly to night-after-night concentration. If you keep switching subjects, you won't be able to specialize adequately. By trying to know something about everything, you may miss really knowing anything about anything.
+  - One needs one's play to keep from going stale, but there are limits to this principle. No man will become an savant from an evening a week. "Most careers are made or marred in the hours after supper".
+  - When our mind wanders, we do so because of a half-conscious belief that the new idea, problem or fact needs attending to is important. If it were to truely be important, it would be so only by accident. Nine times out of ten we should find that they are not.
+  - Forms of involuntary concentration of which you were not conscious, were possible because the interest in the subject was intense enough. An example is when you are asked a question and don't even notice.
+  - When a person is left alone for a short time, he often takes pleasant but uneducative roamings. The only way a man can put a stop to this is to snap off his train of day-dreaming the first moment he becomes aware of it, and to address his mind to some serious subject. If he has never done this, he will find the effort great. But "just do it".
+**** A Program of Work
+There are some tasks that we don't even see as anything requiring will-power at all, simply because they do not come in the teeth-gritting class, but that we continue to put off anyways. The reasons for this are not being as efficient as we might be, and procrastination from lack of will-power.
+
+Makes an example of a person who decides to devote evenings to the study of money and banking. They could learn it just as well at home as by going to night-school, but the rigidity of night-school means it requires less will-power. Another element is that it is much easier to say to a friend: "I'm sorry I'd like to go, but I have to go to night-school" then it is to say "I'm sorry but I have to stay home and study". Your friend is likely to be skeptical. He may be unable to see than an obligation to yourself is quite as sacred as an obligation to others. But you have to commit anyways and stick to your self-study schedule. Note that it is much easier for the discipline of will-power to plan modestly and to carry out your schedule than to plan greatly and fail. The first builds self-confidence; the second destroys it.
+**** The Daily Challenge
+Keep the faculty of effort alive in you by a little gratuitous exercise every day. Do every day or two something for no other reason than that you would rather not do it, so that when the hour of dire needs draws nigh, it may find you not unnerved and untrained to stand the test.
+
+There is the practical example of asking for a raise. You know you are worth more money, but you don't have the courage. A test of meeting the challenge is the way you feel at the end of the day. If you have met the challenge, you will be rewarded with a glow of soul; if you have evaded or postponed it, your lot will be a sense of guilt.
+
+Emotion follows action, not the other way around. If you really mean to do it at all, insist upon fixing a definite deadline.
+
+Another case is when you would like to give the answer "No". Yet you fear to give offense; you fear friendship, you fear having to defend your position; you fear embarassment. A man cannot respect himself if he grants a request or gives money to a beggar not because he believes the request is fair, or to relieve the beggar's distress, but simply because he cannot look his supplicant in the eye and tell him No.
+
+There is always the infinitude of bad habits to be broken and good habits to be formed. One example is a cold shower every morning: it is an excellent will exercise, which more than pays for itself in its effects upon your health.
+**** Second And Third Winds
+There are times when physical and mental fatigue appear to make us quit a task. But eight times out of ten is it flagging interest, rather than real fatigue, which makes us quit. As long as interest is intense enough, physical and mental fatigue won't really matter.
+
+There are two main ways to get past this problem: 
+1. Diversification. By turning from one subject to another, you sustain or increase your interest in the subjects.
+2. Sheer effort. Trusting that after a time either the interest will rise again or the fatigue will decrease. "Heroism is endurance for one moment more".
+
+This can be a dangerous doctrine that would leave to overwork, overstrain and nervous breakdown. It is possible to overdo it; but for overwhelming majority it is not the slightest danger. Most breakdowns attributed to overwork do not come from overwork, but from worry, dissipation and unhygienic living. Indolence will always find excuses for its own existence.
+**** Moral Courage
+Final notes before parting from the book:
+- Never boast to friends about will-power. They are apt to become cynical and facetious, especially when you have broken some major or minor resolution. You want your friends to know of your will-power, but the best way for them to discover it is through actions, not words.
+- Don't be a prig, someone who has become vastly well satisfied with himself. His chief pastime is to talk about the shortcomings of over the people.
+- True willpower is perfectly compatible with true humility.
+- It is in general more profitable to reckon up our defects than to boast of our attainments. Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and inteded to do.
+- Don't be stubborn. Don't fancy that will-power is incompatible with making yourself agreeable. A man who stands for principles in which you believe has backbone; a man who stands for principles in which you do not believe is stubborn.
+- The man with backbone will never give in because of mere lack of physical and moral courage. Moral courage is the rarest thing on earth. How many had the ecourage merely to make themselves unpopular.
+- How can it profit a man to be able to think if he does not dare to. You must have the courage to go where the mind leads, no matter how startling the conclusion. This may require the courage to stand against the whole world.
+- Great is the man who has that moral courage, for he indeed has achieved will-power.
+  
+*** Time Spent Reading
+*Total time: 3:48*
+#+begin_src 
+:LOGBOOK:
+CLOCK: [2020-11-10 Tue 17:16]--[2020-11-10 Tue 18:02] =>  0:46
+CLOCK: [2020-11-10 Tue 16:34]--[2020-11-10 Tue 17:16] =>  0:42
+CLOCK: [2020-11-09 Mon 11:10]--[2020-11-09 Mon 11:50] =>  0:40
+CLOCK: [2020-11-09 Mon 10:28]--[2020-11-09 Mon 11:10] =>  0:42
+CLOCK: [2020-11-07 Sat 08:03]--[2020-11-07 Sat 08:22] =>  0:19
+CLOCK: [2020-11-06 Fri 15:43]--[2020-11-06 Fri 16:22] =>  0:39
+:END:
+#+end_src
+
+*** Time Spent Reviewing/Writing
+
+*Total time: 3:19*
+#+begin_src 
+:LOGBOOK:
+CLOCK: [2020-12-01 Tue 13:25]--[2020-12-01 Tue 14:35] =>  1:10
+CLOCK: [2020-12-01 Tue 11:06]--[2020-12-01 Tue 13:15] =>  2:09
+:END:
+#+end_src
+
+** DONE Storyworthy by Matthew Dicks
+CLOSED: [2021-03-04 Thu 10:38]
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: storyworthy
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :Score 7.5 :Thoughts I've never seen myself as a good story teller, but this book gave me a huge boost in that direction. Totally recommend to anyone who wants to improve their abilities to captivate an audience.
+:END:
+
+
+*** The Book in 3 Sentences
+
+1. Story telling can be improved just like any other skill.
+2. Everyone has stories to tell.
+3. Improving your story telling lense will help you to live a more fulfilling life.
+
+*** Impressions
+
+The book is filled with advice on how to find your story, craft your story, and tell your story. There are also example stories interspursed throughout the book which are a joy to read, and some story telling theory.
+
+A common theme is the difference between a romp/stand up comedy and a story. The idea is that romp/stand up can be just as engaging with the audience, but it won't stick with them forever because it doesn't show change over time. Personally what I was most interested in getting out of this book was how to captivate an audience; I'm more interested in the high energy romp than the story that stays with the audience forever. After improving at the romp I will move to the improving at the forever lasting story.
+
+He put a lot of emphasis on the "5 second moment" where something fundamentally changes forever, but I don't quite believe when he says that "Every great story ever told is essentially about a five-second moment in the life of a human being... where something changes forver". Maybe one day i'll see the light in this regard.
+
+There was some commentary on applying the story telling theory to popular books and films, but I didn't like this part as much because it was extremely hand wavy.
+
+*** Who Should Read It?
+
+I would recommend everyone read it. The ability to tell stories well will drastically improve anyones life, and it just takes a few hours to see significant improvement.
+
+*** How The Book Changed Me
+
+- Made me more comfortable with telling stories.
+- Gave me a new appreciation for the story worthy moments in my own life. Showed me that events I would typically have completely overlooked can have a great story behind them.
+
+*** My Top 3 Quotes
+
+- "When I'm asked a question, I tell a story."
+- "We tell stories to express our hardest, best, most authentic truths".
+- "Your story must reflect change over time. You must start out as one version of yourself and end as something new."
+
+*** Summary and Notes
+
+**** Part I. Finding your Story
+
+***** What Is a Story? (and What is the Dinner Test?)
+****** Drinking Stories
+- no one will ever care as much as you
+- don't impress people that you want to impress
+- good drinking stories don't do well during the day or at the workplace
+- 
+****** Vacation stories
+- no one wants to hear about your vacation
+- if someone wants to hear about it, they are being polite
+- if you had a moment that was actually storyworthy during vacation, it should be told, but should not mention the local cuisine or anything related to the charm of the destination
+****** Your Story Only
+Nobody wants to hear you tell the story of someone else. You can tell someone else's story, but it has to be your side of the story.
+
+****** The Dinner Test
+The story that you craft for the stage, board room, or sales conference should be similar to one you would tell a friend at dinner.
+
+You should also tell it like you would at dinner. No crazy crazy hand gestures, no starting off with dialogue, not too much poetry.
+
+Pretend it is first time telling the story, but really it is not. Don't memorize it, but learn the specific beats. The beginning and ending lines. Laugh lines.
+
+***** Homework For Life
+
+At the end of every day, reflect upon the day and ask yourself one simple questions:
+- If I had to tell a story from today, what would it be? As benign and boring and inconsequential as it might seem, what was the storytworthy moment from my day?
+
+Don't write the whole story down. Just a sentence or two that captured the moment from the day. Enough to remember the moment and recall it clearly on a later date.
+
+Lots of reasons to do it:
+- Develop a story telling lense. As you reflect on each day of your life, you begin to see that your life is filled with stories. Moments of real meaning that you woul dhav enever noticed will suddenly stare you in the face. You won't believe how plentiful they are. Not every day will really contain a story worthy moment, but the longer you do your homework, the more days that will contain one.
+- Improve story telling repretoir
+- Therapeutic
+- Slows life down.
+
+Five minutes a day is all it takes. If you want to be a storyteller, this is your first step. Find your stories. Collect them. Save them forever.
+
+***** Dreaming at the End of Your Pen
+Crash and Burn exercise.
+Talks about the benefits of spending 15 minutes a day writing whatever comes to mind.
+
+Essentially Crash and Burn is a stream-of-consciousness writing. Stream of consciousness is the acct of speaking or writing down whatever thought that enters your mind, regardless of how strange, incongruous, or even embarrassing it may be.
+
+Rules:
+1. You must not get attached to any one idea
+2. You must not judge any thought or idea that appears in your mind
+3. You cannot allow the pen to stop moving
+
+This process will help uncover stories from your past. Finding potentially new stories is thrilling. Even better, recovering memories from the past that had been last until you sat down to write. Forgotten moments that will remain with you now until the day you die.
+
+***** First Last Best Wost
+Great for long car rides, first dates, and finding stories.
+
+List a few prompts that are possible triggers for memories, and for each prompt you fill in the word or words that indicate the answers to those questions. Example:
+|---------+------------------------+------------------------+----------------------------+----------------------|
+| Prompt  | First                  | Last                   | Best                       | Worst                |
+|---------+------------------------+------------------------+----------------------------+----------------------|
+| Kiss    | Laura                  | Clara                  | Elysha                     | Sheila               |
+| Car     | Datsun 210             | Toby & Pluto           | Kaleigh                    | Prudence             |
+| Trouble | Corner in kindergarten | Speeding ticket        | tInciting riot upon myself | Arrested             |
+| Injury  | Mysterious head wound  | Elbow tendinitis       | Pole-vault pole snaps      | Datsun B210 accident |
+| Gift    | Puppy                  | 12 dates for 12 months | Friends as family          | Bath towels          |
+| Travel  | Pasadena 1988          | Lewiston, Maine        | Honeymoon                  | Disney with Cushman |
+|---------+------------------------+------------------------+----------------------------+---------------------|
+
+***** Finding Your Story Overview
+
+You now have three tools to find stories:
+- Homework for life
+- Crash and Burn
+- First Last Best Worst
+
+Do all three with regularity and fidelity, and you will find yourself drowning in stories before long. Now it's time to learn how to craft a story.
+
+**** Part II. Crafting Your Story
+***** Every Story Takes Only Five Seconds to Tell
+All great stories, tell the story of a five-second moment in a person's life. The 5 second moments are the moments when something fundamentally changes forever.
+
+A romp is an entertaining and amusing anecdote - often longer than you might imagine an anecdote to be - not something that will move an audience emotionally. It was fun and exciting and surprisng, but it was unlikely to remain in the hearts of the audience in the way a good story can.
+
+Even when the ending is all but certain, a good storyteller can grab the audeience by the throat and make them temporarily forget that they know damn well how this movie will end.
+
+
+***** Finding Your Beginning
+
+You have your five-second moment. This gives you the end of your story. It must come as close to the end of the story as possible.
+
+To find the beginning of the story ask yourself: what is the opposite of your five-second moment.
+
+"Simply put, the beginning of the story should be the opposite of the end. Find the opposite of your transformation, revelation, or realization, and this is where your story should start."
+
+****** Try to start your story with forward movement whenever possible.
+
+Establish as a person physically moving through space. It creates instant momentum in a story.
+
+****** Don't start by setting expectations.
+
+Don't start with "This is hilarious" or "You need to hear this". I raises the bar and reduces the chances of surprising the audience.
+
+***** Thirteen Rules for an Effective Commencement Address
+Each rule summarized in one line:
+1. Don't compliment yourself
+2. Be self-deprecating, but only if it is real.
+3. Don't ask rhetorical questions. They break momentum.
+4. Offer one granular bit of widsom, something that is both applicable and memorable.
+5. Don't cater any part of your speech to the parents. Speech should be focused on graduates.
+6. Make your audience laugh.
+7. Never mention the weather.
+8. Speak as if you were speaking to friends.
+9. Emotion is good. Be enthusiastic. Excited. Anything but staid and somber.
+10. Don't attempt to describe the world that the graduates will be entering.
+11. Don't quote the dictionary.
+12. Don't use a quote you've heard someone use in a previous commencement speech. Don't use a quote at all, if possible. Try to be quotable instead.
+13. End your speech in less than the allotted time.
+
+***** Stakes
+Stakes are the reason an audience wants to hear your next sentence. Strategies for increasing the stakes (i.e. better captivating the audience):
+
+****** The Elephant
+
+The thing that everyone in the room can see. It tells the audience what to expect. Gives them a reason to listen and wonder. It should appear as early in the story as possible.
+
+Elephant can change through out the story. In his example he starts with elephant of wondering how he is going to get out of new hampshire, and then moves to focusing on the idea of loneliness. Excellent story telling strategy to have audience think that they are on one path, and then show them its a different path all along.
+
+The "laugh laugh laugh cry forumula".
+
+****** Backpack
+
+Put the audience in your shoes, so that when they learn what happens next, they experience similar emotions that you did. Give the audience a way to guess about what will happen next. Backpacks are most effective when a plan does not work.
+
+Perfect plans executed perfectly never make good stories.
+
+****** Breadcrumbs
+
+Hint at a future event, but only reveal enough to keep the audience guessing. Most effective when the truely unexpected is coming.
+
+Example: "But as I climb back into the car, I see my crumpled McDonald's uniform on the backseat, and I suddenly have an idea."
+
+****** Hourglasses
+
+Eventually you reach a (or the) moment the audience has been waiting for. This is the time to use an hourglass. It's time to slow things down. Grind them to a halt. Drag the wait out as long as possible. You own the audience.
+
+- describe things that don't need description
+- describe more things that don't need description 
+
+****** Crystal Balls
+
+A false prediction made by a story teller to cause the audience to wonder if the predicion will prove to be true.
+
+"Then he walks back into his house, and I know what he's doing. He's calling the police, and they will come and arrest me for stealing money from McDonald's". This doesn't happen, but when presenting a very real possbility, the audience wants to know if it will come true.
+
+Deploy Crystal Balls strategically: only when the prediction seems possible, the guess is reasonable, and the prediction presents an exciting possibility.
+****** Humor
+
+Doesn't add or raise stakes, but helps keep the audience's attention.
+
+Remember though that the goal of a story is not to tell a funny story. It is to tell a story that moves an audience emotionally.
+
+****** Stakes Overview
+
+The best way to ensure that a story has stakes is to choose a story that has stakes. Elephants, Backpacks, Breadcrumbs, Hourglasses, and Crystal Balls will only get you so far.
+
+In order to gauge the level of stakes in your story, ask:
+- would the audience want to hear the next sentence
+- if I stopped speaking right now, would anyone care
+- am I more compelling than video games and pizza and sex?
+
+***** The Five Permissible Lies of True Story Telling
+
+Only lie for the benefit of the audience; not our personal gain. Not in the interest of making ourselves look better in the story.
+
+We can manipulate the story in ways, but never add something that did not already exist. Not fiction. Trut tellers. Making something up is cheating. Permissible Lies:
+
+****** Omission
+  If a person doesn't fill a role in a story, pretend that person wasn't there.
+  Cut out events. Make it seem like the third try was the first if the others aren't important.
+  Audiences don't want redemption. It allows your audience to sleep well at night.
+****** Compression
+  Why stretch out a story over two days if nothing of consequence happens between the planning and execution?
+  Helps with simplicity. Simplicity should be prized at all points.
+****** Assumption
+  Make assumptions when there is a detail important to the story that must be stated with specificity. Helps the audience see what you are seeing.
+****** Progresssion
+  Change around the order of events if it makes the story flow better.
+  Better to make people laugh before they cry. It hurts more that way.
+****** Conflation
+  Rather than describe a change over a long period, we compress all the intellectual and emotional transformation into a smaller bit of time.
+  Helps keep stories shorter. Shorter stories are always more entertaining.
+
+***** Cinema of the Mind
+
+Great storyteller creates a movie in the minds of the audience.
+
+Always provide a physical location for every moment of a story.
+
+He gives two versions of the same passage, one where the location is set, although unimportant to the passage, but it still helps ground yourself in the story better. In the movie.
+
+Backstories should be told as thoughts after giving a location.
+
+Let's you convey thoughts and ideas from the perspective of your past self rather than your present day self.
+
+***** The Principle of But and Therefore
+
+And stories have no movement or momentum. They are equivalent to running on a treadmill.
+
+*But* and *therefore* are words that signal change.
+
+Make a story feel as if it's constantly going someplace new, even if the events are linear and predictable.
+
+Ideally all scenes are connected with a *but* or a *therefore*. It's causation that makes a story.
+
+Recounting a vacation is not a story. It is a meangful stroll down memory lane.
+
+Oddly, the negative is almost always better than the positive when it comes to storytelling. Saying what something or someone is *not* is almost always better than saying what something or someone *is*.
+
+- I am dumb, ugly, and unpopular
+- I'm not smart, I'm not at all good-looking, and no one likes me.
+
+By saying what something is not, you are also saying what something could have been, and that is a hidden *but*.
+
+Sometimes a quick positive statement fits better.
+
+***** The Secret to the Big Story: Make It Little
+
+The goal of storytelling is to connect with your audience, whether it's one person at the dinner table or two thousand people in a theater.
+
+Big stories can get in the way of connecting; most people can't relate to the big story.
+
+The trick to telling a big story: it cannot be about anything big. Instead we must find the samll, relatable, comprehensible moments in our larger stories. We must find the piece of the story that people can connect to, relate to, and understand.
+
+
+***** There Is Only One Way to Make Somone Cry
+
+Surprise.
+
+Storytellers often mitigate or ruin surprise by making simplemistakes or failing to accentutate or enhance the potential surprise of the moment. Common mistakes:
+****** Presenting a thesis statement prior to the surprise
+
+Often takes the form of an opening sentence that gives away all that is surprising about the story.
+****** Fail to take advantage of the power of stakes to make something that is potentially surprising truly surprising
+****** Failing to hide critical information in a story
+
+Hiding the bomb in the clutter. You don't want to let your audience guess that you are foreshadowing. Clutter the landscape so that the audience can't tell what is importnat and what is not.
+****** Camouflage
+
+Laughter is the best camouflage.
+
+Make a moment feel like a joke instead of the conveying of a critical bit of information.
+****** Surprise Techniques Overview
+1. avoid thesis statements
+2. heighten the contrast between the surprise and the moment just before the surprise
+3. use stakes to increase surprise
+4. avoid giving away the surprise in your story by hiding important information that will pay off later (planting bomgs)
+   1. obscure them in a list of other details or examples
+   2. place them as far away from the surprise as possible
+   3. build a laugh around them
+
+***** Effective Ways to Be Funny in Storytelling
+
+- Stories need not be funny
+- Even if you aren't funny, you can craft a story that conatins funny moments
+- Some of your stories will be funny even if you aren't funny at all
+- Stories should never only be funny. Use humor strategically.
+
+Stories are different from stand up comedy; for stand up comedy a week later you can't remember a single thing from the show. Stories stick with you forever.
+
+****** Start with a laugh
+
+Good to get audience to laugh in the first thirty seconds of the story because
+1. signals that you are a good storyteller
+2. in less formal situations, it serves as a stop sign for potential interruptions; you have the floor. When interrupted repeatedly you can say: "I made them laugh. I've got the floor. Let me finish, damn it."
+3. Let's the audience know that whatever horror there was in the past, i'm okay now
+   
+****** Make em laugh before you make em cry
+
+Contrast between laughter and approaching horror heightens the shock. It hurts more that way.
+
+****** Take a breath.
+
+Use humor to help break the tension. Fore example following the details of a horrific car acident. The audience needs to take a breath. A laugh is the best way to do this.
+
+****** Stop crying so you can feel something else
+
+You don't want your audience weeping for long periods of time. It's not pretty. Use a laugh to stop the weeping.
+
+****** End the story with heart
+
+Do not end on a laugh. That is not why we listen to stories. We like to laugh; we want to laugh. But we listen to stories to be moved.
+
+****** Humor Tricks
+
+******* Milk Cans and a baseball
+
+Build up some cans and then knock them down with a strong "throw".
+
+Some words are just funny. Oddly specific words are funny.
+
+******* Babies and Blenders
+
+When two things that rarely ever go together are pushed together, humor often results.
+
+Common to play one of these things is not like the other. List three things, the last one being different.
+
+Exaggeration is another form.
+
+***** Finding the Frayed Ending of Your Story
+
+Advice: tell your story. Don't worry about the stakes or the lies or anything else. Spill out the details. You'll come to understand the important of your five-second moment.
+
+You have to be open up in order to tell powerful stories.
+
+**** Part III. Telling Your Story
+
+***** The Present Tense Is King
+
+Say important events in the present tense so that the audience can feel as though it is happening in the present. It feels more real that way.
+
+***** The Two Ways of Telling a Hero Story
+
+No one likes a braggart. Avoiding bragging can make storytelling difficult. In general tell failure stories, not success stories. But if you must, follow these two tips:
+1. Malign yourself
+2. Marginalize your accomplishment
+
+Humans love the underdog.
+
+Surprise is important. If you cast yourself as the underdog, the audience will root for you.
+
+Human beings prefer stories of small tesps over large leaps. Small steps only.
+
+***** Storytelling is Time Travel
+
+****** Don't ask rhetorical questions
+
+This breaks the fourth wall and takes them out of the film.
+
+****** Don't address the audience or acknowledge their existence.
+
+This breaks the fourth wall and takes them out of the film.
+
+****** No Props. Ever.
+
+This breaks the fourth wall and takes them out of the film.
+
+****** Avoid anachronisms.
+
+An anachronism is a thing that is set in a period other than that in which it exists. A microwave in the middle ages. 
+
+****** Don't mention the word story
+
+This breaks the fourth wall and takes them out of the film.
+
+****** Downplay your physical presence as much as possible
+
+This breaks the fourth wall and takes them out of the film.
+
+***** Words to Say, Words To Avoid
+****** Swearing
+
+In general don't swear. It is a cheap laugh. Sometimes it is okay:
+- repeated dialogue
+- when a swear is simply the best word
+- moments of extreme emotion
+- humor. don't rely solely on profanity for humor though
+
+****** Vulgarity
+
+Don't be weird.
+
+****** Names
+
+Be careful
+
+****** Pop culture references
+
+Not everyone is going to get it.
+
+****** Accents
+
+Don't except maybe if it is a close friend / family member.
+ 
+***** The Weather Sucks, So Don't Talk About It
+
+Conversations about the weather are the antithesis of the ideal of an entertaining, connected, meaningful world. Death of good conversation. Enemy of interesting.
+
+Avoid these conversations at all costs. Change the subject. Walk away if necessary.
+
+***** Time to Perform
+
+****** Don't Memorize Your Story
+Instead memorize three parts:
+1. first few sentences. Start strong
+2. last few sentences. End strong
+3. the scenes of the story
+
+****** Make eye contact
+
+Suggestion is find three people and switch between them.
+
+****** Control your emotions
+
+****** Learn to use the microphone
+
+See a professional, but some general tips:
+1. project to the back of the room in to the microphone
+2. take your time to adjust the height properly
+3. always say yes when offered a microphone
+
+
+*** Time Spent Reading
+*Total time: 6:02*
+#+BEGIN_SRC
+:LOGBOOK:
+CLOCK: [2021-03-02 Tue 10:18]--[2021-03-02 Tue 10:30] =>  0:12
+CLOCK: [2021-03-01 Mon 08:01]--[2021-03-01 Mon 08:58] =>  0:57
+CLOCK: [2021-02-22 Mon 21:43]--[2021-02-22 Mon 22:31] =>  0:48
+CLOCK: [2021-02-09 Tue 21:38]--[2021-02-09 Tue 23:07] =>  1:29
+CLOCK: [2021-02-08 Mon 07:25]--[2021-02-08 Mon 08:20] =>  0:55
+CLOCK: [2021-02-03 Wed 22:45]--[2021-02-03 Wed 23:11] =>  0:26
+CLOCK: [2021-01-22 Fri 21:05]--[2021-01-22 Fri 21:30] =>  0:25
+CLOCK: [2021-01-22 Fri 20:15]--[2021-01-22 Fri 21:05] =>  0:50
+:END:
+#+END_SRC
+
+*** Time Spend Reviewing/Writing
+
+*Total time: 1:46*
+#+BEGIN_SRC
+:LOGBOOK:
+CLOCK: [2021-03-04 Thu 10:18]--[2021-03-04 Thu 10:35] =>  0:17
+CLOCK: [2021-03-04 Thu 09:44]--[2021-03-04 Thu 10:18] =>  0:34
+CLOCK: [2021-03-04 Thu 08:31]--[2021-03-04 Thu 09:26] =>  0:55
+:END:
+#+END_SRC
+
 
 
 * About

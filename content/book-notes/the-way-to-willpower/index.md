@@ -6,6 +6,37 @@ Score = 8
 Thoughts = "The Way to WillPower was published in 1922, but still packs a ton of super valuable information relating to \"will-power\". I found many of its ideas useful in my everyday life. It's a relatively quick read, I definitely recommend!"
 +++
 
+# My Top 3 Quotes {#my-top-3-quotes}
+
+-   "We may think his ethical ideas mistaken, and mistaken they may be; but we cannot but admire the strength of character which leads him to act them out in spite of social opposition."
+-   "If your ability to refuse to yield to this particular impulse becomes in your mind a challenge to and a test of your entire character, you have thrown into the scale a mighty force to ensure your taking the right action."
+-   "Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and intended to do."
+
+
+# How The Book Changed Me {#how-the-book-changed-me}
+
+You would think that a goal of reading the book is to improve your will-power, and that's definitely an effect that it had on me. I find that even just having the words to conceptualize will-power as the desire to be a certain character helps me resist "temptation". I also find the "rules of will-power" to be very helpful:
+
+1.  Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
+2.  Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
+
+Here i'll list some ways my mindset changed after reading the book:
+
+-   More value for the importance of habits
+-   An appreciation for "Whichever your belief you tend to make your belief true"
+-   Opened my mind to the perspective that sexual desire can be conquered. I rarely see that point made.
+-   I related to the example of a person who decides to devote some evenings to studying and the difficulty of telling friends. Previously I would tell myself that I would make up for it by becoming more efficient. But now I'm more inclined to say "No" sometimes. I still see a need for occasional "play to keep from going stale".
+-   I like the idea of a daily challenge. I already take cold showers, but I'll be introducing some more daily challenges.
+-   Cool to read the idea of using sheer effort to overcome physical and mental fatigue.
+-   I have a stronger desire for moral courage than before.
+-   Just do it.
+
+
+# How I Discovered It {#how-i-discovered-it}
+
+I discovered the book through [Vasili](https://vasilishynkarenka.com/) who very kindly gifted it to me. Thank you!
+
+
 # Summary and Notes (By Chapter) {#summary-and-notes--by-chapter}
 
 
@@ -145,37 +176,6 @@ Final notes before parting from the book:
 -   The man with backbone will never give in because of mere lack of physical and moral courage. Moral courage is the rarest thing on earth. How many had the ecourage merely to make themselves unpopular.
 -   How can it profit a man to be able to think if he does not dare to. You must have the courage to go where the mind leads, no matter how startling the conclusion. This may require the courage to stand against the whole world.
 -   Great is the man who has that moral courage, for he indeed has achieved will-power.
-
-
-# My Top 3 Quotes {#my-top-3-quotes}
-
--   "We may think his ethical ideas mistaken, and mistaken they may be; but we cannot but admire the strength of character which leads him to act them out in spite of social opposition."
--   "If your ability to refuse to yield to this particular impulse becomes in your mind a challenge to and a test of your entire character, you have thrown into the scale a mighty force to ensure your taking the right action."
--   "Sad is the day for any man when he becomes absolutely satisfied with the life that he is living, the thoughts that he is thinking and the deeds that he is doing; when there ceases to be forever beating at the doors of his soul a desire to do something larger, which he feels and knows he was meant and intended to do."
-
-
-# How The Book Changed Me {#how-the-book-changed-me}
-
-You would think that a goal of reading the book is to improve your will-power, and that's definitely an effect that it had on me. I find that even just having the words to conceptualize will-power as the desire to be a certain character helps me resist "temptation". I also find the "rules of will-power" to be very helpful:
-
-1.  Whatever our ideals, whatever our resolutions, we should, before adopting those resolutions, calmly and coldly count the price of carrying them out. Think not alone of the benefits of keeping the resolve, but of the disadvantages.
-2.  Once you have made your decision, having coldly decided that that is what you want and that you are willing to pay the price, your decision is forever beyond dispute. You should never ask yourself again whether the other course it possible.
-
-Here i'll list some ways my mindset changed after reading the book:
-
--   More value for the importance of habits
--   An appreciation for "Whichever your belief you tend to make your belief true"
--   Opened my mind to the perspective that sexual desire can be conquered. I rarely see that point made.
--   I related to the example of a person who decides to devote some evenings to studying and the difficulty of telling friends. Previously I would tell myself that I would make up for it by becoming more efficient. But now I'm more inclined to say "No" sometimes. I still see a need for occasional "play to keep from going stale".
--   I like the idea of a daily challenge. I already take cold showers, but I'll be introducing some more daily challenges.
--   Cool to read the idea of using sheer effort to overcome physical and mental fatigue.
--   I have a stronger desire for moral courage than before.
--   Just do it.
-
-
-# How I Discovered It {#how-i-discovered-it}
-
-I discovered the book through [Vasili](https://vasilishynkarenka.com/) who very kindly gifted it to me. Thank you!
 
 
 # Time Spent Reading {#time-spent-reading}
