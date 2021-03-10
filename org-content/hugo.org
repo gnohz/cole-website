@@ -1358,10 +1358,10 @@ There you go, now your org files are synced to your dropbox and can be accessed 
 
 Now that your files are synced to Dropbox, it's super easy to get started with a mobile org program like =Organice= or =Orgzly=. For =Organice= you navigate to [[https://organice.200ok.ch/][https://organice.200ok.ch/]] in a web browser, sign in, and you're done. You can learn more about the differences between =Organice= and =Orgzly= [[https://colekillian.com/snippets/comparing-organice-and-orzly/][here]].
 
-** DONE Comparing Organice and Orzly                :org_mode:@Productivity:
+** DONE Comparing Organice and Orgzly               :org_mode:@Productivity:
 CLOSED: [2020-09-04 Fri 11:58]
 :PROPERTIES:
-:EXPORT_HUGO_BUNDLE: comparing-organice-and-orzly
+:EXPORT_HUGO_BUNDLE: organice-and-orgzly
 :EXPORT_FILE_NAME: index
 :CATEGORY: Productivity
 :END:
