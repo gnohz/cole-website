@@ -357,11 +357,261 @@ I like the flipped classroom format. I think lectures can be done best with reco
 Why do I want covid to go away?
 - 
 ***  What do I think about where I live
-** TODO Binary Search daily life upper bound
+
+** TODO Competitive Programming vs App Making
+
+** TODO How To Describe The Difference Between Functional and Imperative Programming Language
+
+Potentially two aproaches:
+- describe the high level differences
+- describe functional programming as ocaml and imperative as python
+
+** TODO The Power of Timers
+
+** TODO Min Maxing Life
+
+** TODO The Perception of Your Current vs Future Self            :@Thoughts:
 :PROPERTIES:
-:EXPORT_HUGO_BUNDLE: binary-search-daily-life-upper-bound
+:EXPORT_HUGO_BUNDLE: perceptions
 :EXPORT_FILE_NAME: index
 :END:
+:LOGBOOK:
+CLOCK: [2021-03-31 Wed 23:19]--[2021-04-01 Thu 00:15] =>  0:56
+:END:
+
+*** The Scenario
+
+You all know the scenario. Someone is trying to showcase a skill, but continuously fails to get it right. They say, "wait, one more try and i'll get it".
+
+People do this because they want to shape people's perception of them. They want their present-selves to go be perceived as capable of a certain ability. Sometimes this means playing a solo on guitar, sometimes doing a skate boarding trick, sometimes answering a question in class, you get the idea.
+
+When you find yourself in this situation, you are typically trying to give an impression of yourself that is "more skilled" than the present you. You can only nail the guitar solo one in a dozen times, but you want to show people the one time you get it right to make them think more highly of you than you "deserve". Each time you fail the guitar solo you play it off as a fluke even if the real fluke is when you get it right.
+
+In general, try not to be this person.
+
+*** COMMENT Basically:
+
+Similar to other post: discomfort should not be a part of the decision making process. Instead it is that your perception should not be a part of the decision making process. But so then what should be a part of the decision making process? Utilitarianism?
+
+Why not push the timeline out to infinity? When do you stop?
+
+Eventually your future self will become your present self, so why should we care about it?
+
+The point is not that you shouldn't care about people's percpetion of you. The point is that it isn't worth trying to give a false impression. Instead let actions over time speak for themselves.
+
+Sometimes giving a false impression is helpful.
+
+It's not that you don't want to care about people
+
+For soem point in the future it does become important to consider your present self at that time. This piece makes strong claims, but they are more so to make the point that people weigh the perception of their persent selves too highly. Yes, you have to consider your present self in decision making to a certain extent, but far less so than it typically the case.
+
+Eventually it does become improtant to consider your "
+
+Gives a ton of freedom. Releases you from perfectionism. 
+
+How I apply it:
+- when uploading blog posts and youtube videos, I don't obsess about if people with think of me as a bad writer or singer. I know that I either am good or bad at writing, and then over time my actions will speak for themselves.
+
+Your perception matters, but don't let it get to your head.
+
+The perception of your present self should not be a part of the decision making process. Instead, consider how your actions might lead to 
+
+Do not focus on what other people think of your present self. Instead, think about what they will think of your future self.
+
+Counterarguments:
+- What about when the ends justify the means
+  The most obvious example is an interview. You want to make yourself look better than you are so that you get the job.
+- What if the lies are good to help push yourself harder
+  You can take this line of reasoning.
+- Why not push the timeline out to infinity? When do you stop?
+  The rule is said more strictly than it has to be in order to make a point. Eventually 
+
+Frame it as a mindset shift.
+
+*** What To Do
+
+When making decisions, do not consider too heavily how the possible actions will affect what other people think of your current self. Instead, consider to what extent the actions will push you in the direction of the person that you want to be. Then let your average actions over time speak for themselves as your character tends towards the person that you want to be.
+
+Who cares whether or not people think you can nail that guitar solo right now. Wow them in a few months when you have acquired that skill and more; you'll be playing the solo with the guitar behind your back.
+
+If you are really so close to getting the skill, just show them next time.
+
+At the very least, acknowledge that your current self either is or is not good at a skill, and recognize when you are trying to give a "false" impression of yourself. That being said, this doesn't mean you can't improve at the skill over time.
+
+This is a mindset shift. Basically, notice that see that "you" is very malleable in its character, and try not to care too much about what people think about your current self. Think of your future self as a different person.
+
+*** The Why
+
+**** The Benefits of Owning Your Skill Level
+
+The most powerful reasons for owning your skill level are the ways it frees you.
+
+Think of a time you wanted to do something but were afraid of how others would perceive you. By caring too much about other people's perceptions of your current self, you don't take the action that you want. If you were to instead adopt the mindset shift focusing on your future instead of your present self, you take the action realizing that you can always reshape your perception in the future if things don't work out.
+
+For similar reasons, the mindset shift can be very helpful in reducing the negatives of perfectionism.
+
+**** The Problems with "false" impressions
+
+- most of the time you don't fool anyone anyways which comes off worse than if you just owned your actual skill level
+- it can lead to situations of imposter syndrome
+- you get caught up in lies
+
+**** The Downsides
+
+I will admit there are some disadvantages to giving a "true" impression, most importantly that you can miss out on cases where "the ends justify the means", for example a job interview and other situations where you want to fake it till you make it. There is a balance, you can mix and match to a certain extent. You can still fake it till you make it. I am just advocating for a more general mindset shift. The pros of the mindset shift definitely outweight the cons.
+
+*** How I Apply This In My Life
+
+In my own life the feeling of freedom that came with this mindset shift has been incredible.
+
+I see the freedom appear most directly in the ways that I put myself online: writing, singing, and playing guitar. If I were afraid of how other's perceived me, I likely wouldn't have ever even started posting on this blog, or on my youtube channel, for fear of being perceived of producing low quality work.
+
+Focusing on the youtube channel: By acknowleding that I either am or am not a good singer, I can stop myself from trying to "perfect" each video. I just put it out there and see what happens. Then I do it again, and again, over and over. Even if I am not a good singer at one point in time, this mindset gives me a better chance of becoming one than if I never tried. This is will exemplified in the parable of the cermaics teacher:
+
+> The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality.
+> 
+> His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pound of pots rated an “A”, forty pounds a “B”, and so on. Those being graded on “quality”, however, needed to produce only one pot – albeit a perfect one – to get an “A”.
+> 
+> Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the “quantity” group was busily churning out piles of work – and learning from their mistakes – the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
+
+** TODO My Morning Routine
+
+** TODO Getting Rid Of My Bedframe
+** TODO Binary Search As A Tool For Getting Out Of Your Comfort Zone :@Thoughts:lifestyle:
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: binary-search
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2021-03-12 Fri 10:38]--[2021-03-12 Fri 11:30] =>  0:52
+:END:
+
+*** Binary Search Overview
+
+Binary search is an algorithm for finding an element in a list very fast.
+
+It may be best illustrated by an example.
+
+Suppose you have a 10000 page book, each page labeled with its page number. How do you go about finding page 9879?
+
+One way would be to look at each page one at a time and check whether or not it is page 3408. This would require looking at every page, imagine how long that would take!
+
+How can we do this faster? One idea would be to look only at every other page. We would only have to look at half as many pages! The problem with this approach is that you may skip right past your page and not find it at all...
+
+Instead, lets binary search!r Start at the middle, go right if too small, go left if too big, and you'll be at your page in no time!
+
+*** TLDR
+
+Thinking of actions in terms of binary search helps rationalize "risky" actions, thus helping you out of your comfort zone.
+
+There is the idea of "how bad can it be". Things that feel way out of your comfort zone are very likely not to really be that bad, but why risk it you tell yourself. 
+
+You risk it to help you find the upper bound for binary search!
+
+Don't take this too far.
+
+There are many different directions of comfort zone.
+
+*** Applying Binary Search To Your Comfort Zone
+
+Binary search is more applicable to life than you may suspect. It applies not only to finding the perfect amount of time to microwave something, or the turning to the right page number in a book, but also to optimizing your comfort zone.
+
+**** Comfort Zones
+
+Why do comfort zones exist? What makes things outside of the comfort zone scary? It is based on people's aversion to risk. You've never done the action before, so it is hard to properly assess its risk. People tend to view it as more risky than it actually is, and hence don't give it a try. It is the unknown risk to reward.
+
+Comfort zone is tied to levels of anxiety associated with actions. Where does anxiety come from? Risk-reward?
+
+[[file:./comfort_zone.jpg]]
+
+It is possible to expand your comfort zone because as you try more actions and understand their risks better, you can increase your confidence in the positive risk to reward.
+
+Actions in your comfort zone are those for which you have a good understanding of the risk to reward ratio, and that you are happy with it. Often times the risk if very low.
+
+I claim that you want to be taking actions in the growth zone which will expand your comfort zone. Without every leaving your comfort zone, we might never know what we are capable of and what we can do. But how do you do this?
+
+One option is to make incremental progress. A linear search to to say. You find an action that would help you dip one toe out of your comfort zone, and see how it goes. 99% of the time you will see that it wasn't as scary as it looked, everything worked out fine, and you were happy you went for it. Congratulations, you just expanded your comfort zone by one big toe!
+
+This works fine, but similarly to the linear search algorithm, it is very slow. You are expanding your comfort zone very interatively with the goal of never taking an action that might be more than a big toe riskier than what you are comfortable with.
+
+Also it is even worse than linear search, because often times you will not be able to guage your comfort zone so you will be repeating actions with the same levels of comfort, and sometimes your comfort zone will shrink because you will forget that you expanded it.
+
+**** Binary Search
+
+This is where binary search comes in.
+
+Why do a slow linear scan when you can go fast in $O(log_2(n))$! We have a monotonic function that takes the risk of an action as input and ouputs whether or not it is worth it. This assumes reward is constant?
+
+Think of one dimensional examples:
+- 
+
+Out goal is to identify actions that offer the optimal level of risk (the point where you can't grow your comfort zone anymore because the risk begins to outweight the reward). Take actions with too low of a risk, and you are missing out on actions with higher risk. Take actions with too high of a risk, and you will face the consequences.
+
+
+[[file:https://addicted2success.com/life/here-is-everything-you-need-to-know-about-your-comfort-zone/]]
+
+
+In general people are risk averse.
+
+"It's never as scary as it looks".
+
+
+https://positivepsychology.com/wp-content/uploads/2020/11/blog_graphic-768x384.png
+
+It applies to any sort of thing that you are trying to optimize.
+
+
+
+This leads us to an important note on binary search: it requires knowledge of lower and upper bounds. Taking the example of the book. We can only know which page is the middle of the book, if we know how many pages are in the book. It may seem like the lower and upper bound will always be obvious, but this is not the case.
+
+Take the example of action risk. It is common for people to stick to low cost actions, and to increment the risk a tiny step at a time. This is the naive algorithm which is forced upon you by not knowing the upper bound! If you knew the upper bound, you could hop around instead of taking tiny steps to make sure you don't overcommit.
+
+So you want to find an upper bound, how do you do that? You need to try an action that you think to be too risky. There are two possible outcomes:
+1. The action was too risky and you face some consequences. Congratulations you now have an upper bound and can perform binary search.
+2. The action was not too risky. Congratulations, you just disovered that an action you previously thought to be too high risk is not so. You can now reap the rewards of such actions without facing consequences.
+
+It's a win-win situation!
+
+So now I leave you with the task of finding an action to get you into trouble.
+
+
+*** How I Applied This To My Own Life
+
+I was going sledding with some friends, but we didn't have enough sleds. I see a couple sleds leaning against a tree with nobody nearby. To me they look like someone is trying to share the love of sledding with others!
+
+Some would deem the action of taking these sleds as too high risk. Me, I decided that while the action may be too high risk, I couldn't be sure. In any case the worst penalty would be returning the sleds to their proper owners. 
+
+So I hop on over and grab the sleds. We are having a good time. About 20 minutes go by, and a woman walks up and asks us if we got the sleds from against the tree. We say yes, are they yours? She replies that yes, they are hers, but that we can keep sledding on them. Just put them back when you are done please. Yes maam! Look at that. I discovered that an action I may have previously perceived as too risky, to be within the bounds of attractive actions. I can now push the bounds at a much quicker rate than if I had been in the mindset of making as incremental steps as possible.
+
+Facing penalties does not equal too high risk. You decide what is too high risk based on the risk to reward ratio.
+
+*** Conclusion
+
+This is a very valuable technique that I hope you find of use in your own life. It's funny to see its ties to the computer science binary search algorithm!
+
+Sometimes getting into a little trouble is for the best. "Ask forgiveness, not permission". Don't take this too much to the extreme though.
+This is a tool for helping you get out of your comfort zone? People like to take incremental steps out of their comfort zone, but this is slow. Much faster would be to break out of your comfort zone with the goal of going too far. This goal can help your mindset to get you out there. And you can justify it with the binary search algorithm.
+
+*** Other One Line Examples
+Basically anything that takes you out of your comfort zone:
+- breaking someones heart
+- assertiveness
+- dancing
+- talking to strangers
+
+Always happy to hear how you use this in your life. Shoot me an email!
+
+** TODO Don't fail the same way twice in a row
+This is basically binary search.
+
+** TODO On Sharing Food
+
+** TODO Best Way To Do Things Is To Not Do The Wrong Things
+
+** TODO Staring At Walls
+
+** TODO Meditation
+
 ** TODO assertiveness vs tolerance building
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: assertiveness-vs-tolerance-building
@@ -372,6 +622,268 @@ Why do I want covid to go away?
 :EXPORT_HUGO_BUNDLE: talk-about-the-power-of-enthusiasm-dot-i-want-to-be-more-enthuastic
 :EXPORT_FILE_NAME: index
 :END:
+
+** TODO Priorities for last minute change of plans
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: priorities-for-last-minute-change-of-plans
+:EXPORT_FILE_NAME: index
+:END:
+
+** TODO Food
+
+** TODO Safe Eyes Environment Over Engineering
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: environment-over-engineering
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Selfish Pleasure vs Selfish Success
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: selfish
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Sponges Have Incredible Cost to Return Ratio
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: sponge
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Fun vs Enjoyment
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: fun-vs-enjoyment
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Expectations affect on life
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: expectations
+:EXPORT_FILE_NAME: index
+:END:
+
+expectation going up just because it costed more. Something that wouldn't have bothered me at all at a lower price bothers me more because I paid a higher price.
+** TODO Take bets and risks
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: take-bets
+:EXPORT_FILE_NAME: index
+:END:
+** TODO To drink or not to drink
+:LOGBOOK:
+CLOCK: [2021-03-22 Mon 22:56]--[2021-03-22 Mon 23:56] =>  1:00
+:END:
+
+
+Only be around people where you don't have to drink to be around them.
+
+Doesn't have to be a hard set rule.
+
+Veganism doesn't have to be a hard set rule either.
+
+https://www.quora.com/Why-dont-some-people-like-to-drink-alcohol-What-is-it-about-the-effects-of-alcohol-that-they-don%E2%80%99t-like
+https://medium.com/the-ascent/8-reasons-why-i-dont-drink-alcohol-anymore-83cb85adcd5c
+
+I got known for being the guy who "drinks vodka from the tap" (because I am drinking tap water).
+
+4.) I want to live a life that doesn’t need a stress reliever
+
+Sometimes, after a long day at work, I’d reward myself with a beer. It was a stressful day: now a cold beer would be perfect! But honestly: I don’t want to live a life that sucks and needs some drugs vom time to time from escaping it. I want to experience a living, that is a reward by itself. If I’m stressed these days, I change my life, and not my drugs. Work less, chill more. More exercise, sport, and good food. More sex. More fun. Better conversations. Better books. Life is easy. Why do we make it so hard?
+
+Other reasons not to drink alcohol that weren't espeically important in my decision process:
+- alcohol is expensive
+
+5.) Good alcohol is expensive
+
+Alcohol is expensive. 
+I am not talking about standard beer or vodka. I prefer whiskey or a good wine. And Yes: A good drinking starts from 50 Euro per bottle. The money was not the reason to stop drinking but is now a reason not to start drinking again.
+
+It's easier to cut it out completely. How do you decide when to drink?
+
+Remember things better.
+
+There are down sides. Aspects about drinking I feel like I am missing out on:
+
+1.) I want to live a life that I can endure soberly
+
+Honestly, this is the main reason: I want to live a life that I can endure soberly. So many things are cool: But only with alcohol. For example: Being on a party that sucks totally. Boring people surround me. But hey: A glass of wine or some beers and everything is beautiful.All of a sudden, it’s not so bad here anymore. Wrong! It sucks. But you anesthetize yourself with some drugs. With the right drugs, you can have a great time everywhere. But I want to live a life, that I can endure soberly. I want to share my time with people, that gives me a good time. I’m not here on this planet to waste my time with nasty people at ugly places, that I can only endure with alcohol.
+
+I don't drink. Why?
+
+From a naval podcast:
+
+The Modern Struggle Is Fighting Weaponized Addiction
+
+Pursuing pleasure for its own sake creates addiction
+
+Naval: On some very deep level, all pleasure creates its own offsetting pain and fear of loss. I recently tweeted, “In an age of abundance, pursuing pleasure for its own sake creates addiction.” I was upgrading a Miyamoto Musashi line, “Do not seek pleasure for its own sake.”
+
+Musashi was a Japanese swordsman. In his time, pursuing pleasure meant a very different thing than it does today. He didn’t have unlimited processed food, Internet pornography, marijuana and alcohol available on demand.
+
+Now that we’re in an age of abundance, we can easily fall into addiction if we pursue pleasure for its own sake. And that’s hard to get out of.
+
+The modern struggle is really about individuals—disconnected from their tribe, religion and cultural networks—who are trying to stand up to all these addictions that have been weaponized: alcohol, drugs, pornography, processed foods, news media, Internet, social media and video games. 
+
+Addictions are fake work and fake play
+
+Addictions let you engage in fake play and fake work. Before, you had to go socialize with friends; now, you can just get drunk with a bunch of strangers. Before, you had to go find a mate, create children and raise a family; now, you can just watch a lot of porn. Before, you had to hunt and climb trees to get fruit for a little bit of natural sweetness; now, you can buy all the gelato you want.
+
+The modern struggle is standing up to these weaponized addictions. They give you small doses of pleasure, but they also desensitize you and expose you to the misery of their absence.
+Breaking Addiction Is Socially Unacceptable
+
+Addiction enables artificial relationships and activities
+
+Naval: If you drink alcohol or take some kind of drug regularly, try the following thought experiment. 
+
+What events do you most look forward to? I’ll bet they’re the ones where you get to drink or do drugs. You look forward to dinnertime, an upcoming party or bar-hopping with friends.
+
+To see how artificial it is, resolve to abstain from drinking or doing drugs the next time you go out. Now ask yourself how much you’re looking forward to that event. You’ll find: not at all.
+
+This creates a conundrum. These sources of artificial pleasure eventually will desensitize me, bring misery when they’re gone and lead to addiction. But if I give them up, I’ll also be miserable because I’ll no longer socialize with my friends. I won’t go out, and I won’t have fun.
+
+Breaking addiction requires a new lifestyle
+
+Breaking addiction is very hard, because you have to break the physical addiction and you also have to change your lifestyle. You have to switch to a lifestyle in which you can be happy without that substance.
+
+If I drink to be social  and do that enough, I’ll find myself hanging out with people I wouldn’t spend time with otherwise. When I’m sober, I can’t tolerate these people, the topics we discuss or the venues we visit. I can only do it drunk.
+
+Addiction holds together fake relationships and fake activities
+
+These fake relationships and fake activities are held together by alcohol. If I stop drinking, I have to replace my friends and find new things to do. This is difficult and socially unacceptable. 
+
+I realized a while ago that it’s a problem to look forward to weekends and holidays. First, it takes the joy out of the everyday, because you’re living in the future and suffering the rest of time. Second, you have accepted a way of life in which most of your time is spent suffering.
+
+In my day to day life I have 0 regrets about not drinking. I do wonder sometimes if my future self will regret not "taking better advantage of my youth". But my brother doesn't think I will.
+
+*** I want to live a life that I enjoy soberly
+
+I never want to find myself in a situation that I am enjoying solely because of alcohol. I don't feel like there is enough time in the day, so why prioritize making an undesired situation bearable when I could be doing something else like sleeping.
+
+This raises the point: what about using 
+*** Real Relationships
+
+I don't want fake relationships and activities held together by alcohol.
+*** The Appeals of Alcohol
+
+In order to understand why I don't drink alcohol, its helpful to begin with the appeals of alcohol.
+
+- mood altering
+- social lubricant
+- stress relief
+- social
+
+*** Summary
+
+I don't drink because I feel like the day is too short. 
+
+I don't drink because I would rather be doing something else. Potentially:
+- sleeping
+- exercising
+- sober conversation with friends
+- 
+
+*** Thoughts
+
+This can be a dangerous argument. Other things it can extend to:
+- sex
+- games
+
+Basically anything that you do with others that has no productive value.
+
+** TODO Choosing What To Eat
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: choosing-what-to-eat
+:EXPORT_FILE_NAME: index
+:END:
+:LOGBOOK:
+CLOCK: [2021-03-22 Mon 14:04]--[2021-03-22 Mon 14:44] =>  0:40
+:END:
+
+Let's talk about food.
+
+There is so much food out there to eat, but basically they can all by quantified on the following dimensions:
+- taste / novelty / provenance
+- nutrition / volume
+- time
+- cost
+
+
+
+When choosing what to eat I try to optimize for: 
+- (nutrition) / (dollar + time)
+
+Interestingly enough this started when I was quite young. Sometimes when my family would stop in gas stations this kids would each get to pick a candy bar. My approach was to go for whichever candy bar had the most calories and weight per dollar.
+
+This is why I recently starting having soylent for lunch. So far i'm having a great time. We will see how long it lasts.
+
+Depends on your tolerance for work. Sometimes you need a break, and cooking can be a good way to spend that break.
+
+What are the components of eating? I argue that eating brings the following pros and cons.
+
+Picking what to eat.
+
+There are typically two steps associated with eating food:
+- obtaining/preparing/cleaning the food
+- consuming the food
+
+*** Pros:
+- Alleviate hunger
+- 
+*** Cons:
+
+if i didn't feel hungry, I wouldn't eat as often
+
+I'd rather not eat and do the socializing.
+
+
+People have different weights. For me it is very much balanced towards:
+- nutrition / dollar
+
+nutrition includes calories.
+
+Taste has relatively little influence (there is some obviously).
+** TODO What does covid do to interaction?
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: communication
+:EXPORT_FILE_NAME: index
+:END:
+
+idea that highest form of interaction is discussion which isn't affected too much by video call
+** TODO Types of Vegans
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: types-of-vegans
+:EXPORT_FILE_NAME: index
+:END:
+
+- types of vegans:
+  - care a lot about animals
+  - don't care much about animals but still think it is the right thing to do
+** TODO Transitive Property of Relationships
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: transitive-property-of-relationships
+:EXPORT_FILE_NAME: index
+:END:
+
+similar couples could interchange their partners pretty easily
+** TODO Reflect on cheating
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: cheating
+:EXPORT_FILE_NAME: index
+:END:
+** TODO Learning From Failure vs Learning
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: learning-from-failure-vs-learning
+:EXPORT_FILE_NAME: index
+:END:
+
+** TODO Jealousy
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: jealousy
+:EXPORT_FILE_NAME: index
+:END:
+
+Jealousy is unfortunate. It gets between you and feeling joy for someone else's success.
+** TODO Blogging means writing your thoughts down
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: blogging-means-writing-your-thoughts-down
+:EXPORT_FILE_NAME: index
+:END:
+
+** 
 
 ** DONE Cognitive Dissonance As A Framework For Change    :change:@Thoughts:
 CLOSED: [2021-01-28 Thu 07:55]
@@ -2171,7 +2683,14 @@ After struggling with this problem for weeks, I found a solution that gets the b
 - When I get hungry, finish the remaining oats
 
 It's as simple as that! It's silly that it took me so long to recognize this option; I wasn't BFSing hard enough. Note that this idea can be generalized. Identify a scneario where something is being forced, and inspect whether or not spreading out the events of the scenario will reduce the required force. If so, then spread out the events of the scneario, and bam! problem solved :)
+** TODO Valid Reasons for Seeing Friends
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: valid-reasons-for-seeing-friends
+:EXPORT_FILE_NAME: index
+:END:
 
+
+Is laughing / gaming valid reason to hang out with friends? What makes those activities better with them than with strangers?
 * Book Notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: book-notes
