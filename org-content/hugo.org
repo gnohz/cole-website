@@ -370,7 +370,8 @@ Potentially two aproaches:
 
 ** TODO Min Maxing Life
 
-** TODO The Perception of Your Current vs Future Self            :@Thoughts:
+** DONE The Perception of Your Current vs Future Self            :@Thoughts:
+CLOSED: [2021-04-30 Fri 22:29]
 :PROPERTIES:
 :EXPORT_HUGO_BUNDLE: perceptions
 :EXPORT_FILE_NAME: index

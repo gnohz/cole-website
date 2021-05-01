@@ -1,7 +1,8 @@
 +++
 title = "The Perception of Your Current vs Future Self"
+date = 2021-04-30T22:29:00-04:00
 categories = ["Thoughts"]
-draft = true
+draft = false
 +++
 
 # The Scenario {#the-scenario}
