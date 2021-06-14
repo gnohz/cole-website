@@ -59,7 +59,7 @@ In my own life the feeling of freedom that came with this mindset shift has been
 
 I see the freedom appear most directly in the ways that I put myself online: writing, singing, and playing guitar. If I were afraid of how other's perceived me, I likely wouldn't have ever even started posting on this blog, or on my youtube channel, for fear of being perceived of producing low quality work.
 
-Focusing on the youtube channel: By acknowleding that I either am or am not a good singer, I can stop myself from trying to "perfect" each video. I just put it out there and see what happens. Then I do it again, and again, over and over. Even if I am not a good singer at one point in time, this mindset gives me a better chance of becoming one than if I never tried. This is will exemplified in the parable of the cermaics teacher:
+Focusing on the youtube channel: By acknowleding that I either am or am not a good singer, I can stop myself from trying to "perfect" each video. I just put it out there and see what happens. Then I do it again, and again, over and over. Even if I am not a good singer, this mindset gives me a better chance of becoming one than if I never tried. This is well exemplified in the parable of the cermaics teacher:
 
 > The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality.
 >
