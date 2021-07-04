@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2021-07-04T10:41:06-07:00
-draft: true
+draft: false
 ---
 
 <!-- I want to separate the description of the project from what I worked on
